@@ -10,7 +10,9 @@ categories:
 tags:
 - all
 - wordpress
-- grid960
+- fed
+- dev
+- bootstrap
 permalink: barry-flicker
 teaser-img: /post-images/bf/teaser.jpg
 post-img: /post-images/bf/post.jpg

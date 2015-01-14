@@ -11,6 +11,8 @@ tags:
 - all
 - eCommerce
 - prestashop
+- fed
+- dev
 permalink: the-adventure-school
 teaser-img: /post-images/aschool/teaser.jpg
 post-img: /post-images/aschool/post.jpg

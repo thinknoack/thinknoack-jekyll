@@ -1,0 +1,22 @@
+---
+layout: post
+client:  "California Landscape Conservation Coop"
+title: CALCC
+className: site
+categories: 
+- all
+- site
+tags:
+- all
+- site
+- zen
+- drupal
+- fed
+- responsive
+- SASS
+permalink: california-landscape-conservation-coop
+teaser-img: /post-images/calcc/teaser.jpg
+post-img: /post-images/calcc/post.jpg
+teaser: Collaboration and share science 
+---
+Fostering scientific collaboration for the benefit of California's natural spaces CALCC is federally-funded conservation collaborative, and they needed a modern, easy-to-update website to better serve their community-based efforts.

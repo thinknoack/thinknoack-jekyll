@@ -15,7 +15,12 @@
                     <div class="col-md-4">
                         <h1 class="brand-heading">{{page.title}}<br>
                           <small class="client">Client: 
-                            <a href="{{page.siteurl}}" target="_blank">{{page.client}}</a>
+                            {% if page.siteurl %}<a href="{{page.siteurl}}" target="_blank">{{page.client}}</a>
+
+                            {% else %}
+                            
+                            {{page.client}}
+                            {% endif %}
                           </small>
                         </h1>
                     </div>
@@ -43,6 +48,7 @@
           </div>
           <div class="col-sm-7 post-img">
             <img src="{{page.post-img}}" alt="{{page.title}}" />
+            {% if page.post-img2 %} <img src="{{page.post-img2}}" alt="{{page.title}}" />{% endif %}
           </div>
          </div>
         </div>

@@ -17,6 +17,7 @@ tags:
 - design
 - responsive
 - ux/ui
+- fed
 permalink: drcog
 teaser-img: /post-images/drcog/teaser.jpg
 post-img: /post-images/drcog/post.jpg

@@ -17,6 +17,7 @@ tags:
 - responsive
 - ux/ui
 - design
+- fed
 permalink: /way-to-go
 teaser-img: /post-images/wtg/teaser.jpg
 post-img: /post-images/wtg/post.jpg

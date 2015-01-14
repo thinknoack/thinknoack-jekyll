@@ -11,6 +11,8 @@ tags:
 - all
 - wordpress
 - bootstrap
+- fed
+- dev
 permalink: adm-site
 teaser-img: /post-images/adm/teaser.jpg
 post-img: /post-images/adm/post.jpg

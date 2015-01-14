@@ -10,6 +10,7 @@ categories:
 tags:
 - all
 - grid960
+- fed
 permalink: big-dot
 teaser-img: /post-images/bdot/teaser.jpg
 post-img: /post-images/bdot/post.jpg

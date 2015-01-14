@@ -8,6 +8,7 @@ categories:
 - site
 tags:
 - all
+- fed
 - grid960
 permalink: the-blackberry-brigade
 teaser-img: /post-images/bbb/teaser.jpg
