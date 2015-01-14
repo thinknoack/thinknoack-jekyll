@@ -1,0 +1,19 @@
+<section id="caseStudies-featured" class="content-section">
+  <div class="background-full">
+    <div class="container">
+      <h2 class="page-heading">Featured Case Study</h2>
+      {% for post in site.categories.case-studies limit:1 %}
+      <div class="row">
+        <div class="col-sm-4">
+          <img class="img hideAn animated" src="{{post.teaser-img}}" />
+        </div>
+        <div class="col-sm-8">
+          <div class="text hideAn animated">
+            <p>{{post.teaser}}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="post">
+    {% include postNav.html %}
+    <!-- Intro Header -->
+    <header class="postIntro">
+        {% if page.header-img %}<img class="post-header-img" src="{{page.header-img}}" alt="post-img">{% endif %}
+        <div class="chev animated fadeInLeftBig visibleAn">
+          <div class="inner"></div>
+        </div>
+        <div class="intro-body ">
+            <div class="container value_intro">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h1 class="brand-heading">{{page.title}}<br>
+                          <small class="client">Client: 
+                            <a href="{{page.siteurl}}" target="_blank">{{page.client}}</a>
+                          </small>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+      <div class="container content-section">
+        <div class="row">
+          
+          <div class="col-sm-5 post-text">
+            <div class="col-sm-12">&nbsp;</div>
+            <div class="scrollFix">
+              <h3>{{page.teaser}}</h3>
+              <p>{{content}}</p>
+                {% if tag == page.tag %}
+                <small>tags:</small>
+                  <ul class="nav nav-pills nav-tags">
+                    {% for tag in page.tags %}
+                    <li><a class="tag_list_link" href="/tag/{{ tag }}" title="{{ tag }}">{{ tag }}</a></li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+            </div>
+          </div>
+          <div class="col-sm-7 post-img">
+            <img src="{{page.post-img}}" alt="{{page.title}}" />
+          </div>
+         </div>
+        </div>
+    {% include footer.html %}
+    {% include map.html %}
+
+  </body>
+</html>

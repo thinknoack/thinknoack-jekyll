@@ -1,0 +1,149 @@
+# who.yml
+- name: Eric Miller
+  sml: /post-images/team/sml/eric_miller.jpg
+  med: /post-images/team/med/eric_miller.jpg
+  lrg: /post-images/team/lrg/eric_miller.jpg
+  education: MA in Digital Media from the Utrecht School of the Arts, The Netherlands
+  blurb: el jefe, scamp
+  position: principal
+  main: | 
+    Eric has spent fifteen years in interactive media working in a variety of design, technology, and project management roles. Since starting Squishymedia in 2001 he has worked to build a practice that makes a positive contribution to our communities through the successes of our clients.
+
+- name: Kelly Wenger
+  sml: /post-images/team/sml/kristen_gallagher.jpg
+  med: /post-images/team/med/kristen_gallagher.jpg
+  lrg: /post-images/team/lrg/kelly_wenger.jpg
+  education: MS in Environmental Science from the University of Colorado 
+  blurb: office awesomeness
+  position: information architect 
+  main: | 
+    Kelly has over a decade of technical writing and information management experience. Her background in scientific research has drawn her to information architecture and content management for digital media projects.
+
+- name: Dan Mitten
+  sml: /post-images/team/sml/dan_mitten.jpg
+  med: /post-images/team/med/dan_mitten.jpg
+  lrg: /post-images/team/lrg/dan_mitten.jpg
+  education: BS in Business, Arizona State University 
+  blurb: Lt. Dan our Movie/TV TimeWarper
+  position: director of operations
+  main: | 
+    Dan's two decades of experience in executive leadership and organizational development brings strong operational savvy to Squishymedia's projects and growth. When your project runs like clockwork—on time and on budget—you owe him a thank-you note.
+
+
+- name: Kristen Gallagher
+  sml: /post-images/team/sml/kristen_gallagher.jpg
+  med: /post-images/team/med/kristen_gallagher.jpg
+  lrg: /post-images/team/lrg/kristen_gallagher.jpg
+  education: BA, Museum Studies, Meredith College, Raleigh NC
+  blurb: avant-garde museum nerd
+  position: business development
+  main: | 
+    Kristen has nearly a decade of experience in the nonprofit and museum worlds. Prior to joining Squishymedia, she worked on education projects that support low-resource small business owners. In her spare time she continues her practice in found-object sculpture and printmaking.
+
+
+- name: Elizabeth Miller
+  sml: /post-images/team/sml/elizabeth_miller.jpg
+  med: /post-images/team/med/elizabeth_miller.jpg
+  lrg: /post-images/team/lrg/elizabeth_miller.jpg
+  education: BA in Graphic Design from North Carolina State University, College of Design 
+  blurb: jetsetter with mixtapes
+  position: art director & front-end developer
+  main: | 
+    Elizabeth's design experience includes projects for large brands such as Ralph Lauren, Sony, Microsoft, and Mercedes-Benz. Well-crafted, lovely, and usable design is her focus—from the tiny details of your mark to the broad strategy that sets you apart. All that, and a little code, too.
+
+- name: Gregory Noack
+  sml: /post-images/team/sml/gregory_noack.jpg
+  med: /post-images/team/med/gregory_noack.jpg
+  lrg: /post-images/team/lrg/gregory_noack.jpg
+  education: BAVC Certification, San Francisco. 
+  blurb: pinballa
+  position: senior front-end developer & user experience designer
+  main: | 
+    Gregory started his career as a front-end developer in 2006 after studying as an apprentice printmaker in Northern California. With the help of his detailed design skills in art, photography, typography, and layout, he creates engaging websites for our clients.
+
+
+- name: Greg Lund-Chaix
+  sml: /post-images/team/sml/greg_lund_chaix.jpg
+  med: /post-images/team/med/greg_lund_chaix.jpg
+  lrg: /post-images/team/lrg/greg_lund_chaix.jpg
+  education: BA in Broadcast Production from Southern Oregon University 
+  blurb: emissary from the pony-tailed open source guy community
+  position: director of technology
+  main: | 
+    Greg has nearly two decades of experience as a developer, system administrator, and technical manager. Prior to joining Squishymedia, Greg was part of the leadership team at the Oregon State University Open Source Lab. He provided infrastructure and support to many of the world's leading open source projects.
+
+- name: Kelsey Friedman
+  sml: /post-images/team/sml/kelsey_friedman.jpg
+  med: /post-images/team/med/kelsey_friedman.jpg
+  lrg: /post-images/team/lrg/kelsey_friedman.jpg
+  education: BA in Journalism from the School of Journalism and Communication, University of Oregon 
+  blurb: dance all night, work all day
+  position: project manager
+  main: | 
+    Kelsey’s experience in content, product, and project management comes from her work with community building, nonprofit communications, and media production for political campaigns. With a great love of the written word and respect for a well-made list, she gets things done right and on time.
+
+- name: Amanda Erickson
+  sml: /post-images/team/sml/amanda_erickson.jpg
+  med: /post-images/team/med/amanda_erickson.jpg
+  lrg: /post-images/team/lrg/amanda_erickson.jpg
+  education: MA in Architecture, University of Oregon 
+  blurb: l'avocat de fromage
+  position: project manager
+  main: | 
+    She runs projects, knows design, knows architecture, knows construction, knows her kerning from her leading, and knows the value of noodling (catfish excepted). In other words, the things she works on are built right.
+
+- name: Olivier Bouwman
+  sml: /post-images/team/sml/olivier_bouwman.jpg
+  med: /post-images/team/med/olivier_bouwman.jpg
+  lrg: /post-images/team/lrg/olivier_bouwman.jpg
+  education: Computer and Information Science, The Hague University 
+  blurb: |
+    '); DROP TABLE students;--
+  position: developer
+  main: | 
+    This Dutch-bike riding Dutchman came through the Northwest on a sabbatical and never left. He is an inventor and tinkerer with a love for creating software and hardware alike. He helps build the technology that runs our clients' websites.
+
+- name: Shelly Furio
+  sml: /post-images/team/sml/shelly_furio.jpg
+  med: /post-images/team/med/shelly_furio.jpg
+  lrg: /post-images/team/lrg/shelly_furio.jpg
+  education: BS Psychology, Portland State University
+  blurb: pool sharker
+  position: front-end developer
+  main: | 
+    A lover of puzzles and all things problem-solving, Shelly truly appreciates the challenge of coding beautiful, responsive websites. A fascination with human behavior and background in psychology and healthcare also make her a valuable contributor to user experience. When she's not at Squishy she can usually be found honing her pool skills or exploring the world of Skyrim.
+
+- name: Bryon Burleigh
+  sml: /post-images/team/sml/bryon_burleigh.jpg
+  med: /post-images/team/med/bryon_burleigh.jpg
+  lrg: /post-images/team/lrg/bryon_burleigh.jpg
+  education: BA, Asian Studies - University of Oregon BS, Computer Science - Oregon State University 
+  blurb: Not Byron
+  position: development operations
+  main: | 
+    Bryon started his tech career riding the dot.com boom roller coaster, followed by a decade in higher education administration and college housing. His return to the web world reaffirms his life-long love of computers and technology.
+
+
+- name: Zack Michael
+  sml: /post-images/team/sml/gregory_noack.jpg
+  med: /post-images/team/med/gregory_noack.jpg
+  lrg: /post-images/team/lrg/gregory_noack.jpg
+  education: asdf 
+  blurb: asdf
+  position: javascript engineer
+  main: | 
+    Zack
+
+- name: Nancy Rackleff
+  sml: /post-images/team/sml/gregory_noack.jpg
+  med: /post-images/team/med/gregory_noack.jpg
+  lrg: /post-images/team/lrg/gregory_noack.jpg
+  education: asdf 
+  blurb: asd
+  position: developer
+  main: | 
+    Nancy
+
+
+
+

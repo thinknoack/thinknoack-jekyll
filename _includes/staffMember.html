@@ -1,0 +1,39 @@
+<section id="who" class="content-section">
+  <div class="container">
+    <h2>
+      {{site.whoHeader}}
+    </h2>
+    {% assign count = '0' %} 
+    {% for who in site.data.who %} 
+    {% capture count %}{{ count | plus: '1' }}{% endcapture %} 
+    <div id="{{count}}" class="col-md-3 staffMember hideAn">
+      <div class="row">
+        <div class="col-xs-12 staffphoto">
+          <div class="blurb">
+            {{who.blurb}}
+          </div>
+          <div class="imgWrap">
+            <img src="{{who.sml}}" alt="{{who.name}}&quot;">
+          </div>
+        </div>
+        <div class="col-xs-12 staffbio">
+          <h3 class="bioShow" 
+            data-toggle="collapse" 
+            data-target="#{{who.name | slugify}}" 
+            aria-expanded="true" >
+              {{who.name}}
+          </h3>
+          <p class="position">
+            {{who.position}}
+          </p>
+          <div id="{{who.name | slugify}}" class="collapse">
+            <p>
+              {{who.main}}
+            </p>{{who.education}}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

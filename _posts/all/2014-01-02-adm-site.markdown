@@ -1,0 +1,19 @@
+---
+layout: post
+client:  "Advanced Data Management"
+siteurl: http://adm-health.com/
+title: ADM Health
+className: site
+categories: 
+- all
+- site
+tags:
+- all
+- wordpress
+- bootstrap
+permalink: adm-site
+teaser-img: /post-images/adm/teaser.jpg
+post-img: /post-images/adm/post.jpg
+teaser: EMR Report Purchase Page 
+---
+A payment gateway using First Data Global Gateway Solutions for Advanced Data Management

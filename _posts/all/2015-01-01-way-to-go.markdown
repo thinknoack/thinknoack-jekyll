@@ -1,0 +1,25 @@
+---
+layout: post
+client:  "Denver Regional Department of Government"
+siteurl: http://www.waytogo.org/
+title: Way to Go
+className: site
+categories: 
+- all
+- site
+- design
+tags:
+- all
+- grunt
+- drupal
+- bootstrap
+- LESS
+- responsive
+- ux/ui
+- design
+permalink: /way-to-go
+teaser-img: /post-images/wtg/teaser.jpg
+post-img: /post-images/wtg/post.jpg
+teaser: no-nonsense commuting options to Denver area
+---
+Way to Go is a regional partnership between the Denver Regional Council of Governments (DRCOG) and a dedicated group of Transportation Management Associations (TMAs). They work together to reduce traffic congestion, improve air quality, and make life better for the residents of Denver.
