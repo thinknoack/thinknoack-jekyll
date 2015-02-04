@@ -39,4 +39,4 @@ Thumbs.db
 # node modules #
 ###############
 
-/node_modules/*
+/_site/theme/node_modules/*
