@@ -10,10 +10,14 @@ categories:
 tags:
 - all
 - LESS
+- grunt
+- ux/ui
 - bootstrap
 - backbone
 - node
 - fed
+- dev
+- design
 permalink: ratherfit
 teaser-img: /post-images/rfit/teaser.jpg
 post-img: /post-images/rfit/post.jpg

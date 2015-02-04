@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 14 Jan 2015 13:50:46 -0800</pubDate>
-    <lastBuildDate>Wed, 14 Jan 2015 13:50:46 -0800</lastBuildDate>
+    <pubDate>Thu, 29 Jan 2015 22:11:53 -0800</pubDate>
+    <lastBuildDate>Thu, 29 Jan 2015 22:11:53 -0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -67,6 +67,29 @@
       </item>
     
       <item>
+        <title>Untitled Designs</title>
+        <description>&lt;p&gt;Fostering scientific collaboration for the benefit of California’s natural spaces CALCC is federally-funded conservation collaborative, and they needed a modern, easy-to-update website to better serve their community-based efforts.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 02 Jan 2014 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/untitled-designs</link>
+        <guid isPermaLink="true">http://localhost:4000/untitled-designs</guid>
+        
+        <category>all</category>
+        
+        <category>site</category>
+        
+        <category>wordpress</category>
+        
+        <category>bootstrap</category>
+        
+        
+        <category>all</category>
+        
+        <category>site</category>
+        
+      </item>
+    
+      <item>
         <title>SAFECOM</title>
         <description>&lt;p&gt;The SAFECOM form for the Department of Interior isn’t just a form. It is an Angular app that utilizes offline storage, legacy data, and allows for in the field reporting for the Department of Interior agencies and the US Forest Service.&lt;/p&gt;
 </description>
@@ -116,6 +139,8 @@
         <category>zen</category>
         
         <category>drupal</category>
+        
+        <category>compass</category>
         
         <category>fed</category>
         
@@ -199,7 +224,7 @@
         
         <category>all</category>
         
-        <category>grid960</category>
+        <category>blueprint.css</category>
         
         <category>fed</category>
         
@@ -226,31 +251,6 @@
         <category>all</category>
         
         <category>design</category>
-        
-      </item>
-    
-      <item>
-        <title>Project Management</title>
-        <description>&lt;p&gt;Barry Flicker provides professional project management in San Francisco and Silicone Valley. Barry hired me to create a new site for his business. With the WordPress Content Management system, he can create new content in the form of pages and blog post, as well as add new clients and testimonials allowing for his growth online and within his business.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 02 Jan 2014 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/barry-flicker</link>
-        <guid isPermaLink="true">http://localhost:4000/barry-flicker</guid>
-        
-        <category>all</category>
-        
-        <category>wordpress</category>
-        
-        <category>fed</category>
-        
-        <category>dev</category>
-        
-        <category>bootstrap</category>
-        
-        
-        <category>all</category>
-        
-        <category>site</category>
         
       </item>
     

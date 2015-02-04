@@ -13,6 +13,7 @@ tags:
 - drupal
 - photography
 - fed
+- ux/ui
 permalink: squishymedia
 teaser-img: /post-images/sm/teaser.jpg
 post-img: /post-images/sm/post.jpg

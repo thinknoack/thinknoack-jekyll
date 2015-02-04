@@ -12,8 +12,8 @@ tags:
 - fed
 - wordpress
 - design
-- fed
 - dev
+- ux-ui
 - bootstrap
 permalink: mezimbite
 teaser-img: /post-images/mez/teaser.jpg

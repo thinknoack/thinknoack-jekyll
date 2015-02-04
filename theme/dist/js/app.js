@@ -26,19 +26,8 @@ $(function() {
     }
   });
 
-  //filter for data tag
-  $('#art').on('click', function() {
-    var data = 'artCat.html';
-    var innerClass = 'artInner'
-if ($('#workContent').hasClass(innerClass)) {
-    console.log('active yo!')
-    } else {
-      replaceWOther(data, innerClass);
-      $(this).addClass('active');
-    }
-  });
 
-  //filter for style tag
+  //filter for design tag
   $('#design').on('click', function() {
     var data = 'designCat.html';
     var innerClass = 'designInner'
@@ -50,19 +39,8 @@ if ($('#workContent').hasClass(innerClass)) {
     }
   });
 
-  //filter for data tag
-  $('#photo').on('click', function() {
-    var data = 'photoCat.html';
-    var innerClass = 'photoInner'
-if ($('#workContent').hasClass(innerClass)) {
-    console.log('active yo!')
-    } else {
-      replaceWOther(data, innerClass);
-      $(this).addClass('active');
-    }
-  });
   
-  //filter for style tag
+  //filter for sites tag
   $('#site').on('click', function() {
     var data = 'siteCat.html';
     var innerClass = 'siteInner'

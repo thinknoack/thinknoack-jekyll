@@ -13,6 +13,8 @@ tags:
 - fed
 - dev
 - bootstrap
+- ux/ui
+- design
 permalink: barry-flicker
 teaser-img: /post-images/bf/teaser.jpg
 post-img: /post-images/bf/post.jpg

@@ -13,6 +13,7 @@ tags:
 - prestashop
 - fed
 - dev
+- ux/ui
 permalink: the-adventure-school
 teaser-img: /post-images/aschool/teaser.jpg
 post-img: /post-images/aschool/post.jpg

@@ -9,6 +9,8 @@ categories:
 tags:
 - all
 - fed
+- design
+- dev
 - bootstrap
 permalink: joshua-martin-saunders
 teaser-img: /post-images/jms/teaser.jpg

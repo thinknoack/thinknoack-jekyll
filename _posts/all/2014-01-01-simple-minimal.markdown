@@ -11,9 +11,9 @@ tags:
 - fed
 - theme
 - design
-- fed
 - dev
 - bootstrap.css
+- ux/ui
 permalink: lylac-free-theme
 teaser-img: /post-images/simplem/teaser.jpg
 post-img: /post-images/simplem/post.jpg

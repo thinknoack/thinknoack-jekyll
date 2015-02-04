@@ -9,7 +9,7 @@ categories:
 - site
 tags:
 - all
-- grid960
+- blueprint.css
 - fed
 permalink: big-dot
 teaser-img: /post-images/bdot/teaser.jpg

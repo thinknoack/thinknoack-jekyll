@@ -12,6 +12,8 @@ tags:
 - theme
 - wordpress
 - design
+- ux/ui
+- dev
 permalink: stepping-stones
 teaser-img: /post-images/ssp/teaser.jpg
 post-img: /post-images/ssp/post.jpg

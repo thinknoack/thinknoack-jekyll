@@ -9365,7 +9365,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #137261;
+  color: #6be6d0;
 }
 div.no-pad {
   padding: 0;
@@ -9808,6 +9808,23 @@ div.no-pad {
 }
 #port .filter:hover {
   background: rgba(34, 201, 171, 0.1);
+  color: #fff;
+}
+#port #design {
+  border-color: #6B0077;
+  color: #6B0077;
+}
+#port #design:hover {
+  background: rgba(107, 0, 119, 0.1);
+  color: #fff;
+}
+#port #site {
+  border-color: #8D9D00;
+  color: #8D9D00;
+}
+#port #site:hover {
+  background: rgba(141, 157, 0, 0.1);
+  color: #fff;
 }
 #workSection {
   max-height: 0;
@@ -9861,7 +9878,7 @@ div.no-pad {
   color: #22c9ab;
 }
 #workSection.show {
-  max-height: 3000px;
+  max-height: 9000px;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease;
@@ -9871,7 +9888,10 @@ div.no-pad {
   transition: all all 1s ease ease-out;
 }
 figure.effect-bubba.design {
-  background: green;
+  background: #6B0077;
+}
+figure.effect-bubba.site {
+  background: #8D9D00;
 }
 figure.effect-bubba .postType {
   position: absolute;
@@ -10129,51 +10149,51 @@ footer p {
     bottom: 90px;
   }
 }
-.skills {
+#skills {
   background: #005457;
   padding: 50px 0;
 }
-.skills h2 {
+#skills h2 {
   font-weight: 200;
   text-transform: none;
   color: #fff;
 }
-.skills .progress {
+#skills .progress {
   background: rgba(34, 201, 171, 0.1);
   border-radius: 0px;
   box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.3);
   height: 12px;
   margin-bottom: 0;
 }
-.skills .progress-bar {
+#skills .progress-bar {
   background: rgba(34, 201, 171, 0.5);
 }
-.skills .progress-label {
+#skills .progress-label {
   font-size: 14px;
   font-weight: 500;
   width: 100%;
   color: #fff;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.skills .skills-explained {
+#skills .skills-explained {
   padding: 0;
   margin: 5px -10px 20px;
   list-style: none;
   width: 100%;
 }
-.skills .skills-explained li {
+#skills .skills-explained li {
   float: left;
   margin: 0 10px;
   color: rgba(255, 255, 255, 0.5);
 }
-.skills .panel-default {
+#skills .panel-default {
   background: rgba(0, 0, 0, 0.08);
   border: none;
   box-shadow: none;
   border-radius: 0;
   padding: 10px;
 }
-.skills .panel-default .panel-heading {
+#skills .panel-default .panel-heading {
   background: none;
   border-color: rgba(0, 0, 0, 0.1);
   border-bottom-width: 2px;
@@ -10181,14 +10201,14 @@ footer p {
   font-size: 15px;
   padding: 2px 0;
 }
-.skills .panel-default .panel-body {
+#skills .panel-default .panel-body {
   padding: 9px 0;
   font-size: 16px;
   font-weight: 500;
   color: #FFF;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.skills .panel-default .panel-body .employer.dis {
+#skills .panel-default .panel-body .employer.dis {
   color: rgba(255, 255, 255, 0.5);
 }
 ::-moz-selection {

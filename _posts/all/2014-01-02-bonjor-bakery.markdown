@@ -2,7 +2,7 @@
 layout: post
 client:  "Bonjor Bakery"
 title: Bonjor Bakery
-className: site
+className: design
 categories: 
 - all
 - design

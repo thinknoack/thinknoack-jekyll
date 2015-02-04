@@ -52,7 +52,7 @@ a {
     transition: all .2s ease-in-out;
     &:hover, &:focus {
         text-decoration: none;
-        color: darken(@primary, 20%);
+        color: lighten(@primary, 20%);
     }
 }
 
@@ -462,6 +462,24 @@ line-height: 30px;
         display: inline-block;
         &:hover {
             background: fade(@primary, 10%);
+            color: #fff;
+        }
+    }
+    #design{
+        border-color: #6B0077;
+        color:#6B0077;
+        &:hover{
+            background: fade(#6B0077, 10%);
+            color: #fff;
+
+        }        
+    }
+    #site{
+        border-color: #8D9D00;
+        color:#8D9D00;
+        &:hover{
+            background: fade(#8D9D00, 10%);
+            color: #fff;
         }
     }
 }
@@ -503,13 +521,17 @@ line-height: 30px;
     }
 }
 #workSection.show {
-    max-height: 3000px;
+    max-height: 9000px;
     .transition(all 1s ease);
 }
 
 
 figure.effect-bubba.design {
-    background:  green;
+    background:  #6B0077;
+}
+
+figure.effect-bubba.site {
+    background:  #8D9D00;
 }
 
 figure.effect-bubba .postType{
@@ -782,7 +804,7 @@ footer {
 
 //chart
 
-.skills{
+#skills{
     background:#005457;
     padding: 50px 0;
     h2{

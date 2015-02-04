@@ -10,8 +10,8 @@ categories:
 tags:
 - all
 - bootstrap
+- dev
 - design
-- ux/ui
 - fed
 permalink: cloth-and-crown
 teaser-img: /post-images/cc/teaser.jpg

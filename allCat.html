@@ -3,11 +3,11 @@ layout: null
 ---
 <div class="row siteblock">
     {% assign count = '0' %} 
-    {% for post in site.posts %}
+    {% for post in site.posts limit: 16 %}
       {% capture count %}
       {{ count | plus: '1' }}
       {% endcapture %} 
-    <div id="post-{{count}}"class="col-sm-4 col-md-4 col-lg-3 workblock grid">
+    <div id="post-{{count}}" class="col-sm-4 col-md-4 col-lg-3 workblock grid">
       <figure class="effect-bubba {{post.className}} ">
         <img src="{{ post.teaser-img }}" alt="{{post.title}}"/>
         <figcaption>
@@ -18,5 +18,13 @@ layout: null
       </figure>
     </div>
     {% endfor %}
+<div class="container">
+  <div class="row">
+    {% for post in site.posts limit: 16 offset: 16 %}
+    <div class="col-sm-4 ">
+      <h2>{{ post.title }}</h2>
+      <p class="hidden-sm">{{post.teaser}}</p>
     </div>
-
+    {% endfor %}
+  </div>
+</div>

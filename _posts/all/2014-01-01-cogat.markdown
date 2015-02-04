@@ -11,6 +11,7 @@ tags:
 - all
 - design
 - fed
+- ux/ui
 permalink: cognitive-atlas
 teaser-img: /post-images/cogat/teaser.jpg
 post-img: /post-images/cogat/post.jpg

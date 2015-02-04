@@ -14,6 +14,7 @@ tags:
 - fed
 - design
 - dev
+- ux/ui
 permalink: smartgadgets-101
 teaser-img: /post-images/sg101/teaser.jpg
 post-img: /post-images/sg101/post.jpg

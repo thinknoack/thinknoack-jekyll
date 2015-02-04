@@ -9,6 +9,8 @@ categories:
 - site
 tags:
 - all
+- grunt
+- ux/ui
 - LESS
 - drupal
 - bootstrap
