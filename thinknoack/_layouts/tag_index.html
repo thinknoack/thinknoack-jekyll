@@ -15,7 +15,7 @@ layout: other
           <figcaption>
             <span class="postType">{{post.className}}</span>
             <a  class="view-post" href="{{ post.url | prepend: site.baseurl }}">+</a>
-            <h2>{{ post.title }}</h2>
+            <h2><a  href="{{ post.url | prepend: site.baseurl }}" >{{ post.title }}</a></h2>
             <p>tags:</p>
             <ul class="nav nav-pills nav-tags">
               {% for tag in post.tags %}
