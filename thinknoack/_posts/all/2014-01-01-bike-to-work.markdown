@@ -17,8 +17,8 @@ tags:
 - ux/ui
 - fed
 permalink: bike-to-work
-teaser-img: post-images/btw/teaser.jpg
-post-img: post-images/btw/post.jpg
+teaser-img: /post-images/btw/teaser.jpg
+post-img: /post-images/btw/post.jpg
 teaser: Join and coordinate your Bike to Work Day. 
 ---
 Bike to Worssk Day is a site for coordasdfinating 20,000+ bikers, routes, and meetups for the Denver/Boulder area.

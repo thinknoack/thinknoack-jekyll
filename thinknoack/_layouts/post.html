@@ -5,7 +5,7 @@
     {% include postNav.html %}
     <!-- Intro Header -->
     <header class="postIntro">
-        {% if page.header-img %}<img class="post-header-img" src="{{page.header-img}}" alt="post-img">{% endif %}
+        {% if page.header-img %}<img class="post-header-img" src="{{page.header-img | prepend: site.baseurl }}" alt="{{page.title}} post-img">{% endif %}
         <div class="chev animated fadeInLeftBig visibleAn">
           <div class="inner"></div>
         </div>
@@ -47,8 +47,8 @@
             </div>
           </div>
           <div class="col-sm-7 post-img">
-            <img src="{{page.post-img}}" alt="{{page.title}}" />
-            {% if page.post-img2 %} <img src="{{page.post-img2}}" alt="{{page.title}}" />{% endif %}
+            <img src="{{page.post-img | prepend: site.baseurl }}" alt="{{page.title}}" />
+            {% if page.post-img2 %} <img src="{{page.post-img2 | prepend: site.baseurl }}" alt="{{page.title}}" />{% endif %}
           </div>
          </div>
         </div>

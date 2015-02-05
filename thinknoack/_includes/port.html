@@ -28,7 +28,7 @@
     {% capture count %}{{ count | plus: '1' }}{% endcapture %}
     <div id="post{{count}}" class="col-sm-4 col-md-4 col-lg-3 workblock grid">
       <figure class="effect-bubba {{post.className}} ">
-        <img src="{{ post.teaser-img }}" alt="{{post.title}}"/>
+        <img src="{{ post.teaser-img | prepend: site.baseurl }}" alt="{{post.title}}"/>
         <figcaption>
           <span class="postType">{{post.className}}</span>
           <h2>{{ post.title }}</h2>
