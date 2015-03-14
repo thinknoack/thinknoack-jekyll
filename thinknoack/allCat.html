@@ -3,7 +3,7 @@ layout: null
 ---
 <div class="row siteblock">
     {% assign count = '0' %} 
-    {% for post in site.posts limit: 16 %}
+    {% for post in site.posts limit: 12 %}
       {% capture count %}
       {{ count | plus: '1' }}
       {% endcapture %} 
@@ -18,13 +18,19 @@ layout: null
       </figure>
     </div>
     {% endfor %}
-<div class="container">
-  <div class="row">
-    {% for post in site.posts limit: 16 offset: 16 %}
-    <div class="col-sm-4 ">
-      <h2>{{ post.title }}</h2>
-      <p class="hidden-sm">{{post.teaser}}</p>
+<div class="container" id="oldWorkSection">
+    <div class="row">
+      <div class="col-xs-12"><h2>Older Work</h2></div>
+      {% for post in site.posts limit: 12 offset: 16 %}
+    <div class="col-sm-4 col-md-4 col-lg-3 workblock grid">
+      <figure class="effect-bubba {{post.className}} ">
+        <img src="{{ post.teaser-img | prepend: site.baseurl }}" alt="{{post.title}}"/>
+        <figcaption>
+          <h3>{{ post.title }}</h3>
+          <a  class="view-post" href="{{ post.url | prepend: site.baseurl }}">View</a>
+        </figcaption>     
+      </figure>
     </div>
-    {% endfor %}
-  </div>
+      {% endfor %}
+    </div>
 </div>

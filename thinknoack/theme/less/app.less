@@ -437,7 +437,7 @@ line-height: 30px;
 
 
 #port {
-    background: url(../img/bg-port.png) repeat 70% 50% fixed;
+    background: url(../img/bg-port.png) repeat 0 0 fixed;
     background-color: #fefefe;
     text-align: center;
     .container {
@@ -489,6 +489,7 @@ line-height: 30px;
 #workSection {
     max-height: 0;
     overflow: hidden;
+    background: #d8d8d8;
     //box-shadow: inset 0 0 33px -10px #333;
     .transition(all 1s ease);
     .container{
@@ -498,9 +499,7 @@ line-height: 30px;
         }
     .grid {
         padding: 0;
-        border: 6px solid #DADADA;
-        border-left-width: 3px;
-        border-right-width: 3px;
+        border: 3px solid #DADADA;
 
         .client{
             position: absolute;
@@ -520,10 +519,58 @@ line-height: 30px;
             }
         }
     }
-}
-#workSection.show {
+
+&.show {
     max-height: 9000px;
     .transition(all 1s ease);
+}
+    .container#oldWorkSection{
+        h2{
+            margin: 0;
+            text-align: center;
+            padding: 20px;
+            color: #FFF;
+            background-color: #000;
+            background: url(../img/bg-port.png) repeat 0 0 fixed;
+        }
+        background: #dadada;
+            .design,
+            .site{
+                border:3px solid #DADADA;
+                padding: 0;
+                a{
+                    min-height: 140px;
+                    display: block;
+                    padding: 15px 20px;
+                    background: #f4f4f4;
+                }
+            }
+
+            .design a{
+                color:  #6B0077;
+                &:hover{
+                    color: #fff;
+                    background: fade(#6b0077, 50%)
+                }
+            }
+
+            .site a{
+                color:  #50814B;
+                &:hover{
+                    color: #fff;
+                     background: fade(#063A00, 50%)
+                }
+            }
+        h3{
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 15px;
+            margin: 0;
+        }
+
+    }
 }
 
 
@@ -562,9 +609,15 @@ figure.effect-bubba:hover .postType{
 
 
 //tags page
+        @media (min-width: 1201px){
+            .col-xl-4 {
+                width: 33.3333%;
+            }
+        }
 
 .tagsPage{
     .grid {
+        margin-bottom: 20px;
         padding: 0;
         figure figcaption > a.view-post{
             position: absolute;
@@ -587,13 +640,74 @@ figure.effect-bubba:hover .postType{
             line-height: 15px;
             left: auto;
             &:hover{
-                background: rgba(0, 0, 0, 0.3);
+                background: rgba(0,0,0,0.5);
             }
         }
 
         figure.effect-bubba {
             overflow: hidden;
             position: relative;
+            &.design {
+                .nav-tags a{
+                    background: rgba(255, 255, 255, 0.78);
+                    color:  #6B0077;
+                    &:hover{
+                        color: #fff;
+                    }
+                }
+                &:hover{
+                    background:  #6B0077;
+                     h2 a{
+                        background: rgba(255,255,255,0.8);
+                        color: #6B0077;
+                        &:hover{
+                            background:  rgba(0, 0, 0, 0.5);
+                            color: #fff;
+                        }     
+                    }
+                    .nav-tags a{
+                        background: #fff;
+                        &:hover{
+                           background:  rgba(0, 0, 0, 0.5);
+                        }
+                    }
+                    img{
+                        .opacity(0.7);
+                    }
+                }
+            }
+
+            &.site {
+
+                .nav-tags a{
+                    background: rgba(255, 255, 255, 0.78);
+                    color:  #063A00;
+                    &:hover{
+                        color: #fff;
+                    }
+                }
+            &:hover{   
+                    background:  #063A00;
+                    h2 a{
+                        background: rgba(255,255,255,0.8);
+                        color:  #063A00;
+                        &:hover{
+                            background:  rgba(0, 0, 0, 0.5);
+                            color: #fff;
+                        }          
+                    }
+                    .nav-tags a{
+                        background: #fff;
+                        &:hover{
+                           background:  rgba(0, 0, 0, 0.5);
+                        }
+                    }
+                    img{
+                        .opacity(0.7);
+                    }
+                }
+
+            }
         }
         figure.effect-bubba figcaption::before,
         figure.effect-bubba figcaption::after {
@@ -609,6 +723,9 @@ figure.effect-bubba:hover .postType{
             .opacity(1);
             -webkit-transform: translate3d(0,0,0);
             transform: translate3d(0,0,0);
+            a{
+                color: #fff;
+            }
         }
         figure.effect-bubba img {
             .opacity(0.4);
