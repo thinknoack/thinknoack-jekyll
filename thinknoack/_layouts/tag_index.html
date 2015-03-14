@@ -5,9 +5,11 @@ layout: other
 <div class="row">
 <section id="workSection" class="show">
   <div id="workContent" class="container tagsPage">
+    {% assign count = '0' %} 
   {% for post in site.posts %}
   {% for tag in post.tags %}
   {% if tag == page.tag %}
+  {% capture count %}{{ count | plus: '1' }}{% endcapture %}
       <div id="post{{count}}" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 workblock ">
         <div class="grid">
         <figure class="effect-bubba {{post.className}} ">

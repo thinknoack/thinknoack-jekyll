@@ -536,7 +536,6 @@ line-height: 30px;
         background: #dadada;
             .design,
             .site{
-                border:3px solid #DADADA;
                 padding: 0;
                 a{
                     min-height: 140px;
@@ -573,6 +572,17 @@ line-height: 30px;
     }
 }
 
+.other{
+    #workSection{
+        background: none;
+        .workblock{
+            padding: 0;
+            .grid{
+                margin: 0;
+            }
+        }
+    }
+}
 
 figure.effect-bubba.design {
     background:  #6B0077;
@@ -660,6 +670,7 @@ figure.effect-bubba:hover .postType{
                      h2 a{
                         background: rgba(255,255,255,0.8);
                         color: #6B0077;
+
                         &:hover{
                             background:  rgba(0, 0, 0, 0.5);
                             color: #fff;
@@ -720,6 +731,7 @@ figure.effect-bubba:hover .postType{
         figure.effect-bubba p,
         figure.effect-bubba .nav-tags,
         figure.effect-bubba .postType {
+            font-size: 16px;
             .opacity(1);
             -webkit-transform: translate3d(0,0,0);
             transform: translate3d(0,0,0);
