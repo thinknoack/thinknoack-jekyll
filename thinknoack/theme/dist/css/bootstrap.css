@@ -10425,7 +10425,14 @@ body {
 }
 @media (max-width: 767px) {
   .navbar.navbar-fixed-top.navbar-custom {
-    background-color: rgba(0, 39, 57, 0.82);
+    background: rgba(0, 0, 0, 0.8);
+    border: none;
+  }
+  .navbar.navbar-fixed-top.navbar-custom .navbar-toggle {
+    color: #22c9ab;
+  }
+  .navbar.navbar-fixed-top.navbar-custom .navbar-toggle:hover {
+    color: #3fdfc2;
   }
   .navbar.navbar-fixed-top.navbar-custom .navbar-brand {
     padding: 18px 0;
