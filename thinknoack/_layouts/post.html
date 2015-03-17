@@ -15,10 +15,9 @@
                     <div class="col-md-4">
                         <h1 class="brand-heading">{{page.title}}<br>
                           <small class="client">Client: 
-                            {% if page.siteurl %}<a href="{{page.siteurl}}" target="_blank">{{page.client}}</a>
-
+                            {% if page.siteurl %}
+                            <a href="{{page.siteurl}}" target="_blank">{{page.client}}</a>
                             {% else %}
-                            
                             {{page.client}}
                             {% endif %}
                           </small>
@@ -40,7 +39,7 @@
                 <small>tags:</small>
                   <ul class="nav nav-pills nav-tags">
                     {% for tag in page.tags %}
-                    <li><a class="tag_list_link" href="/thinknoack/tag/{{ tag }}" title="{{ tag }}">{{ tag }}</a></li>
+                    <li><a class="tag_list_link" href="/tag/{{ tag }}" title="{{ tag }}">{{ tag }}</a></li>
                     {% endfor %}
                   </ul>
                 {% endif %}

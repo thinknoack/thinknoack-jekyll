@@ -1,0 +1,24 @@
+---
+layout: post
+client:  "Oregpm Health Care Corporation"
+siteurl: http://q-corp.org/
+title: RatherFit 
+className: site
+categories: 
+- all
+- site
+tags:
+- all
+- LESS
+- grunt
+- ux/ui
+- bootstrap
+- drupal
+- fed
+- dev
+permalink: qcorp
+teaser-img: /post-images/qc/teaser.jpg
+post-img: /post-images/qc/post.jpg
+teaser: Information for patients. 
+---
+Webinars, resources, news, and events for health-care patients in Oregon.

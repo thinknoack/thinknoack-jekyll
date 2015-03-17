@@ -9197,7 +9197,6 @@ Copyright (c) 2014 Daniel Eden
 .grid figure img {
   position: relative;
   display: block;
-  min-height: 100%;
   max-width: 100%;
   opacity: 0.8;
 }
@@ -9845,7 +9844,7 @@ div.no-pad {
 }
 #workSection .grid {
   padding: 0;
-  border: 3px solid #DADADA;
+  border: 3px solid #dadada;
 }
 #workSection .grid .client {
   position: absolute;
@@ -9887,7 +9886,7 @@ div.no-pad {
   transition: all all 1s ease ease-out;
 }
 #workSection .container#oldWorkSection {
-  background: #dadada;
+  background: url(../img/bg-port.png) repeat 0 0 fixed;
 }
 #workSection .container#oldWorkSection h2 {
   margin: 0;
@@ -9895,7 +9894,6 @@ div.no-pad {
   padding: 20px;
   color: #FFF;
   background-color: #000;
-  background: url(../img/bg-port.png) repeat 0 0 fixed;
 }
 #workSection .container#oldWorkSection .design,
 #workSection .container#oldWorkSection .site {
@@ -9923,18 +9921,64 @@ div.no-pad {
   background: rgba(6, 58, 0, 0.5);
 }
 #workSection .container#oldWorkSection h3 {
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 #workSection .container#oldWorkSection p {
   font-size: 15px;
   margin: 0;
 }
+#workSection .container#oldWorkSection .workblock.grid {
+  height: 100px;
+  border-color: #505050;
+  overflow: hidden;
+}
+#workSection .container#oldWorkSection .workblock.grid figure.effect-bubba {
+  background: rgba(210, 210, 210, 0.09);
+  height: 100px;
+}
+#workSection .container#oldWorkSection .workblock.grid figure.effect-bubba figcaption::after,
+#workSection .container#oldWorkSection .workblock.grid figure.effect-bubba figcaption::before {
+  border: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  -webkit-transition: all none ease-out;
+  -moz-transition: all none ease-out;
+  -o-transition: all none ease-out;
+  transition: all none ease-out;
+}
+#workSection .container#oldWorkSection .workblock.grid figure.effect-bubba:hover {
+  background: none;
+}
+#workSection .container#oldWorkSection .workblock.grid figure.effect-bubba:hover img {
+  opacity: 0.5;
+}
+#workSection .container#oldWorkSection .workblock.grid figure.effect-bubba:hover figcaption::after,
+#workSection .container#oldWorkSection .workblock.grid figure.effect-bubba:hover figcaption::before {
+  border: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  -webkit-transition: all none ease-out;
+  -moz-transition: all none ease-out;
+  -o-transition: all none ease-out;
+  transition: all none ease-out;
+}
+#workSection .container#oldWorkSection img {
+  filter: alpha(opacity=20);
+  -moz-opacity: 0.2;
+  -khtml-opacity: 0.2;
+  -webkit-opacity: 0.2;
+  opacity: 0.2;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.2 * 100);
+  filter: alpha(opacity=0.2 * 100);
+}
 .other #workSection {
   background: none;
 }
 .other #workSection .workblock {
-  padding: 0;
+  margin-bottom: 10px;
 }
 .other #workSection .workblock .grid {
   margin: 0;
@@ -10212,6 +10256,18 @@ footer {
 footer p {
   margin: 0;
 }
+footer .copyright,
+footer .makestuff {
+  width: 50%;
+  display: block;
+  float: left;
+}
+footer .copyright {
+  text-align: left;
+}
+footer .makestuff {
+  text-align: right;
+}
 .post {
   background: url(../img/bg-post.png) repeat 70% 50% fixed;
   background-color: #fefefe;
@@ -10249,7 +10305,7 @@ footer p {
 .post-img {
   padding: 0;
   background: #fff;
-  border: 5px solid #DADADA;
+  border: 5px solid #dadada;
   -webkit-box-shadow: 0 -2px 5px -2px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 -2px 5px -2px rgba(0, 0, 0, 0.4);
   box-shadow: 0 -2px 5px -2px rgba(0, 0, 0, 0.4);
@@ -10423,6 +10479,11 @@ body {
     padding: 0;
   }
 }
+@media (min-width: 520px) and (max-width: 767px) {
+  .visible-sp {
+    display: block !important;
+  }
+}
 @media (max-width: 767px) {
   .navbar.navbar-fixed-top.navbar-custom {
     background: rgba(0, 0, 0, 0.8);
@@ -10440,10 +10501,29 @@ body {
   .background-full {
     padding: 100px 0;
   }
+  .chev {
+    display: none;
+  }
+  .intro,
+  .postIntro {
+    background-attachment: scroll;
+    background-size: auto;
+  }
   .intro .intro-body .brand-heading,
   .postIntro .intro-body .brand-heading {
     margin-top: 0;
     font-size: 30px;
+  }
+  #oldWorkSection {
+    display: none;
+  }
+  #workSection .grid {
+    padding: 0;
+    border: 3px solid #22c9ab;
+  }
+  #contact .bio span,
+  #contact .bio a {
+    font-size: 16px;
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */

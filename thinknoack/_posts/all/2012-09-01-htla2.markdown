@@ -1,0 +1,17 @@
+---
+layout: post
+client:  "Hastings Law School"
+title: HTLA Event Poster 2
+className: design
+categories: 
+- all
+- design
+tags:
+- all
+- design
+permalink: htla-poster-2
+teaser-img: /post-images/htla2/teaser.jpg
+post-img: /post-images/htla2/post.jpg
+teaser: HTLA POSTER 2
+---
+I created two posters of Hasting Law School events in San Fransisco. 

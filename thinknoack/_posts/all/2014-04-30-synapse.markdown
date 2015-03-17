@@ -1,0 +1,23 @@
+---
+layout: post
+client:  "Synapse Product Development"
+title: Synapse
+className: site
+siteurl: http://synapse.com/
+categories: 
+- all
+- site
+- design
+tags:
+- all
+- fed
+- theme
+- wordpress
+- design
+- ux/ui
+permalink: stepping-stones
+teaser-img: /post-images/syn/teaser.jpg
+post-img: /post-images/syn/post.jpg
+teaser: Developing things like the fit bit
+---
+Synapse works with the world's leading companies to create products and experiences that change the way we live.

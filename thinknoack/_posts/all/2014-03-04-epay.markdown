@@ -1,0 +1,21 @@
+---
+layout: post
+client:  "NACHA"
+title: Electronic Payments
+siteurl: http://electronicpayments.org/
+className: site
+categories: 
+- all
+- site
+tags:
+- all
+- fed
+- drupal
+- LESS
+permalink: electronic-payments
+teaser-img: /post-images/epay/teaser.jpg
+post-img: /post-images/epay/post.jpg
+teaser: Cognitive 
+---
+This site was built on Drupal and offers information on electronic payment. I performed maintenance and developed splash pages for NACHA.
+ 

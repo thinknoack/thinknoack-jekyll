@@ -7,6 +7,7 @@ className: site
 categories: 
 - all
 - site
+- design
 tags:
 - all
 - LESS
@@ -19,6 +20,6 @@ tags:
 permalink: servino
 teaser-img: /post-images/serv/teaser.jpg
 post-img: /post-images/serv/post.jpg
-teaser: Join and coordinate your Bike to Work Day. 
+teaser: Delicious food in Sausalito, CA 
 ---
-Bike to Work Day is a site for coordinating 20,000+ bikers, routes, and meetups for the Denver/Boulder area.
+Built on Wordpress this site gives Servio the ability to post custom menus and live music events. 

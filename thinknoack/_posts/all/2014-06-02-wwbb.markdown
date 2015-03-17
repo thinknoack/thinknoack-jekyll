@@ -1,0 +1,27 @@
+---
+layout: post
+client:  "Personal"
+siteurl: https://github.com/thinknoack/wwbb
+title: WP Backbone 
+className: site
+categories: 
+- all
+- site
+- design
+tags:
+- all
+- LESS
+- grunt
+- ux/ui
+- bootstrap
+- backbone
+- node
+- fed
+- dev
+- design
+permalink: wordpress-to-backbone
+teaser-img: /post-images/wpbb/teaser.jpg
+post-img: /post-images/wpbb/post.jpg
+teaser: WP data in a BB app. 
+---
+I wanted to use Wordpress as an API and provide data via JSON to a frontend Backbone client. This is the outcome. 

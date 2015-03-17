@@ -24,8 +24,8 @@ layout: null
       {% for post in site.posts limit: 12 offset: 16 %}
     <div class="col-sm-4 col-md-4 col-lg-3 workblock grid">
       <figure class="effect-bubba {{post.className}} ">
-        <img src="{{ post.teaser-img | prepend: site.baseurl }}" alt="{{post.title}}"/>
-        <figcaption>
+<!--         <img src="{{ post.teaser-img | prepend: site.baseurl }}" alt="{{post.title}}"/>
+ -->        <figcaption>
           <h3>{{ post.title }}</h3>
           <a  class="view-post" href="{{ post.url | prepend: site.baseurl }}">View</a>
         </figcaption>     
