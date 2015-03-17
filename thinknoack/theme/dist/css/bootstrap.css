@@ -9482,7 +9482,6 @@ div.no-pad {
   background-size: cover;
   -o-background-size: cover;
   overflow: hidden;
-  position: relative;
 }
 .intro .intro-body,
 .postIntro .intro-body {
@@ -9777,6 +9776,8 @@ div.no-pad {
   background: url(../img/bg-port.png) repeat 0 0 fixed;
   background-color: #fefefe;
   text-align: center;
+  z-index: 2;
+  position: relative;
 }
 #port .container {
   width: 80%;
