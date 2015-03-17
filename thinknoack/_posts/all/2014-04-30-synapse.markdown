@@ -15,7 +15,7 @@ tags:
 - wordpress
 - design
 - ux/ui
-permalink: stepping-stones
+permalink: synapse
 teaser-img: /post-images/syn/teaser.jpg
 post-img: /post-images/syn/post.jpg
 teaser: Developing things like the fit bit
