@@ -6,41 +6,30 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
     
-    
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    
 
-    <link rel="apple-touch-icon" sizes="60x60" href="{{"/apple-touch-icon-60x60.png" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{"/apple-touch-icon-72x72.png" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{"/apple-touch-icon-76x76.png" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{"/apple-touch-icon-114x114.png" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{"/apple-touch-icon-120x120.png" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{"/apple-touch-icon-144x144.png" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{"/apple-touch-icon-152x152.png" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{"/apple-touch-icon-180x180.png" | prepend: site.baseurl }}">
-    <link rel="icon" type="image/png" href="{{"/favicon-32x32.png" | prepend: site.baseurl }}" sizes="32x32">
-    <link rel="icon" type="image/png" href="{{"/android-chrome-192x192.png" | prepend: site.baseurl }}" sizes="192x192">
-    <link rel="icon" type="image/png" href="{{"/favicon-96x96.png" | prepend: site.baseurl }}" sizes="96x96">
-    <link rel="icon" type="image/png" href="{{"/favicon-16x16.png" | prepend: site.baseurl }}" sizes="16x16">
-
+    <link rel="apple-touch-icon" sizes="60x60" href="{{"/apple-touch-icon-60x60.png?v=2" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{"/apple-touch-icon-180x180.png?v=2" | prepend: site.baseurl }}">
+    <link rel="icon" type="image/png" href="{{"/android-chrome-192x192.png?v=2" | prepend: site.baseurl }}" sizes="192x192">
+    <link rel="icon" type="image/png" href="{{"/favicon-32x32.png?v=2?v=2" | prepend: site.baseurl }}" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{"/favicon-96x96.png?v=2" | prepend: site.baseurl }}" sizes="96x96">
+    <link rel="icon" type="image/png" href="{{"/favicon-16x16.png?v=2" | prepend: site.baseurl }}" sizes="16x16">
+    <link rel="icon" type="image/png" href="{{"/favicon.ico?v=2" | prepend: site.baseurl }}">
 
     <script src="{{"/theme/dist/js/jquery-2x.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{"/theme/dist/js/waypoints.min.js"| prepend: site.baseurl }}"></script>
     <script src="{{"/theme/dist/js/bootstrap.js" | prepend: site.baseurl }}"></script>
     <script src="{{"/theme/dist/js/bxslider/jquery.bxslider.min.js"| prepend: site.baseurl }}"></script>
-
     <script src="{{"/theme/dist/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
-
     <script src="{{"/theme/dist/js/jquery.easy-pie-chart.js" | prepend: site.baseurl }}"></script>
     <script src="{{"/theme/dist/js/app.js" | prepend: site.baseurl }}"></script>
-
 
     <!--happybrowser-->
     <link href="{{"/happybrowser/happybrowser.css"| prepend: site.baseurl }}" rel="stylesheet" type="text/css">
     <script src="{{"/happybrowser/bowser.js" | prepend: site.baseurl }}"></script>
     <script src="{{"/happybrowser/happybrowser-nojquery.js" | prepend: site.baseurl }}"></script>
-        <!-- Custom Fonts -->
     
+    <!-- Custom Fonts -->
     <link href="{{"/theme/dist/fonts/font-awesome-4.2.0/css/font-awesome.min.css"| prepend: site.baseurl }}" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Halant:300,400,700' rel='stylesheet' type='text/css'>
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
