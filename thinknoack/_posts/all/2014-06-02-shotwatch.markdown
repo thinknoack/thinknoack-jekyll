@@ -1,6 +1,6 @@
 ---
 layout: post
-client:  "Personal"
+client:  "Github Repo"
 siteurl: https://github.com/thinknoack/shotwatch
 title: ShotWatch 
 className: site
