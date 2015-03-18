@@ -158,6 +158,7 @@ div.no-pad{
     width: 100%;
     overflow: hidden;
     z-index: 0;
+    height: 100%;
 }
 .postIntro {
     height: 70%;
@@ -196,12 +197,12 @@ div.no-pad{
     }
  }
   .chev {
-    position: absolute;
+    position: relative;
     top: 0;
     bottom: 0;
     .inner{
         position: absolute;
-        right: -300px;
+        left: 60%;
         top: -580px;
         bottom: -1070px;
         background: url(../img/img-halftone.png) no-repeat 70% 50% fixed; 
@@ -851,11 +852,6 @@ figure.effect-bubba:hover .postType{
     }
 }
 
-@media(min-width:2500px){
-    #contact{
-        background-position-y: -220px;
-    }
-}
 
 
 
@@ -933,55 +929,6 @@ footer {
 
 }
 
-
-
-@media(min-width:767px){
-
-    .scrollFix{
-        h3{
-            background: rgba(0, 0, 0, 0.4);
-            margin-top: 10px;
-            padding: 20px;
-            color: #FFF;
-        }
-    }
-
-    .post-img{
-        margin-top: -50px;
-    }
-    .scrollFixTop{
-        position: relative;
-    }
-    .scrollFixTop,
-    .scrollFixBottom{
-        position: fixed;
-        width: 32%;
-    }
-
-    .scrollFixTop{
-        top: 50px;
-    }
-
-    .scrollFixBottom.scrollFixTop{
-        top: auto;
-        bottom: 90px;
-    }
-}
-
-
-
-// .modal-content {
-//     padding: 100px 0;
-//     min-height: 100%;
-//     border: 0;
-//     border-radius: 0;
-//     text-align: center;
-//     background-clip: border-box;
-//     -webkit-box-shadow: none;
-//     box-shadow: none;
-// }
-
-
 //chart
 
 #skills{
@@ -1050,23 +997,6 @@ footer {
     }
 }
 
-// .chart {
-//   position: relative;
-//   display: block;
-//   margin: 20px 10px;
-//   color: #999;
-//   font-size: 20px;
-//   text-align: center;
-//   margin:0 auto;
-  
-//   canvas {
-//     position: absolute;
-//     top: 0; left: 0; bottom: 0; right:0;
-//   }
-// }
-
-
-
 ::-moz-selection {
     text-shadow: none;
     background: #fcfcfc;
@@ -1087,7 +1017,55 @@ body {
     webkit-tap-highlight-color: fade(@dark, 20%);
 }
 
+@media(min-width:2500px){
+    #contact{
+        background-position-y: -220px;
+    }
+}
+
+
+@media(max-width:979px) {
+    .chev{
+        display: none;
+    }
+}
+@media(max-width:980px) {
+    .intro, .postIntro {
+        background-attachment: scroll;
+    }
+}
+
+
 @media(min-width:767px) {
+    .scrollFix{
+        h3{
+            background: rgba(0, 0, 0, 0.4);
+            margin-top: 10px;
+            padding: 20px;
+            color: #FFF;
+        }
+    }
+
+    .post-img{
+        margin-top: -50px;
+    }
+    .scrollFixTop{
+        position: relative;
+    }
+    .scrollFixTop,
+    .scrollFixBottom{
+        position: fixed;
+        width: 32%;
+    }
+
+    .scrollFixTop{
+        top: 50px;
+    }
+
+    .scrollFixBottom.scrollFixTop{
+        top: auto;
+        bottom: 90px;
+    }
     p{
         margin: 0 0 35px;
        //font-size: 20px;
@@ -1119,9 +1097,7 @@ body {
             }
         }
     }
-    .intro {
-        height: 100%;
-    }
+    .intro,
     .postIntro {
         height: 70%;
     }
@@ -1129,10 +1105,7 @@ body {
         padding: 0;
     }
     .value_intro {
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 20%;
+          margin-top: 150px;
     }
 }
 
@@ -1140,24 +1113,8 @@ body {
 
 
 
-@media(max-width:979px) {
-    .ipad_mini, .ipad_mini-imgs {
-        display: none;
-    }
-}
-@media(min-width:767px) {
 
-    .intro {
-        height: 100%;
-    }
-    .postIntro {
-        height: 70%;
-    }
-    .intro, .postIntro {
-        padding: 0;
-    }
 
-}
 
 @media(min-width:520px) and(max-width:767px) {
   .visible-sp{
@@ -1185,13 +1142,8 @@ body {
     .background-full {
         padding: 100px 0;
     }
-    .chev{
-        display: none;
-    }
     .intro,
     .postIntro{
-        background-attachment: scroll;
-        background-size: auto;
         .intro-body {
                 .brand-heading {
                     margin-top: 0;

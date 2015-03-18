@@ -56,7 +56,7 @@ if ($('#workContent').hasClass(innerClass)) {
   //intro
 
   $('.intro .container').addClass('animated fadeInLeftBig visibleAn').removeClass('hideAn');
-  $('.chev').addClass('animated fadeInLeftBig visibleAn').removeClass('hideAn');
+  $('.chev').addClass('animated fadeInRightBig visibleAn').removeClass('hideAn');
 
   $('#contact .bio').waypoint(function() {
     $('#contact .bio').addClass('animated flipInX visibleAn').removeClass('hideAn');
