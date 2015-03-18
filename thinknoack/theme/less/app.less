@@ -165,7 +165,6 @@ div.no-pad{
 }
 .intro, .postIntro {
     display: block;
-    height: auto;
     padding: 100px 0;
     text-align: left;
     color: @light;
@@ -1024,14 +1023,13 @@ body {
 }
 
 
-@media(max-width:979px) {
-    .chev{
-        display: none;
-    }
-}
+
 @media(max-width:980px) {
     .intro, .postIntro {
         background-attachment: scroll;
+    }
+    .chev{
+        display: none;
     }
 }
 
@@ -1097,10 +1095,6 @@ body {
             }
         }
     }
-    .intro,
-    .postIntro {
-        height: 70%;
-    }
     .intro, .postIntro {
         padding: 0;
     }
@@ -1151,6 +1145,10 @@ body {
                 }
 
             }
+    }
+    .intro,
+    .postIntro {
+        height: 70%;
     }
     #oldWorkSection{display: none;}
         #workSection{

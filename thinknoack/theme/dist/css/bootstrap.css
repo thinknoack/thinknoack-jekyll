@@ -9472,7 +9472,6 @@ div.no-pad {
 .intro,
 .postIntro {
   display: block;
-  height: auto;
   padding: 100px 0;
   text-align: left;
   color: #ffffff;
@@ -10393,15 +10392,13 @@ body {
     background-position-y: -220px;
   }
 }
-@media (max-width: 979px) {
-  .chev {
-    display: none;
-  }
-}
 @media (max-width: 980px) {
   .intro,
   .postIntro {
     background-attachment: scroll;
+  }
+  .chev {
+    display: none;
   }
 }
 @media (min-width: 767px) {
@@ -10457,10 +10454,6 @@ body {
   }
   .intro,
   .postIntro {
-    height: 70%;
-  }
-  .intro,
-  .postIntro {
     padding: 0;
   }
   .value_intro {
@@ -10493,6 +10486,10 @@ body {
   .postIntro .intro-body .brand-heading {
     margin-top: 0;
     font-size: 30px;
+  }
+  .intro,
+  .postIntro {
+    height: 70%;
   }
   #oldWorkSection {
     display: none;
