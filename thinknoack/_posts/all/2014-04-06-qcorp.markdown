@@ -2,7 +2,7 @@
 layout: post
 client:  "Oregpm Health Care Corporation"
 siteurl: http://q-corp.org/
-title: RatherFit 
+title: QCORP 
 className: site
 categories: 
 - all
