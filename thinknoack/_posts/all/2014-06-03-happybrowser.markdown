@@ -2,7 +2,7 @@
 layout: post
 client:  "Github Repo"
 siteurl: https://github.com/thinknoack/happybrowser
-title: Happybrowser 
+title: Happy browser 
 className: site
 categories: 
 - all
@@ -15,6 +15,6 @@ tags:
 permalink: happybrowser
 teaser-img: /post-images/happybrowser/teaser.jpg
 post-img: /post-images/happybrowser/post.jpg
-teaser: A javascript warning for older browsers 
+teaser: A javascript warning
 ---
 Not all of us update our browsers and some of us still use IE. This is a warning script for those people.
