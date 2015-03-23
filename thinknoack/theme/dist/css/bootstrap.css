@@ -9250,13 +9250,13 @@ figure.effect-bubba img {
   opacity: 1;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.15s;
   transition: opacity 0.35s, transform 0.15s;
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }
 figure.effect-bubba:hover img {
   opacity: 0.4;
-  -webkit-transform: scale(1);
-  transform: scale(1);
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
 }
 figure.effect-bubba figcaption::before,
 figure.effect-bubba figcaption::after {
