@@ -10419,12 +10419,12 @@ body {
   .scrollFixBottom {
     position: fixed;
     width: 32%;
+    max-width: 545px;
   }
   .scrollFixTop {
     top: 50px;
   }
   .scrollFixBottom.scrollFixTop {
-    top: auto;
     bottom: 90px;
   }
   p {
