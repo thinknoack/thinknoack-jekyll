@@ -9766,6 +9766,7 @@ div.no-pad {
 .post .content-section {
   padding: 0 0 50px;
   overflow: visible;
+  max-width: 1350px;
 }
 .background-full {
   width: 100%;
