@@ -16,6 +16,6 @@ tags:
 permalink: joshua-martin-saunders
 teaser-img: /post-images/jms/teaser.jpg
 post-img: /post-images/jms/post.jpg
-teaser: An artist blog 
+teaser: An artist site 
 ---
 A blog for an artist in Austin, TX. Joshua wanted to showcase his work. I worked with a PHP developer to build a custom backend and design and develop the frontend. 

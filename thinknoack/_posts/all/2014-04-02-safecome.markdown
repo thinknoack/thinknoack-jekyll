@@ -21,6 +21,6 @@ tags:
 permalink: safecom
 teaser-img: /post-images/safecom/teaser.jpg
 post-img: /post-images/safecom/post.jpg
-teaser: Not just any form... 
+teaser: Not just any form...
 ---
 The SAFECOM form for the Department of Interior isn't just a form. It is an Angular app that utilizes offline storage, legacy data, and allows for in the field reporting for the Department of Interior agencies and the US Forest Service.

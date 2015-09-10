@@ -19,6 +19,6 @@ tags:
 permalink: smartgadgets-101
 teaser-img: /post-images/sg101/teaser.jpg
 post-img: /post-images/sg101/post.jpg
-teaser: Tutorials and pricing on todays leading smartphones.  
+teaser: A blog for smartphones.  
 ---
 This is a blog that offers tutorials and trainings on smartphones and provides expert reviews and user ratings. 

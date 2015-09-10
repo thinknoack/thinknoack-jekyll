@@ -21,6 +21,6 @@ tags:
 permalink: /way-to-go
 teaser-img: /post-images/wtg/teaser.jpg
 post-img: /post-images/wtg/post.jpg
-teaser: no-nonsense commuting options to Denver area
+teaser: no-nonsense commuting
 ---
 Way to Go is a regional partnership between the Denver Regional Council of Governments (DRCOG) and a dedicated group of Transportation Management Associations (TMAs). They work together to reduce traffic congestion, improve air quality, and make life better for the residents of Denver.

@@ -19,6 +19,6 @@ tags:
 permalink: start2farm-usda
 teaser-img: /post-images/usda/teaser.jpg
 post-img: /post-images/usda/post.jpg
-teaser: Providing Assistance to new and seasoned Farmers
+teaser: Providing Assistance to Farmers
 ---
 A site for USDA to help promote farming. Offering resources to new, experienced, and minority framers.

@@ -17,6 +17,6 @@ tags:
 permalink: cloth-and-crown
 teaser-img: /post-images/cc/teaser.jpg
 post-img: /post-images/cc/post.jpg
-teaser: Clothing for hip people in Missoula, MT.
+teaser: A Clothing Boutique
 ---
 I was contracted to build and design a site for a small boutique in Missoula, MT.

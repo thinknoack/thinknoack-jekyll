@@ -18,6 +18,6 @@ tags:
 permalink: synapse
 teaser-img: /post-images/syn/teaser.jpg
 post-img: /post-images/syn/post.jpg
-teaser: Developing things like the fit bit
+teaser: Product Development
 ---
 Synapse works with the world's leading companies to create products and experiences that change the way we live.

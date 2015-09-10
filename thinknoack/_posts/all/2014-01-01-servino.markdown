@@ -20,6 +20,6 @@ tags:
 permalink: servino
 teaser-img: /post-images/serv/teaser.jpg
 post-img: /post-images/serv/post.jpg
-teaser: Delicious food in Sausalito, CA 
+teaser: A Restaurant 
 ---
 Built on Wordpress this site gives Servio the ability to post custom menus and live music events. 

@@ -18,6 +18,6 @@ permalink: untitled-designs
 teaser-img: /post-images/ud/teaser.jpg
 post-img: /post-images/ud/post.jpg
 post-img2: /post-images/ud/post2.jpg
-teaser: Web development VIA Collaboration
+teaser: Web Collaboration
 ---
 A site for the collaboration of designers, developers, and project managers.

@@ -9184,125 +9184,6 @@ Copyright (c) 2014 Daniel Eden
     A set of useful LESS mixins
     More info at: http://lesselements.com
   ---------------------------------------------------*/
-/* Common style */
-.grid figure img {
-  position: relative;
-  display: block;
-  max-width: 100%;
-  opacity: 0.8;
-}
-.grid figure figcaption {
-  padding: 2em;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 1.25em;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-.grid figure figcaption::before,
-.grid figure figcaption::after {
-  pointer-events: none;
-}
-.grid figure figcaption,
-.grid figure figcaption > a.view-post {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
-.grid figure figcaption > a.view-post {
-  z-index: 1000;
-  text-indent: 200%;
-  white-space: nowrap;
-  font-size: 0;
-  opacity: 0;
-}
-.grid figure h2 {
-  word-spacing: -0.15em;
-  font-weight: 300;
-}
-.grid figure h2 span {
-  font-weight: 800;
-}
-.grid figure h2 {
-  margin: 0;
-}
-/*---------------*/
-/***** Bubba *****/
-/*---------------*/
-figure.effect-bubba {
-  background: #005457;
-  overflow: hidden;
-}
-figure.effect-bubba img {
-  opacity: 1;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.15s;
-  transition: opacity 0.35s, transform 0.15s;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-}
-figure.effect-bubba:hover img {
-  opacity: 0.4;
-  -webkit-transform: scale(1.15);
-  transform: scale(1.15);
-}
-figure.effect-bubba figcaption::before,
-figure.effect-bubba figcaption::after {
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  bottom: 30px;
-  left: 30px;
-  content: '';
-  opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-}
-figure.effect-bubba figcaption::before {
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-  -webkit-transform: scale(0, 1);
-  transform: scale(0, 1);
-}
-figure.effect-bubba figcaption::after {
-  border-right: 1px solid #fff;
-  border-left: 1px solid #fff;
-  -webkit-transform: scale(1, 0);
-  transform: scale(1, 0);
-}
-figure.effect-bubba h2 {
-  padding: 5% 10px 0;
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;
-  -webkit-transform: translate3d(0, -20px, 0);
-  transform: translate3d(0, -20px, 0);
-  opacity: 0;
-}
-figure.effect-bubba p,
-figure.effect-bubba .nav-tags {
-  padding: 20px 10px;
-  opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(0, 20px, 0);
-  transform: translate3d(0, 20px, 0);
-}
-figure.effect-bubba:hover figcaption::before,
-figure.effect-bubba:hover figcaption::after {
-  opacity: 1;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-}
-figure.effect-bubba:hover h2,
-figure.effect-bubba:hover p,
-figure.effect-bubba:hover .nav-tags {
-  opacity: 1;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
 body {
   width: 100%;
   height: 100%;
@@ -9479,14 +9360,28 @@ div.no-pad {
   height: 100%;
   z-index: 900;
 }
+.intro .intro-body .container,
+.postIntro .intro-body .container {
+  margin-top: 10%;
+  padding: 40px 0;
+}
 .intro .intro-body .brand-heading,
 .postIntro .intro-body .brand-heading {
   font-size: 50px;
-  margin-top: 30%;
 }
 .intro .intro-body .introDes,
 .postIntro .intro-body .introDes {
   font-size: 22px;
+}
+.front .intro .intro-body .container,
+.front .postIntro .intro-body .container {
+  max-width: 460px;
+  border: 1px solid #FFF;
+  width: 97%;
+  padding: 30px 30px;
+}
+.front .intro .intro-body {
+  overflow: visible;
 }
 .postIntro .intro-body .brand-heading {
   margin-top: 60px;
@@ -9722,7 +9617,6 @@ div.no-pad {
 }
 .content-section {
   padding: 50px 0;
-  overflow: hidden;
 }
 .post .content-section {
   padding: 0 0 50px;
@@ -9742,8 +9636,11 @@ div.no-pad {
   position: relative;
   padding: 20px;
 }
+#port .port-head {
+  padding: 0;
+}
 #port .container {
-  width: 100%;
+  padding: 0;
 }
 #port .container h2 {
   color: #333;
@@ -9780,10 +9677,37 @@ div.no-pad {
   color: #1b9d86;
   text-decoration: underline;
 }
+#port .client {
+  font-size: 12px;
+  line-height: 16px;
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 10px 0;
+  float: left;
+}
+#port .postType {
+  text-align: right;
+  width: 100%;
+  float: left;
+  display: block;
+}
+#workSection #oldWorkSection .port-older-work-header {
+  padding: 10px;
+}
+#workSection #oldWorkSection .port-older-work-header h2 {
+  margin: 0;
+}
+#workSection #oldWorkSection .grid figure figcaption {
+  height: 70px;
+}
+#workSection #oldWorkSection .grid figure figcaption h3 {
+  margin: 0;
+  font-size: 18px;
+}
 #workSection {
   max-height: 0;
   overflow: hidden;
-  background: #d8d8d8;
+  background: url(../img/bg-post.png) repeat 0% 0% fixed;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease;
@@ -9794,39 +9718,58 @@ div.no-pad {
 }
 #workSection .container {
   padding: 0;
-  width: 100%;
-  max-width: 100%;
+  max-width: 80%;
 }
 #workSection .grid {
+  padding: 10px;
+  border: none;
+}
+#workSection .grid figure {
   padding: 0;
-  border: 3px solid #dadada;
+  box-shadow: 0px 0px 7px -2px rgba(0, 0, 0, 0.3);
+  background-color: #000000;
 }
-#workSection .grid .client {
-  position: absolute;
-  background: rgba(0, 0, 0, 0.6);
-  display: block;
-  padding: 15px 20px;
-  width: 100%;
-  left: 0;
-  color: #fff;
-  bottom: 0;
-  font-size: 12px;
-  -moz-opacity: 1;
-  -khtml-opacity: 1;
-  -webkit-opacity: 1;
-  opacity: 1;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
-  filter: alpha(opacity=100);
-  -webkit-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-  -webkit-transition: all all 0.2s ease ease-out;
-  -moz-transition: all all 0.2s ease ease-out;
-  -o-transition: all all 0.2s ease ease-out;
-  transition: all all 0.2s ease ease-out;
+#workSection .grid figure figcaption {
+  padding: 15px;
+  background: #fff;
+  height: 120px;
 }
-#workSection .grid .client span {
+#workSection .grid figure figcaption h2 {
+  font-size: 17px;
+  margin-bottom: 10px;
   color: #22c9ab;
+}
+#workSection .grid figure figcaption p {
+  font-size: 15px;
+  margin-bottom: 5px;
+  line-height: 18px;
+}
+#workSection .grid figure figcaption .view-post {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-indent: -90000em;
+}
+#workSection .grid figure:hover img {
+  opacity: 0.9;
+}
+#workSection .grid figure:hover figcaption h2 {
+  color: #000000;
+}
+#workSection .grid figure .client {
+  font-size: 12px;
+  line-height: 16px;
+  display: block;
+  float: left;
+  width: 70%;
+}
+#workSection .grid figure .postType {
+  text-align: right;
+  width: 30%;
+  display: block;
+  float: left;
 }
 #workSection.show {
   max-height: 9000px;
@@ -9882,41 +9825,8 @@ div.no-pad {
   margin: 0;
 }
 #workSection .container#oldWorkSection .workblock.grid {
-  height: 100px;
-  border-color: #505050;
-  overflow: hidden;
-}
-#workSection .container#oldWorkSection .workblock.grid figure.effect-bubba {
-  background: rgba(210, 210, 210, 0.09);
-  height: 100px;
-}
-#workSection .container#oldWorkSection .workblock.grid figure.effect-bubba figcaption::after,
-#workSection .container#oldWorkSection .workblock.grid figure.effect-bubba figcaption::before {
+  padding: 10px;
   border: none;
-  -webkit-transition: none;
-  -o-transition: none;
-  transition: none;
-  -webkit-transition: all none ease-out;
-  -moz-transition: all none ease-out;
-  -o-transition: all none ease-out;
-  transition: all none ease-out;
-}
-#workSection .container#oldWorkSection .workblock.grid figure.effect-bubba:hover {
-  background: none;
-}
-#workSection .container#oldWorkSection .workblock.grid figure.effect-bubba:hover img {
-  opacity: 0.5;
-}
-#workSection .container#oldWorkSection .workblock.grid figure.effect-bubba:hover figcaption::after,
-#workSection .container#oldWorkSection .workblock.grid figure.effect-bubba:hover figcaption::before {
-  border: none;
-  -webkit-transition: none;
-  -o-transition: none;
-  transition: none;
-  -webkit-transition: all none ease-out;
-  -moz-transition: all none ease-out;
-  -o-transition: all none ease-out;
-  transition: all none ease-out;
 }
 #workSection .container#oldWorkSection img {
   -moz-opacity: 0.2;
@@ -9935,203 +9845,24 @@ div.no-pad {
 .not-front #workSection .workblock .grid {
   margin: 0;
 }
-figure.effect-bubba.design {
-  background: #6B0077;
+.post {
+  background: url(../img/bg-post.png) repeat 0% 0% fixed;
+  background-color: #fefefe;
 }
-figure.effect-bubba.site {
-  background: #063A00;
-}
-figure.effect-bubba .postType {
-  position: absolute;
-  text-align: right;
-  left: 0;
-  right: 30px;
-  top: 5px;
-  bottom: 0;
-  text-transform: none;
-  -moz-opacity: 0;
-  -khtml-opacity: 0;
-  -webkit-opacity: 0;
-  opacity: 0;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
-  filter: alpha(opacity=0);
-  -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  -webkit-transition: all all 0.5s ease ease-out;
-  -moz-transition: all all 0.5s ease ease-out;
-  -o-transition: all all 0.5s ease ease-out;
-  transition: all all 0.5s ease ease-out;
+.post h1 .client {
   font-size: 14px;
+  line-height: 17px;
+  display: block;
+  color: #fff;
 }
-figure.effect-bubba:hover .postType {
-  -moz-opacity: 1;
-  -khtml-opacity: 1;
-  -webkit-opacity: 1;
-  opacity: 1;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
-  filter: alpha(opacity=100);
-}
-#workSection .grid figure.effect-bubba:hover .client {
-  -moz-opacity: 0;
-  -khtml-opacity: 0;
-  -webkit-opacity: 0;
-  opacity: 0;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
-  filter: alpha(opacity=0);
-}
-@media (min-width: 1201px) {
-  .col-xl-4 {
-    width: 33.3333%;
-  }
-}
-.tagsPage .grid {
-  margin-bottom: 20px;
+.post .nav-tags {
   padding: 0;
 }
-.tagsPage .grid figure figcaption > a.view-post {
-  position: absolute;
-  text-indent: 0;
-  font-size: 20px;
-  opacity: 1;
-  display: block;
-  color: #22c9ab;
-  font-weight: 500;
-  bottom: -14px;
-  top: auto;
-  padding: 25px;
-  width: 60px;
-  background: rgba(255, 255, 255, 0.9);
-  height: 60px;
-  border-radius: 30px;
-  right: -7px;
-  text-align: center;
-  line-height: 15px;
-  left: auto;
-}
-.tagsPage .grid figure figcaption > a.view-post:hover {
-  background: rgba(0, 0, 0, 0.5);
-}
-.tagsPage .grid figure.effect-bubba {
-  overflow: hidden;
-  position: relative;
-}
-.tagsPage .grid figure.effect-bubba.design .nav-tags a {
-  background: rgba(255, 255, 255, 0.78);
-  color: #6B0077;
-}
-.tagsPage .grid figure.effect-bubba.design .nav-tags a:hover {
-  color: #fff;
-}
-.tagsPage .grid figure.effect-bubba.design:hover {
-  background: #6B0077;
-}
-.tagsPage .grid figure.effect-bubba.design:hover h2 a {
-  background: rgba(255, 255, 255, 0.8);
-  color: #6B0077;
-}
-.tagsPage .grid figure.effect-bubba.design:hover h2 a:hover {
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
-}
-.tagsPage .grid figure.effect-bubba.design:hover .nav-tags a {
-  background: #fff;
-}
-.tagsPage .grid figure.effect-bubba.design:hover .nav-tags a:hover {
-  background: rgba(0, 0, 0, 0.5);
-}
-.tagsPage .grid figure.effect-bubba.design:hover img {
-  -moz-opacity: 0.7;
-  -khtml-opacity: 0.7;
-  -webkit-opacity: 0.7;
-  opacity: 0.7;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
-  filter: alpha(opacity=70);
-}
-.tagsPage .grid figure.effect-bubba.site .nav-tags a {
-  background: rgba(255, 255, 255, 0.78);
-  color: #063A00;
-}
-.tagsPage .grid figure.effect-bubba.site .nav-tags a:hover {
-  color: #fff;
-}
-.tagsPage .grid figure.effect-bubba.site:hover {
-  background: #063A00;
-}
-.tagsPage .grid figure.effect-bubba.site:hover h2 a {
-  background: rgba(255, 255, 255, 0.8);
-  color: #063A00;
-}
-.tagsPage .grid figure.effect-bubba.site:hover h2 a:hover {
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
-}
-.tagsPage .grid figure.effect-bubba.site:hover .nav-tags a {
-  background: #fff;
-}
-.tagsPage .grid figure.effect-bubba.site:hover .nav-tags a:hover {
-  background: rgba(0, 0, 0, 0.5);
-}
-.tagsPage .grid figure.effect-bubba.site:hover img {
-  -moz-opacity: 0.7;
-  -khtml-opacity: 0.7;
-  -webkit-opacity: 0.7;
-  opacity: 0.7;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
-  filter: alpha(opacity=70);
-}
-.tagsPage .grid figure.effect-bubba figcaption::before,
-.tagsPage .grid figure.effect-bubba figcaption::after {
-  -moz-opacity: 1;
-  -khtml-opacity: 1;
-  -webkit-opacity: 1;
-  opacity: 1;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
-  filter: alpha(opacity=100);
-  -webkit-transform: scale(1);
-  transform: scale(1);
-}
-.tagsPage .grid figure.effect-bubba h2,
-.tagsPage .grid figure.effect-bubba p,
-.tagsPage .grid figure.effect-bubba .nav-tags,
-.tagsPage .grid figure.effect-bubba .postType {
-  font-size: 16px;
-  -moz-opacity: 1;
-  -khtml-opacity: 1;
-  -webkit-opacity: 1;
-  opacity: 1;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
-  filter: alpha(opacity=100);
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-.tagsPage .grid figure.effect-bubba h2 a,
-.tagsPage .grid figure.effect-bubba p a,
-.tagsPage .grid figure.effect-bubba .nav-tags a,
-.tagsPage .grid figure.effect-bubba .postType a {
-  color: #fff;
-}
-.tagsPage .grid figure.effect-bubba img {
-  -moz-opacity: 0.4;
-  -khtml-opacity: 0.4;
-  -webkit-opacity: 0.4;
-  opacity: 0.4;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40);
-  filter: alpha(opacity=40);
-}
-.tagsPage .grid figure.effect-bubba p {
-  margin: 0;
-  padding: 10px 10px 0;
-  font-size: 12px;
-}
-.tagsPage .grid .nav-tags {
-  padding: 0 10px 20px 10px;
-}
-.tagsPage .grid .nav-tags a {
+.post .nav-tags a {
   margin-right: 5px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   padding: 1px 10px;
-  background: rgba(255, 255, 255, 0.3);
+  background: #22c9ab;
   border-radius: 0;
   color: #FFF;
   -webkit-transform: all 0.3s ease;
@@ -10140,20 +9871,12 @@ figure.effect-bubba:hover .postType {
   -ms-transform: all 0.3s ease;
   transform: all 0.3s ease;
 }
-.tagsPage .grid .nav-tags a:hover {
+.post .nav-tags a:hover {
   background: rgba(0, 0, 0, 0.3);
 }
-@media (min-width: 767px) and (max-width: 980px) {
-  .tagsPage .grid a {
-    font-size: 11px;
-  }
-  .tagsPage .grid h2 {
-    font-size: 18px;
-  }
-}
-@media (max-width: 767px) {
-  .tagsPage .grid a {
-    font-size: 12px;
+@media (min-width: 1201px) {
+  .col-xl-4 {
+    width: 33.3333%;
   }
 }
 #contact {
@@ -10186,7 +9909,7 @@ figure.effect-bubba:hover .postType {
 }
 footer {
   background: #292929;
-  padding: 20px 0;
+  padding: 50px 0;
   color: #FFF;
   border-bottom: 10px solid #22c9ab;
 }
@@ -10204,36 +9927,6 @@ footer .copyright {
 }
 footer .makestuff {
   text-align: right;
-}
-.post {
-  background: url(../img/bg-post.png) repeat 0% 0% fixed;
-  background-color: #fefefe;
-}
-.post .nav-tags {
-  padding: 0;
-}
-.post .nav-tags a {
-  margin-right: 5px;
-  margin-bottom: 10px;
-  padding: 1px 10px;
-  background: #22c9ab;
-  border-radius: 0;
-  color: #FFF;
-  -webkit-transform: all 0.3s ease;
-  -moz-transform: all 0.3s ease;
-  -o-transform: all 0.3s ease;
-  -ms-transform: all 0.3s ease;
-  transform: all 0.3s ease;
-}
-.post .nav-tags a:hover {
-  background: rgba(0, 0, 0, 0.3);
-}
-.post .client {
-  font-size: 12px;
-  line-height: 16px;
-  display: block;
-  color: rgba(255, 255, 255, 0.8);
-  padding: 10px 0;
 }
 .post-header-img {
   width: 100%;
@@ -10338,29 +10031,8 @@ body {
   }
 }
 @media (min-width: 767px) {
-  .scrollFix h3 {
-    background: rgba(0, 0, 0, 0.4);
-    margin-top: 10px;
-    padding: 20px;
-    color: #FFF;
-  }
   .post-img {
     margin-top: -50px;
-  }
-  .scrollFixTop {
-    position: relative;
-  }
-  .scrollFixTop,
-  .scrollFixBottom {
-    position: fixed;
-    width: 32%;
-    max-width: 545px;
-  }
-  .scrollFixTop {
-    top: 50px;
-  }
-  .scrollFixBottom.scrollFixTop {
-    bottom: 90px;
   }
   p {
     margin: 0 0 35px;
@@ -10414,6 +10086,7 @@ body {
   }
   .navbar.navbar-fixed-top.navbar-custom .navbar-toggle {
     color: #22c9ab;
+    margin-right: 0;
   }
   .navbar.navbar-fixed-top.navbar-custom .navbar-toggle:hover {
     color: #3fdfc2;
@@ -10424,21 +10097,22 @@ body {
   .background-full {
     padding: 100px 0;
   }
+  .intro .intro-body .container,
+  .postIntro .intro-body .container {
+    margin-top: 10px;
+  }
   .intro .intro-body .brand-heading,
   .postIntro .intro-body .brand-heading {
     margin-top: 0;
-    font-size: 30px;
+    font-size: 23px;
+  }
+  .intro .intro-body .introDes,
+  .postIntro .intro-body .introDes {
+    font-size: 17px;
   }
   .intro,
   .postIntro {
     height: 70%;
-  }
-  #oldWorkSection {
-    display: none;
-  }
-  #workSection .grid {
-    padding: 0;
-    border: 3px solid #22c9ab;
   }
   #contact .bio span,
   #contact .bio a {

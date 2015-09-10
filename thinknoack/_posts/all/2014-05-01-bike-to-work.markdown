@@ -20,6 +20,6 @@ tags:
 permalink: bike-to-work
 teaser-img: /post-images/btw/teaser.jpg
 post-img: /post-images/btw/post.jpg
-teaser: Join and coordinate your Bike to Work Day. 
+teaser: Join Bike to Work Day. 
 ---
 Bike to Work Day is a site for coordinating 20,000+ bikers, routes, and meet-ups for the Denver/Boulder area.

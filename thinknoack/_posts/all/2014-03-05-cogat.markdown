@@ -16,6 +16,6 @@ tags:
 permalink: cognitive-atlas
 teaser-img: /post-images/cogat/teaser.jpg
 post-img: /post-images/cogat/post.jpg
-teaser: Semantic Cognitive Science
+teaser: Semantic Science
 ---
 I performed maintenance and re-themed this site. 

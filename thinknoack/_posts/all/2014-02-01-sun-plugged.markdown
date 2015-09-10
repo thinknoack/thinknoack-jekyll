@@ -16,6 +16,6 @@ tags:
 permalink: squishymedia
 teaser-img: /post-images/sp/teaser.jpg
 post-img: /post-images/sp/post.jpg
-teaser: Solar Backpacks For Sale
+teaser: Solar Backpacks
 ---
 An eCommerce site, built on the Prestashop CMS. 

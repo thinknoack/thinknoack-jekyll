@@ -38,7 +38,7 @@ module.exports = function(grunt) {
     }
   },
   
-  clean: ["./dist"],
+  clean: ["./dist", "./src/js/app.js"],
 
   watch: {
     files: ['./Gruntfile.js', './src/js/app.js'],

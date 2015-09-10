@@ -23,6 +23,6 @@ tags:
 permalink: ratherfit
 teaser-img: /post-images/rfit/teaser.jpg
 post-img: /post-images/rfit/post.jpg
-teaser: Selective youtube seach for workouts. 
+teaser: Selective seach for workouts. 
 ---
 I took a class on Backbone and Node, this was my final project.

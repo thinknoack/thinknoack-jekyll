@@ -55,8 +55,7 @@ if ($('#workContent').hasClass(innerClass)) {
   //section specific waypoint
   //intro
 
-  $('.intro .container').addClass('animated fadeInLeftBig visibleAn').removeClass('hideAn');
-  $('.chev').addClass('animated fadeInRightBig visibleAn').removeClass('hideAn');
+  $('.intro .container').addClass('animated fadeInUpBig visibleAn').removeClass('hideAn');
 
   $('#contact .bio').waypoint(function() {
     $('#contact .bio').addClass('animated flipInX visibleAn').removeClass('hideAn');

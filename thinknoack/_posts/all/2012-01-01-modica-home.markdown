@@ -12,6 +12,6 @@ tags:
 permalink: modica-home
 teaser-img: /post-images/modica/teaser.jpg
 post-img: /post-images/modica/post.jpg
-teaser: A Mockup for a San Francisco Boutique 
+teaser: A Mockup
 ---
 I did this simple front page mockup for Cheryl, owner of Modica Home. 
