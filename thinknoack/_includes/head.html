@@ -2,42 +2,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
-    
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
-    <link rel="apple-touch-icon" sizes="60x60" href="{{"/apple-touch-icon-60x60.png?v=2" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{"/apple-touch-icon-180x180.png?v=2" | prepend: site.baseurl }}">
-    <link rel="icon" type="image/png" href="{{"/android-chrome-192x192.png?v=2" | prepend: site.baseurl }}" sizes="192x192">
-    <link rel="icon" type="image/png" href="{{"/favicon-32x32.png?v=2?v=2" | prepend: site.baseurl }}" sizes="32x32">
-    <link rel="icon" type="image/png" href="{{"/favicon-96x96.png?v=2" | prepend: site.baseurl }}" sizes="96x96">
-    <link rel="icon" type="image/png" href="{{"/favicon-16x16.png?v=2" | prepend: site.baseurl }}" sizes="16x16">
-    <link rel="icon" type="image/png" href="{{"/favicon.ico?v=2" | prepend: site.baseurl }}">
-
-    <script src="{{"/theme/dist/js/jquery-2x.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{"/theme/dist/js/waypoints.min.js"| prepend: site.baseurl }}"></script>
-    <script src="{{"/theme/dist/js/bootstrap.js" | prepend: site.baseurl }}"></script>
-    <script src="{{"/theme/dist/js/bxslider/jquery.bxslider.min.js"| prepend: site.baseurl }}"></script>
-    <script src="{{"/theme/dist/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{"/theme/dist/js/jquery.easy-pie-chart.js" | prepend: site.baseurl }}"></script>
+    <link rel="apple-touch-icon" sizes="60x60" href="{{"/theme/dist/apple-touch-icon-60x60.png?v=2" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{"/theme/dist/apple-touch-icon-180x180.png?v=2" | prepend: site.baseurl }}">
+    <link rel="icon" type="image/png" href="{{"/theme/dist/android-chrome-192x192.png?v=2" | prepend: site.baseurl }}" sizes="192x192">
+    <link rel="icon" type="image/png" href="{{"/theme/dist/favicon-32x32.png?v=2?v=2" | prepend: site.baseurl }}" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{"/theme/dist/favicon-96x96.png?v=2" | prepend: site.baseurl }}" sizes="96x96">
+    <link rel="icon" type="image/png" href="{{"/theme/dist/favicon-16x16.png?v=2" | prepend: site.baseurl }}" sizes="16x16">
+    <link rel="icon" type="image/png" href="{{"/theme/dist/favicon.ico?v=2" | prepend: site.baseurl }}">
+    <!--main scripts-->
     <script src="{{"/theme/dist/js/app.js" | prepend: site.baseurl }}"></script>
-
     <!--happybrowser-->
     <link href="{{"/happybrowser/happybrowser.css"| prepend: site.baseurl }}" rel="stylesheet" type="text/css">
     <script src="{{"/happybrowser/bowser.js" | prepend: site.baseurl }}"></script>
     <script src="{{"/happybrowser/happybrowser-nojquery.js" | prepend: site.baseurl }}"></script>
-    
     <!-- Custom Fonts -->
     <link href="{{"/theme/dist/fonts/font-awesome-4.2.0/css/font-awesome.min.css"| prepend: site.baseurl }}" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Halant:300,400,700' rel='stylesheet' type='text/css'>
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300' rel='stylesheet' type='text/css'>
-    
+    <link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <!--site css-->
-    <link rel="stylesheet" href="{{ "/theme/dist/css/bootstrap.css" | prepend: site.baseurl }}">
-
+    <link rel="stylesheet" href="{{ "/theme/dist/css/app.css" | prepend: site.baseurl }}">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>

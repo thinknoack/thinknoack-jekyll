@@ -2,6 +2,10 @@
 layout: null
 ---
 <div class="row siteblock">
+<!--
+handles the layout for all category via the ajax links on the home page
+for the default layout see the file
+-->
     {% assign count = '0' %} 
     {% for post in site.posts limit: 16 %}
       {% capture count %}
