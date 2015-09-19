@@ -9189,17 +9189,13 @@ body {
   height: 100%;
   font-family: 'Quattrocento Sans', sans-serif;
   font-weight: 300;
-  color: #000000;
+  color: #3f3f3f;
   background-color: #ffffff;
 }
 .not-front {
-  background: url(../img/pixel-weave.png) repeat top center fixed;
+  background: url(../img/bg-post.png) repeat 0% 0% fixed;
   background-color: #fefefe;
   padding: 60px 0 0;
-}
-.not-front .navbar {
-  padding: 0;
-  background-color: rgba(0, 84, 87, 0.8);
 }
 .not-front h2.post-title {
   font-size: 40px;
@@ -9219,7 +9215,7 @@ h6 {
   margin: 0 0 35px;
   text-transform: uppercase;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: -1px;
 }
 p {
   margin: 0 0 25px;
@@ -9270,7 +9266,7 @@ div.no-pad {
 }
 .navbar-custom .navbar-brand .brand-inner .accent {
   font-weight: 700;
-  color: #fff;
+  color: #ffffff;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -9381,11 +9377,15 @@ div.no-pad {
   overflow: visible;
 }
 .front .intro .intro-body .container {
-  max-width: 740px;
   width: 80%;
-  margin: 10% 10%;
+  margin: 15% auto;
   padding: 40px;
   height: auto;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 21px;
+  text-align: center;
+  max-width: 600px;
 }
 .postIntro .intro-body .brand-heading {
   margin-top: 60px;
@@ -9405,7 +9405,7 @@ div.no-pad {
   width: 2px;
   height: 305px;
   margin-left: 0;
-  background-color: #FFF;
+  background-color: #ffffff;
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(-45deg);
@@ -9423,7 +9423,7 @@ div.no-pad {
 .wordwraplast .first {
   position: absolute;
   left: -390px;
-  border-bottom: 2px solid #FFF;
+  border-bottom: 2px solid #ffffff;
   top: -137px;
   font-size: 66px;
 }
@@ -9739,7 +9739,7 @@ div.no-pad {
 }
 #workSection .grid figure figcaption {
   padding: 15px;
-  background: #fff;
+  background: #ffffff;
   height: 120px;
 }
 #workSection .grid figure figcaption h2 {
@@ -9796,8 +9796,8 @@ div.no-pad {
   margin: 0;
   text-align: center;
   padding: 20px;
-  color: #FFF;
-  background-color: #000;
+  color: #ffffff;
+  background-color: #000000;
 }
 #workSection .container#oldWorkSection .design,
 #workSection .container#oldWorkSection .site {
@@ -9814,14 +9814,14 @@ div.no-pad {
   color: #6B0077;
 }
 #workSection .container#oldWorkSection .design a:hover {
-  color: #fff;
+  color: #ffffff;
   background: rgba(107, 0, 119, 0.5);
 }
 #workSection .container#oldWorkSection .site a {
   color: #50814B;
 }
 #workSection .container#oldWorkSection .site a:hover {
-  color: #fff;
+  color: #ffffff;
   background: rgba(6, 58, 0, 0.5);
 }
 #workSection .container#oldWorkSection h3 {
@@ -9861,7 +9861,7 @@ div.no-pad {
   font-size: 14px;
   line-height: 17px;
   display: block;
-  color: #fff;
+  color: #ffffff;
 }
 .post .nav-tags {
   padding: 0;
@@ -9872,7 +9872,7 @@ div.no-pad {
   padding: 1px 10px;
   background: #22c9ab;
   border-radius: 0;
-  color: #FFF;
+  color: #ffffff;
   -webkit-transform: all 0.3s ease;
   -moz-transform: all 0.3s ease;
   -o-transform: all 0.3s ease;
@@ -9890,20 +9890,22 @@ div.no-pad {
 #contact {
   background: url(../img/contact2.jpg) no-repeat;
   background-color: #dae3e6;
-  background-size: 1657px 619px;
-  min-height: 600px;
+  background-size: 1050px auto;
+  min-height: 370px;
   width: 100%;
-  background-position-x: -110px;
+  padding: 30px 0 0;
+  background-position-x: 100%;
   background-position-y: 0%;
 }
 #contact h2 {
-  color: #FFF;
+  color: #3f3f3f;
   font-size: 40px;
   font-weight: 100;
 }
 #contact .bio {
   background: rgba(0, 0, 0, 0.48);
   padding: 30px 25px;
+  margin-bottom: 20px;
 }
 #contact .bio a {
   font-size: 20px;
@@ -9911,14 +9913,14 @@ div.no-pad {
   display: block;
 }
 #contact .bio span {
-  font-size: 20px;
-  color: #FFF;
+  font-size: 18px;
+  color: #ffffff;
   font-weight: 500;
 }
 footer {
   background: #292929;
   padding: 50px 0;
-  color: #FFF;
+  color: #ffffff;
   border-bottom: 10px solid #22c9ab;
 }
 footer p {
@@ -9942,7 +9944,7 @@ footer .makestuff {
 }
 .post-img {
   padding: 0;
-  background: #fff;
+  background: #ffffff;
   border: 5px solid #dadada;
   -webkit-box-shadow: 0 -2px 5px -2px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 -2px 5px -2px rgba(0, 0, 0, 0.4);
@@ -9955,7 +9957,7 @@ footer .makestuff {
 #skills h2 {
   font-weight: 200;
   text-transform: none;
-  color: #fff;
+  color: #ffffff;
 }
 #skills .progress {
   background: rgba(34, 201, 171, 0.1);
@@ -9971,7 +9973,7 @@ footer .makestuff {
   font-size: 14px;
   font-weight: 500;
   width: 100%;
-  color: #fff;
+  color: #ffffff;
 }
 #skills .skills-explained {
   padding: 0;
@@ -10003,7 +10005,7 @@ footer .makestuff {
   padding: 9px 0;
   font-size: 16px;
   font-weight: 500;
-  color: #FFF;
+  color: #ffffff;
 }
 #skills .panel-default .panel-body .employer.dis {
   color: rgba(255, 255, 255, 0.5);
@@ -10027,19 +10029,23 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: rgba(0, 0, 0, 0.2);
 }
-@media (min-width: 1200px) {
+@media (min-width: 1050px) {
   #contact {
-    background-position-x: 170px;
+    background-position-x: 150%;
   }
 }
-@media (min-width: 1500px) {
+@media (max-width: 1051px) {
   #contact {
-    background-position-x: 280px;
+    background-position-x: 160px;
+  }
+  #contact .bio span,
+  #contact .bio a {
+    font-size: 16px;
   }
 }
-@media (min-width: 1900px) {
+@media (max-width: 767px) {
   #contact {
-    background-position-x: 100%;
+    background-image: none;
   }
 }
 @media (max-width: 980px) {
@@ -10121,6 +10127,10 @@ body {
   .background-full {
     padding: 100px 0;
   }
+  .intro,
+  .postIntro {
+    max-height: 360px;
+  }
   .intro .intro-body .container,
   .postIntro .intro-body .container {
     margin-top: 10px;
@@ -10138,14 +10148,31 @@ body {
   .postIntro {
     height: 70%;
   }
-  #contact .bio span,
-  #contact .bio a {
-    font-size: 16px;
+  .front .intro {
+    margin-top: 0px;
+    padding: 50px 0  0;
+  }
+  .front .intro .intro-body .container {
+    margin: 50px auto;
+  }
+  .front .intro .intro-body .container .brand-heading {
+    margin-bottom: 15px;
+  }
+  .front .intro .intro-body .container .introDes {
+    font-size: 12px;
   }
 }
 @media (max-width: 519px) {
+  .postIntro {
+    padding: 60px 0;
+  }
+  .postIntro .intro-body .container {
+    margin-top: 10px;
+    padding: 0;
+  }
   .front .intro .intro-body .container {
     width: 80%;
     margin: 20px auto;
+    padding: 20px;
   }
 }

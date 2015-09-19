@@ -7,7 +7,7 @@ handles the layout for design category via the ajax links on the home page
 for the default layout see the file
 -->
 {% assign count = '0' %} 
-{% for post in site.categories.design limit: 16 %}
+{% for post in site.categories.design %}
     {% capture count %}{{ count | plus: '1' }}{% endcapture %}
       <div id="post{{count}}" class="col-sm-4 col-md-4 col-lg-3 workblock grid">
         <figure class="{{post.className}} ">
@@ -25,13 +25,12 @@ for the default layout see the file
       </div>
   {% endfor %}
 </div>
-<div id="oldWorkSection">
+<!-- <div id="oldWorkSection">
     <div class="row">
       <div class="col-xs-12"><h2>Older Design</h2></div>
       {% for post in site.categories.design offset: 16 %}
         <div class="col-sm-4 col-md-4 col-lg-3 workblock grid">
           <figure class="effect-bubba {{post.className}} ">
-           <!--  <img src="{{ post.teaser-img | prepend: site.baseurl }}" alt="{{post.title}}"/> -->
             <figcaption>
               <h3>{{ post.title }}</h3>
               <a  class="view-post" href="{{ post.url | prepend: site.baseurl }}">View</a>
@@ -40,4 +39,4 @@ for the default layout see the file
         </div>
       {% endfor %}
     </div>
-</div>
+</div> -->

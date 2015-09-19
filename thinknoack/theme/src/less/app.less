@@ -11,19 +11,15 @@ body {
     height: 100%;
     font-family: 'Quattrocento Sans', sans-serif;
     font-weight: 300;
-    color: @dark;
+    color: @darkGray;
     background-color: @light;
     
 }
 
 .not-front{
-    background: url(../img/pixel-weave.png) repeat top center fixed;
+    background: url(../img/bg-post.png) repeat 0% 0% fixed;
     background-color: #fefefe;
     padding:60px 0 0;
-    .navbar{
-        padding: 0;
-        background-color: fade( #005457, 80%);
-    }
     h2.post-title{
         font-size: 40px;
         font-weight: 100;
@@ -38,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: -1px;
 }
 p {
     margin: 0 0 25px;
@@ -88,7 +84,7 @@ div.no-pad{
         .brand-inner{
             .accent{
                 font-weight: 700;
-                color:#fff;
+                color:@white;
                  .transition(all 0.5s ease);
             }
             float: left;
@@ -196,9 +192,9 @@ div.no-pad{
     .intro, .postIntro {
         .intro-body {
             .container{
-                // border: 1px solid #FFF;
+                // border: 1px solid @white;
                 // max-width: 460px;
-                // border: 1px solid #FFF;
+                // border: 1px solid @white;
                 // width: 97%;
                 // padding: 30px 30px;
                 background: rgba(0,0,0,0.4)
@@ -209,11 +205,15 @@ div.no-pad{
     .intro .intro-body{
         overflow: visible;
         .container{
-            max-width: 740px;
             width: 80%;
-            margin: 10% 10%;
+            margin: 15% auto;
             padding: 40px;
             height: auto;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 21px;
+            text-align: center;
+            max-width: 600px;
         }
     } 
 }
@@ -239,7 +239,7 @@ z-index: 1051;
 width: 2px;
 height: 305px;
 margin-left: 0;
-background-color: #FFF;
+background-color: @white;
 -webkit-transform: rotate(-45deg);
 -ms-transform: rotate(45deg);
 transform: rotate(-45deg);
@@ -251,7 +251,7 @@ position: absolute;
   .first{
     position: absolute;
     left: -390px;
-    border-bottom: 2px solid #FFF;
+    border-bottom: 2px solid @white;
     top: -137px;
     font-size: 66px;
   }
@@ -492,7 +492,7 @@ line-height: 30px;
         font-size: 12px;
         line-height: 16px;
         display: block;
-        color: fade(#fff, 80%);
+        color: fade(@white, 80%);
         padding: 10px 0;
         float: left;
     }
@@ -548,7 +548,7 @@ line-height: 30px;
 
             figcaption{
                 padding: 15px;
-                background: #fff;
+                background: @white;
                 height: 120px;
                 h2{
                         font-size: 17px;
@@ -605,8 +605,8 @@ line-height: 30px;
             margin: 0;
             text-align: center;
             padding: 20px;
-            color: #FFF;
-            background-color: #000;
+            color: @white;
+            background-color: @black;
         }
             .design,
             .site{
@@ -622,7 +622,7 @@ line-height: 30px;
             .design a{
                 color:  #6B0077;
                 &:hover{
-                    color: #fff;
+                    color: @white;
                     background: fade(#6b0077, 50%)
                 }
             }
@@ -630,7 +630,7 @@ line-height: 30px;
             .site a{
                 color:  #50814B;
                 &:hover{
-                    color: #fff;
+                    color: @white;
                      background: fade(#063A00, 50%)
                 }
             }
@@ -682,7 +682,7 @@ line-height: 30px;
         font-size: 14px;
         line-height: 17px;
         display: block;
-        color: #fff;
+        color: @white;
     }
     .nav-tags {
         padding:0;
@@ -693,7 +693,7 @@ line-height: 30px;
                 padding: 1px 10px;
                 background: @primary;
                 border-radius: 0;
-                color: #FFF;
+                color: @white;
                 .transform(all 0.3s ease);
                 &:hover{
                     background: rgba(0, 0, 0, 0.3);
@@ -751,7 +751,7 @@ line-height: 30px;
 //                     padding: 1px 10px;
 //                     background: rgba(255, 255, 255, 0.3);
 //                     border-radius: 0;
-//                     color: #FFF;
+//                     color: @white;
 //                     .transform(all 0.3s ease);
 //                     &:hover{
 //                         background: rgba(0, 0, 0, 0.3);
@@ -779,29 +779,31 @@ line-height: 30px;
 #contact{
     background: url(../img/contact2.jpg) no-repeat;
     background-color: #dae3e6;
-    background-size: 1657px 619px;
-    min-height: 600px;
+    background-size: 1050px auto;
+    min-height: 370px;
     width: 100%;
-    background-position-x: -110px;
+    padding: 30px 0 0;
+    background-position-x: 100%;
     background-position-y: 0%;
 
     h2{
-        color: #FFF;
+        color: @darkGray;
         font-size: 40px;
         font-weight: 100;
     }
     .bio{
 
         background: rgba(0, 0, 0, 0.48);
-        padding: 30px 25px;
+        padding: 30px 25px;  
+        margin-bottom: 20px;
         a{
             font-size: 20px;
             padding: 0 0 20px 0;
             display: block;
         }
         span{
-            font-size: 20px;
-            color: #FFF;
+            font-size: 18px;
+            color: @white;
             font-weight: 500;
         }
     }
@@ -814,7 +816,7 @@ line-height: 30px;
 footer {
     background: #292929;
     padding: 50px 0;
-    color: #FFF;
+    color: @white;
     border-bottom: 10px solid @primary;
     p {
         margin: 0;
@@ -845,7 +847,7 @@ footer {
 
 .post-img{
     padding: 0;
-    background: #fff;
+    background: @white;
     border: 5px solid #dadada;
     .box-shadow(0 -2px 5px -2px rgba(0, 0, 0, 0.4));
 
@@ -859,7 +861,7 @@ footer {
     h2{
         font-weight: 200;
         text-transform: none;
-        color: #fff;
+        color: @white;
     }
     .progress{
         background: fade(@primary, 10%);
@@ -876,7 +878,7 @@ footer {
         font-size: 14px;
         font-weight: 500;
         width: 100%;
-        color:#fff;
+        color:@white;
     }
     .skills-explained{
         padding: 0;
@@ -886,7 +888,7 @@ footer {
         li{
             float: left;
             margin: 0 10px;
-            color: fade(#fff, 50%);
+            color: fade(@white, 50%);
         }
     }
     .panel-default{
@@ -897,9 +899,9 @@ footer {
         padding: 10px;
         .panel-heading{
             background: none;
-            border-color: fade(#000, 10%);
+            border-color: fade(@black, 10%);
             border-bottom-width: 2px;
-            color: fade(#fff, 50%);
+            color: fade(@white, 50%);
             font-size: 15px;
             padding: 2px 0;
         }
@@ -907,10 +909,10 @@ footer {
             padding: 9px 0;
             font-size: 16px;
             font-weight: 500;
-            color: #FFF;
+            color: @white;
 
             .employer.dis{
-                color:fade(#fff, 50%);
+                color:fade(@white, 50%);
             }
         }
     }
@@ -938,20 +940,28 @@ body {
 
 
 
-@media(min-width:1200px){
+
+
+@media(min-width:1050px){
     #contact{
-       background-position-x: 170px;
-    }
-}
-@media(min-width:1500px){
-    #contact{
-       background-position-x: 280px;
+       background-position-x: 150%;
     }
 }
 
-@media(min-width:1900px){
+@media(max-width:1051px){
     #contact{
-       background-position-x: 100%;
+       background-position-x: 160px;
+    }
+    #contact .bio {
+      span,
+      a{
+          font-size: 16px;
+        }
+    }
+}
+@media(max-width:767px){
+    #contact{
+       background-image:none;
     }
 }
 
@@ -962,14 +972,14 @@ body {
     }
 }
 
+@media(min-width:767px){
 
-@media(min-width:767px) {
     // .scrollFix{
     //     h3{
     //         background: rgba(0, 0, 0, 0.4);
     //         margin-top: 10px;
     //         padding: 20px;
-    //         color: #FFF;
+    //         color: @white;
     //     }
     // }
 
@@ -1009,7 +1019,7 @@ body {
     }
     .top-nav-collapse {
         padding: 0;
-        background-color: fade( #000, 60%);
+        background-color: fade( @black, 60%);
     }
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid fade(@dark, 30%);
@@ -1079,7 +1089,7 @@ body {
     }
     .intro,
     .postIntro{
-
+        max-height: 360px;
         .intro-body {
             .container{
                 margin-top: 10px;
@@ -1101,22 +1111,41 @@ body {
     }
 
 
-    #contact .bio {
-      span,
-      a{
-          font-size: 16px;
+    .front .intro{
+        margin-top: 0px;
+        padding:50px 0  0;
+        .intro-body{
+            .container{
+                margin: 50px auto;
+                .brand-heading{
+                    margin-bottom: 15px;
+                }
+                .introDes{
+                    font-size: 12px;
+                }
+            }
         }
-      }
+    }   
 
 }
 
 
 
 @media(max-width:519px) {
+
+    .postIntro {
+        padding: 60px 0;
+        .intro-body .container{
+                margin-top: 10px;
+        padding: 0;
+        }
+    }
       .front .intro .intro-body{
+
         .container{
             width: 80%;
             margin: 20px auto;
+            padding: 20px;
         }
     }
 }

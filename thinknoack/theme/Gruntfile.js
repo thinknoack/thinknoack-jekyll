@@ -13,7 +13,7 @@ module.exports = function(grunt) {
       './src/js/util/**/*.js', 
       './src/js/thinknoack/app.js'
       ],
-      dest: './src/js/app.js'
+      dest: './src/js/thinknoack-concat.js'
     }
   },
   less: {
