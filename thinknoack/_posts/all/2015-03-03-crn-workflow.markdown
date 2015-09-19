@@ -10,7 +10,7 @@ tags:
 - all
 - design
 permalink: crn-app-workflow
-teaser-img: /post-images/crn-workflow/teaser.jpg
+teaser-img: /post-images/crn-workflow/teaser1.jpg
 post-img: /post-images/crn-workflow/crn-flow-upload.jpg
 post-img2: /post-images/crn-workflow/crn-flow-analyze.jpg
 post-img3: /post-images/crn-workflow/crn-flow-results.jpg
