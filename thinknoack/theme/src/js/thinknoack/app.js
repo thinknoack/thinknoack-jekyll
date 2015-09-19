@@ -1,4 +1,9 @@
 $(function() {
+
+
+  //change bg image on page load
+  var images = ['intro-bg1.jpg', 'intro-bg2.jpg', 'intro-bg3.jpg', 'intro-bg4.jpg',];
+  $('.intro').css({'background-image': 'url(/theme/dist/img/' + images[Math.floor(Math.random() *      images.length)] + ')'});
   // //work filters
   // $('.filter').waypoint(function() {
   //   $(this).addClass('animated fadeIn visibleAn').removeClass('hideAn');

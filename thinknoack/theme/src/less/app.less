@@ -62,7 +62,7 @@ div.no-pad{
 }
 .container {
     width: 80%;
-    max-width: 2000px;
+    max-width: 1900px;
     img {
         max-width: 100%;
         height: auto;
@@ -196,17 +196,25 @@ div.no-pad{
     .intro, .postIntro {
         .intro-body {
             .container{
-                border: 1px solid #FFF;
-                max-width: 460px;
-                border: 1px solid #FFF;
-                width: 97%;
-                padding: 30px 30px;
+                // border: 1px solid #FFF;
+                // max-width: 460px;
+                // border: 1px solid #FFF;
+                // width: 97%;
+                // padding: 30px 30px;
+                background: rgba(0,0,0,0.4)
 
             }
         }
     }
     .intro .intro-body{
         overflow: visible;
+        .container{
+            max-width: 740px;
+            width: 80%;
+            margin: 10% 10%;
+            padding: 40px;
+            height: auto;
+        }
     } 
 }
  .postIntro {
@@ -509,6 +517,13 @@ line-height: 30px;
             h3{
                 margin: 0;
                 font-size: 18px;
+                color:#005457;
+
+            }
+            &:hover{
+                h3{
+                    color: lighten(#005457, 15%)
+                }
             }
         }
     }
@@ -762,13 +777,14 @@ line-height: 30px;
 
 
 #contact{
-    background: url(../img/contact.jpg) no-repeat top center scroll;
-    background-color: #fefefe;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    min-height: 510px;
+    background: url(../img/contact2.jpg) no-repeat;
+    background-color: #dae3e6;
+    background-size: 1657px 619px;
+    min-height: 600px;
+    width: 100%;
+    background-position-x: -110px;
+    background-position-y: 0%;
+
     h2{
         color: #FFF;
         font-size: 40px;
@@ -920,12 +936,24 @@ body {
     webkit-tap-highlight-color: fade(@dark, 20%);
 }
 
-@media(min-width:2500px){
+
+
+@media(min-width:1200px){
     #contact{
-        background-position-y: -220px;
+       background-position-x: 170px;
+    }
+}
+@media(min-width:1500px){
+    #contact{
+       background-position-x: 280px;
     }
 }
 
+@media(min-width:1900px){
+    #contact{
+       background-position-x: 100%;
+    }
+}
 
 
 @media(max-width:980px) {
@@ -1014,6 +1042,12 @@ body {
   .visible-sp{
     display: block !important;
   }
+      .intro .intro-body{
+        overflow: visible;
+        .container{
+            margin-top: 20px;
+        }
+    }
 
 }
 @media(max-width:767px) {
@@ -1074,4 +1108,15 @@ body {
         }
       }
 
+}
+
+
+
+@media(max-width:519px) {
+      .front .intro .intro-body{
+        .container{
+            width: 80%;
+            margin: 20px auto;
+        }
+    }
 }

@@ -1,6 +1,6 @@
 ---
 layout: post
-client:  "Oregpm Health Care Corporation"
+client:  "Oregon Health Care Corporation"
 siteurl: http://q-corp.org/
 title: QCORP 
 className: site
