@@ -12,7 +12,9 @@ tags:
 - all
 - fed
 - theme
-- wordpress
+- drupal
+- responsive
+- bootstrap
 - design
 - ux/ui
 permalink: synapse
