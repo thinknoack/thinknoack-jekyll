@@ -11,7 +11,7 @@ tags:
 - all
 - adobe
 - design
-permalink: /way-to-go
+permalink: /white-paper
 teaser-img: /post-images/adm-design/teaser.jpg
 post-img: /post-images/adm-design/post.jpg
 teaser: A White Paper
