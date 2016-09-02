@@ -17,4 +17,4 @@ post-img3: /post-images/crn-workflow/crn-flow-results.jpg
 post-img4: /post-images/crn-workflow/crn-flow.jpg
 teaser: Graphic explaining our proposed workflow
 ---
-Stanford Center for Reproducible Neuroscience wanted an app for uploading large datasets, so doctors can collaborate and share MFRI data. This is a diagram for our suggested data flow. 
+Stanford Center for Reproducible Neuroscience wanted an app for uploading large datasets, so scientist can collaborate and share mFRI data. This is a diagram for our suggested data flow for the web application we are building.

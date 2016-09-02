@@ -22,6 +22,6 @@ tags:
 permalink: wordpress-to-backbone
 teaser-img: /post-images/wpbb/teaser.jpg
 post-img: /post-images/wpbb/post.jpg
-teaser: WP data in a BB app. 
+teaser: WP data in a BB app.
 ---
-I wanted to use Wordpress as an API and provide data via JSON to a frontend Backbone client. This is the outcome. 
+I wanted play around with a frontend Backbone client that is consuming JSON from a Wordpress site. Here is a super basic proof of concept.
