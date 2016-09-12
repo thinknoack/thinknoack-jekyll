@@ -14,7 +14,6 @@ tags:
 - wordpress
 - responsive
 - design
-- fed
 - ux/ui
 - dev
 - bootstrap

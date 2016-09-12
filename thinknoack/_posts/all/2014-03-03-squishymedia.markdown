@@ -9,7 +9,6 @@ categories:
 - site
 tags:
 - all
-- fed
 - theme
 - drupal
 - photography

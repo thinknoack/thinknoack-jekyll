@@ -1,0 +1,14 @@
+<div id="post{{count}}" class="col-sm-6 col-md-4 col-lg-4 workblock grid">
+    <figure class="{{post.className}} ">
+        <img src="{{ post.teaser-img | prepend: site.baseurl }}" alt="{{post.title}}"/>
+        <figcaption>
+            <h2>{{ post.title }}</h2>
+            <p>{{post.teaser}}</p>
+            <div class="clearfix">
+                <small class="hidden-sm hidden-md client"><span>Client:</span> {{post.client}}</small>
+            </div>
+        </figcaption>
+        <small class="postType">{{post.className}}</small>
+        <a  class="view-post" href="{{ post.url | prepend: site.baseurl }}">View</a>
+    </figure>
+</div>
