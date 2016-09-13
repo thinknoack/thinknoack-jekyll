@@ -3,9 +3,10 @@ layout: post
 client:  "Github Repo"
 siteurl: https://github.com/thinknoack/wwbb
 title: WP Backbone 
-className: site
+className: playground
 categories: 
 - all
+- playground
 - site
 - design
 tags:

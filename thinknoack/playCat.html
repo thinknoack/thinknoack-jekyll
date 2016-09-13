@@ -5,11 +5,11 @@ layout: null
 	<div class="col-md-12">
 		<div class="siteblock clearfix">
 		<!--
-		handles the layout for design category via the ajax links on the home page
+		handles the layout for site category via the ajax links on the home page
 		for the default layout see the port.html file
 		-->
 		{% assign count = '0' %}
-		{% for post in site.categories.design limit: 9 %}
+		{% for post in site.categories.playground limit: 9 %}
 		{% capture count %}{{ count | plus: '1' }}{% endcapture %}
 		{% include portfolio-layout.html %}
 		{% endfor %}
@@ -22,8 +22,8 @@ layout: null
             <section>
                 <div>
                     <div id="oldWorkSection">
-                        <h2>Older Design</h2>
-                        {% for post in site.categories.design offset: 9 %}
+                        <h2>Older Sites</h2>
+                        {% for post in site.categories.playground offset: 9 %}
                         {% include portfolio-old.html %}
                         {% endfor %}
                     </div>

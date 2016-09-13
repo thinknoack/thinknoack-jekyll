@@ -9666,6 +9666,9 @@ div.no-pad {
   padding: 0;
   max-width: 80%;
 }
+#port #workContent {
+  min-height: 600px;
+}
 #port .old-work-wrap {
   background: #ffffff;
   padding: 30px 0;

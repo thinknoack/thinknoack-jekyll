@@ -3,9 +3,10 @@ layout: post
 client:  "Github Repo"
 siteurl: https://github.com/thinknoack/shotwatch
 title: ShotWatch 
-className: site
+className: playground
 categories: 
 - all
+- playground
 - site
 tags:
 - all

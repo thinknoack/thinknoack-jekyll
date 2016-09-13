@@ -3,9 +3,10 @@ layout: post
 client:  "Github Repo"
 siteurl: https://github.com/thinknoack/happybrowser
 title: Happy browser 
-className: site
+className: playground
 categories: 
 - all
+- playground
 - site
 - design
 tags:

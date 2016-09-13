@@ -6,6 +6,7 @@ title: RatherFit
 className: site
 categories: 
 - all
+- playground
 - site
 - design
 tags:
