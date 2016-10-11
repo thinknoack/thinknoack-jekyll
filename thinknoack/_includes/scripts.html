@@ -1,3 +1,28 @@
+<script src="{{"/theme/dist/js/app.js" | prepend: site.baseurl }}"></script>
+<!--happybrowser-->
+<noscript id="deferred-styles">
+
+<!-- Custom Fonts -->
+<link href="{{"/theme/dist/fonts/font-awesome-4.2.0/css/font-awesome.min.css"| prepend: site.baseurl }}" rel="stylesheet" type="text/css">
+
+<link href="{{"/theme/happybrowser/happybrowser.css"| prepend: site.baseurl }}" rel="stylesheet" type="text/css">
+</noscript>
+<script src="{{"/theme/happybrowser/bowser.js" | prepend: site.baseurl }}"></script>
+<script src="{{"/theme/happybrowser/happybrowser-nojquery.js" | prepend: site.baseurl }}"></script>
+
+<script>
+  var loadDeferredStyles = function() {
+    var addStylesNode = document.getElementById("deferred-styles");
+    var replacement = document.createElement("div");
+    replacement.innerHTML = addStylesNode.textContent;
+    document.body.appendChild(replacement)
+    addStylesNode.parentElement.removeChild(addStylesNode);
+  };
+  var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+      webkitRequestAnimationFrame || msRequestAnimationFrame;
+  if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+  else window.addEventListener('load', loadDeferredStyles);
+</script>
 <!--google analytics-->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

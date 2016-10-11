@@ -1,7 +1,7 @@
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name=viewport content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -11,15 +11,8 @@
     <link rel="icon" type="image/png" href="{{"/theme/dist/img/favicon-32x32.png?v=2?v=2" | prepend: site.baseurl }}" sizes="32x32">
     <link rel="icon" type="image/png" href="{{"/theme/dist/img/favicon-96x96.png?v=2" | prepend: site.baseurl }}" sizes="96x96">
     <link rel="icon" type="image/png" href="{{"/theme/dist/img/favicon-16x16.png?v=2" | prepend: site.baseurl }}" sizes="16x16">
-    <link rel="icon" type="image/png" href="{{"/theme/dist/img/favicon.ico?v=2" | prepend: site.baseurl }}">
-    <!--main scripts-->
-    <script src="{{"/theme/dist/js/app.js" | prepend: site.baseurl }}"></script>
-    <!--happybrowser-->
-    <link href="{{"/theme/happybrowser/happybrowser.css"| prepend: site.baseurl }}" rel="stylesheet" type="text/css">
-    <script src="{{"/theme/happybrowser/bowser.js" | prepend: site.baseurl }}"></script>
-    <script src="{{"/theme/happybrowser/happybrowser-nojquery.js" | prepend: site.baseurl }}"></script>
+    <link rel="icon" type="image/png" href="{{"/theme/dist/img/favicon.ico?v=2" | prepend: site.baseurl }}">    
     <!-- Custom Fonts -->
-    <link href="{{"/theme/dist/fonts/font-awesome-4.2.0/css/font-awesome.min.css"| prepend: site.baseurl }}" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet">
     <!--site css-->
     <link rel="stylesheet" href="{{ "/theme/dist/css/app.css" | prepend: site.baseurl }}">
