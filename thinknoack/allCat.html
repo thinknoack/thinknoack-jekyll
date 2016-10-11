@@ -9,14 +9,14 @@ for the default layout see the port.html file (this cat template "should" match 
     <div class="col-md-12">
         <div class="siteblock clearfix">
             {% assign count = '0' %}
-            {% for post in site.posts limit: 15 %}
+            {% for post in site.posts limit: 20 %}
             {% capture count %}{{ count | plus: '1' }}{% endcapture %}
             {% include portfolio-layout.html %}
             {% endfor %}
         </div>
     </div>
 </div>
-<div class="old-work-wrap">
+<!-- <div class="old-work-wrap">
     <div class="container">
         <div class="col-md-12">
             <section>
@@ -31,4 +31,4 @@ for the default layout see the port.html file (this cat template "should" match 
             </section>
         </div>
     </div>
-</div>
+</div> -->

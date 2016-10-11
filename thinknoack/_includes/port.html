@@ -4,10 +4,10 @@
         <div class="container">
             <div class="col-md-12 port-head">
                 <div class="row clearfix">
-                    <div class="col-md-2">
-                        <h2>Portfolio</h2>
+                    <div class="col-lg-12">
+                        <h2>Recent Work</h2>
                     </div>
-                    <div class="col-md-10 filters">
+<!--                     <div class="col-lg-10 filters">
                         <ul>
                             <li id="all" class="filter workOpen active">
                                 All
@@ -22,7 +22,7 @@
                                 Playground
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -31,21 +31,21 @@
                 <div class="col-md-12">
                     <div class="siteblock clearfix">
                         {% assign count = '0' %}
-                        {% for post in site.posts limit: 15 %}
+                        {% for post in site.posts limit: 21 %}
                         {% capture count %}{{ count | plus: '1' }}{% endcapture %}
                         {% include portfolio-layout.html %}
                         {% endfor %}
                     </div>
                 </div>
             </div>
-            <div class="old-work-wrap">
+            <!-- <div class="old-work-wrap">
                 <div class="container">
                     <div class="col-md-12">
                         <section>
                             <div>
                                 <div id="oldWorkSection">
                                     <h2>Older Work</h2>
-                                    {% for post in site.posts offset: 15 %}
+                                    {% for post in site.posts offset: 20 %}
                                     {% include portfolio-old.html %}
                                     {% endfor %}
                                 </div>
@@ -53,7 +53,7 @@
                         </section>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 </section>

@@ -1,0 +1,17 @@
+---
+layout: post
+client:  "elmno"
+title: elmnopress
+className: design
+categories: 
+- all
+- design
+tags:
+- all
+- design
+permalink: elmnopress
+teaser-img: /post-images/elmno/teaser.jpg
+post-img: /post-images/elmno/post.jpg
+teaser: A store design 
+---
+A site design for an online store, selling t-shirts and trinkets. 

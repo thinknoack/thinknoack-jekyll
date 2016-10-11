@@ -9189,6 +9189,7 @@ body {
   height: 100%;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
+  padding-top: 70px;
   color: #3f3f3f;
   background-color: #ffffff;
 }
@@ -9349,10 +9350,9 @@ div.no-pad {
 }
 .intro,
 .postIntro {
-  width: 100%;
   z-index: 0;
-  height: 75%;
-  background: url('url(/theme/dist/img/intro-bg1.jpg');
+  height: calc(100% - 40px);
+  margin: 20px;
   display: block;
   padding: 0;
   text-align: left;
@@ -9517,7 +9517,7 @@ div.no-pad {
   transition: background 0.3s ease-in-out;
   position: absolute;
   z-index: 102;
-  bottom: 25%;
+  bottom: 0;
   text-align: center;
   line-height: 30px;
   width: 100%;
@@ -9598,18 +9598,23 @@ div.no-pad {
   color: #ffffff;
 }
 #port {
-  background: url(../img/bg-post.png) repeat 0% 0%;
-  background-color: #fefefe;
+  background-color: #c2c9ce;
   text-align: left;
   z-index: 2;
   position: relative;
-  padding: 50px 0 0;
+  padding: 20px 0 0;
+  margin: 20px;
 }
 #port .port-head {
-  margin: 10px 0;
+  margin: 0;
+}
+#port .port-head h2 {
+  margin-bottom: 20px;
+  font-weight: 200;
 }
 #port .container {
   padding: 0;
+  width: 100%;
 }
 #port .container .filters {
   margin: 0;
@@ -9664,7 +9669,7 @@ div.no-pad {
 }
 #port #workSection .container {
   padding: 0;
-  max-width: 80%;
+  max-width: 1400px;
 }
 #port #workContent {
   min-height: 600px;
@@ -9701,7 +9706,7 @@ div.no-pad {
   transition: all all 1s ease ease-out;
 }
 .siteblock {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .siteblock .grid {
   padding: 3px;
@@ -9830,7 +9835,6 @@ div.no-pad {
   margin: 0;
 }
 .post {
-  background: url(../img/bg-post.png) repeat 0% 0% fixed;
   background-color: #fefefe;
 }
 .post h1 .client {
@@ -9842,21 +9846,18 @@ div.no-pad {
 .post .nav-tags {
   padding: 0;
 }
-.post .nav-tags a {
+.post .nav-tags li {
   margin-right: 5px;
   margin-bottom: 10px;
-  padding: 1px 10px;
-  background: #2697ae;
+  padding: 5px 10px 0 0;
+  color: #000000;
   border-radius: 0;
-  color: #ffffff;
+  font-size: 10px;
   -webkit-transform: all 0.3s ease;
   -moz-transform: all 0.3s ease;
   -o-transform: all 0.3s ease;
   -ms-transform: all 0.3s ease;
   transform: all 0.3s ease;
-}
-.post .nav-tags a:hover {
-  background: rgba(0, 0, 0, 0.3);
 }
 .post-header-img {
   width: 100%;
@@ -9865,10 +9866,7 @@ div.no-pad {
 .post-img {
   padding: 0;
   background: #ffffff;
-  border: 5px solid #dadada;
-  -webkit-box-shadow: 0 -2px 5px -2px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 0 -2px 5px -2px rgba(0, 0, 0, 0.4);
-  box-shadow: 0 -2px 5px -2px rgba(0, 0, 0, 0.4);
+  border: 10px solid #fff;
 }
 #contact {
   background: url(../img/contact2.jpg) no-repeat;
@@ -9923,7 +9921,12 @@ footer .makestuff {
 }
 #skills {
   background: #152b3d;
-  padding: 50px 0;
+  padding: 20px;
+  margin: 20px;
+}
+#skills .container {
+  width: 100%;
+  padding: 0;
 }
 #skills h2 {
   font-weight: 200;
@@ -10120,7 +10123,7 @@ body {
     margin: 0;
     padding: 0 10px;
     position: relative;
-    top: 100px;
+    top: 50px;
     bottom: auto;
   }
   .page-scroll.btn-circle {
@@ -10162,7 +10165,7 @@ body {
   }
   .intro,
   .postIntro {
-    height: 70%;
+    height: calc(100% - 20px);
   }
   .front .intro {
     margin-top: 0px;

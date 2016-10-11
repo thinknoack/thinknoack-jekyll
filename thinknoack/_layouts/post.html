@@ -38,7 +38,8 @@
                         <small>tags:</small>
                         <ul class="nav nav-pills nav-tags">
                             {% for tag in page.tags %}
-                            <li><a class="tag_list_link" href="/tag/{{ tag }}" title="{{ tag }}">{{ tag }}</a></li>
+                            <li>{{ tag }}</li>
+                            <!-- <li><a class="tag_list_link" href="/tag/{{ tag }}" title="{{ tag }}">{{ tag }}</a></li> -->
                             {% endfor %}
                         </ul>
                         {% endif %}
