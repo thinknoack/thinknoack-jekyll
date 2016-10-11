@@ -9,7 +9,6 @@ categories:
 - site
 - design
 tags:
-- all
 - grunt
 - drupal
 - bootstrap

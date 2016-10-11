@@ -10,7 +10,6 @@ categories:
 - site
 - design
 tags:
-- all
 - LESS
 - grunt
 - ux/ui

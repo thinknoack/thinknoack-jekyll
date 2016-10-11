@@ -8,7 +8,6 @@ categories:
 - all
 - site
 tags:
-- all
 - eCommerce
 - prestashop
 - fed

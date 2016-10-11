@@ -10,7 +10,6 @@ categories:
 - site
 - design
 tags:
-- all
 - fed
 - dev
 permalink: happybrowser

@@ -8,7 +8,6 @@ categories:
 - all
 - design
 tags:
-- all
 - design
 permalink: bcbsma
 teaser-img: /post-images/bcbs/teaser.jpg

@@ -9,61 +9,6 @@ $(window).scroll(function() {
 });
 
 $(function() {
-    function replaceWOther(data, innerClass){
-        $('#workContent').addClass('fadeOut').removeClass('fadeIn visibleAn designInner siteInner allInner playInner');
-        setTimeout(function() {
-            $('#workContent').load(data).addClass('fadeIn visibleAn open').removeClass('hideAn fadeOut');
-        }, 1000);
-        $('#workContent').addClass(innerClass);
-        $('.filter').addClass('workOpen');
-        $('.filter').removeClass('active');
-    }
-
-    //filter for "all" tag
-    $('#all').on('click', function() {
-        var data = 'allCat.html';
-        var innerClass = 'allInner'
-        if (!$('#workContent').hasClass(innerClass)) {
-            replaceWOther(data, innerClass);
-            $(this).addClass('active');
-        }
-    });
-
-
-    //filter for design tag
-    $('#design').on('click', function() {
-        var data = 'designCat.html';
-        var innerClass = 'designInner'
-        if (!$('#workContent').hasClass(innerClass)) {
-            replaceWOther(data, innerClass);
-            $(this).addClass('active');
-        }
-    });
-
-    //filter for sites tag
-    $('#site').on('click', function() {
-        var data = 'siteCat.html';
-        var innerClass = 'siteInner'
-        if (!$('#workContent').hasClass(innerClass)) {
-            replaceWOther(data, innerClass);
-            $(this).addClass('active');
-        }
-    });
-
-    //filter for playground tag
-    $('#playground').on('click', function() {
-        var data = 'playCat.html';
-        var innerClass = 'playInner'
-        if (!$('#workContent').hasClass(innerClass)) {
-            replaceWOther(data, innerClass);
-            $(this).addClass('active');
-        }
-    });
-
-
-
-
-
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {

@@ -9,7 +9,6 @@ categories:
 - playground
 - site
 tags:
-- all
 - LESS
 - grunt
 - ux/ui

@@ -8,7 +8,6 @@ categories:
 - all
 - site
 tags:
-- all
 - drupal
 - fed
 permalink: climate-noaa

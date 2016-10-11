@@ -10,7 +10,6 @@ categories:
 - design
 - playground
 tags:
-- all
 - sass
 - gulp
 - react

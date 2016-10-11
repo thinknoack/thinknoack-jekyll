@@ -9589,7 +9589,8 @@ div.no-pad {
 }
 .post .post-content-wrap {
   margin: 20px;
-  background: #bccdd4;
+  background: #efefef;
+  min-height: 500px;
 }
 .post .post-content-wrap .post-text h3 {
   margin-bottom: 20px;
@@ -9601,13 +9602,21 @@ div.no-pad {
   overflow: visible;
   max-width: 1400px;
 }
+@media (max-width: 767px) {
+  .post .content-section {
+    padding: 0;
+  }
+  .post .content-section .post-text {
+    padding: 0 40px;
+  }
+}
 .background-full {
   width: 100%;
   padding: 50px 0;
   color: #ffffff;
 }
 #port {
-  background-color: #bccdd4;
+  background-color: #efefef;
   text-align: left;
   z-index: 2;
   position: relative;
@@ -9620,10 +9629,12 @@ div.no-pad {
 #port .port-head h2 {
   margin-bottom: 20px;
   font-weight: 200;
+  text-align: center;
+  font-size: 45px;
 }
 #port .container {
   padding: 0;
-  width: 100%;
+  max-width: 100%;
 }
 #port .container .filters {
   margin: 0;
@@ -9666,8 +9677,6 @@ div.no-pad {
   float: left;
 }
 #port #workSection {
-  max-height: 0;
-  overflow: hidden;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease;
@@ -9677,8 +9686,7 @@ div.no-pad {
   transition: all all 1s ease ease-out;
 }
 #port #workSection .container {
-  padding: 0;
-  max-width: 1400px;
+  padding: 20px;
 }
 #port #workContent {
   min-height: 600px;
@@ -9704,21 +9712,32 @@ div.no-pad {
   font-size: 12px;
   font-weight: 400;
 }
-#port #workSection.show {
-  max-height: 900000px;
-  -webkit-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease;
-  -webkit-transition: all all 1s ease ease-out;
-  -moz-transition: all all 1s ease ease-out;
-  -o-transition: all all 1s ease ease-out;
-  transition: all all 1s ease ease-out;
-}
 .siteblock {
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .siteblock .grid {
-  padding: 5px;
+  flex-basis: 24%;
+  margin: 0 .5% 1%;
+}
+@media (max-width: 1800px) {
+  .siteblock .grid {
+    flex-basis: 32.3333%;
+  }
+}
+@media (max-width: 960px) {
+  .siteblock .grid {
+    flex-basis: 49%;
+  }
+}
+@media (max-width: 550px) {
+  .siteblock .grid {
+    flex-basis: 99%;
+  }
 }
 .siteblock .grid figure {
   padding: 0;
@@ -10013,7 +10032,7 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: rgba(0, 0, 0, 0.2);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.2);
 }
 @media (min-width: 1050px) {
   #contact {

@@ -1,59 +1,21 @@
 <!-- our work Section -->
 <section id="port" class="content-section">
     <section id="workSection" class="show">
-        <div class="container">
-            <div class="col-md-12 port-head">
-                <div class="row clearfix">
-                    <div class="col-lg-12">
-                        <h2>Recent Work</h2>
-                    </div>
-<!--                     <div class="col-lg-10 filters">
-                        <ul>
-                            <li id="all" class="filter workOpen active">
-                                All
-                            </li>
-                            <li id="site" class="filter workOpen">
-                                Sites
-                            </li>
-                            <li id="design" class="filter workOpen">
-                                Design
-                            </li>
-                            <li id="playground" class="filter workOpen">
-                                Playground
-                            </li>
-                        </ul>
-                    </div> -->
-                </div>
+        <div class="port-head">
+            <div class="row clearfix">
+                    <h2>Recent Work</h2>
             </div>
         </div>
         <div id="workContent" class="animated allInner open">
             <div class="container">
-                <div class="col-md-12">
-                    <div class="siteblock clearfix">
-                        {% assign count = '0' %}
-                        {% for post in site.posts limit: 21 %}
-                        {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-                        {% include portfolio-layout.html %}
-                        {% endfor %}
-                    </div>
+                <div class="siteblock clearfix">
+                    {% assign count = '0' %}
+                    {% for post in site.posts limit: 20 %}
+                    {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+                    {% include portfolio-layout.html %}
+                    {% endfor %}
                 </div>
             </div>
-            <!-- <div class="old-work-wrap">
-                <div class="container">
-                    <div class="col-md-12">
-                        <section>
-                            <div>
-                                <div id="oldWorkSection">
-                                    <h2>Older Work</h2>
-                                    {% for post in site.posts offset: 20 %}
-                                    {% include portfolio-old.html %}
-                                    {% endfor %}
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </div> -->
         </div>
     </section>
 </section>

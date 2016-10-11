@@ -7,7 +7,6 @@ categories:
 - all
 - design
 tags:
-- all
 - design
 permalink: crn-app-workflow
 teaser-img: /post-images/crn-workflow/teaser.jpg
