@@ -9587,10 +9587,19 @@ div.no-pad {
 .content-section {
   padding: 50px 0;
 }
+.post .post-content-wrap {
+  margin: 20px;
+  background: #bccdd4;
+}
+.post .post-content-wrap .post-text h3 {
+  margin-bottom: 20px;
+  font-weight: 200;
+}
 .post .content-section {
-  padding: 0 0 50px;
+  width: 100%;
+  padding: 0 40px 0 20px;
   overflow: visible;
-  max-width: 1350px;
+  max-width: 1400px;
 }
 .background-full {
   width: 100%;
@@ -9598,7 +9607,7 @@ div.no-pad {
   color: #ffffff;
 }
 #port {
-  background-color: #c2c9ce;
+  background-color: #bccdd4;
   text-align: left;
   z-index: 2;
   position: relative;
@@ -9709,7 +9718,7 @@ div.no-pad {
   margin-bottom: 20px;
 }
 .siteblock .grid {
-  padding: 3px;
+  padding: 5px;
 }
 .siteblock .grid figure {
   padding: 0;
@@ -9866,7 +9875,7 @@ div.no-pad {
 .post-img {
   padding: 0;
   background: #ffffff;
-  border: 10px solid #fff;
+  border: 20px solid #fff;
 }
 #contact {
   background: url(../img/contact2.jpg) no-repeat;
@@ -10072,6 +10081,7 @@ body {
 @media (min-width: 767px) {
   .post-img {
     margin-top: -50px;
+    margin-bottom: 20px;
   }
   p {
     margin: 0 0 35px;
@@ -10088,7 +10098,7 @@ body {
   }
   .top-nav-collapse {
     padding: 0;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: #234561;
   }
   .navbar-custom.top-nav-collapse {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);

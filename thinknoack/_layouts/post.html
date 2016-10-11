@@ -27,29 +27,31 @@
                 </div>
             </div>
         </header>
-        <div class="container content-section">
-            <div class="row">
-                <div class="col-sm-5 post-text">
-                    <div class="col-sm-12">&nbsp;</div>
-                    <div>
-                        <h3>{{page.teaser}}</h3>
-                        <p>{{content}}</p>
-                        {% if tag == page.tag %}
-                        <small>tags:</small>
-                        <ul class="nav nav-pills nav-tags">
-                            {% for tag in page.tags %}
-                            <li>{{ tag }}</li>
-                            <!-- <li><a class="tag_list_link" href="/tag/{{ tag }}" title="{{ tag }}">{{ tag }}</a></li> -->
-                            {% endfor %}
-                        </ul>
-                        {% endif %}
+        <div class="post-content-wrap">
+            <div class="container content-section">
+                <div class="row">
+                    <div class="col-sm-5 post-text">
+                        <div class="col-sm-12">&nbsp;</div>
+                        <div>
+                            <h3>{{page.teaser}}</h3>
+                            {{content}}
+                            {% if tag == page.tag %}
+                            <small>tags:</small>
+                            <ul class="nav nav-pills nav-tags">
+                                {% for tag in page.tags %}
+                                <li>{{ tag }}</li>
+                                <!-- <li><a class="tag_list_link" href="/tag/{{ tag }}" title="{{ tag }}">{{ tag }}</a></li> -->
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-7 post-img">
-                    <img src="{{page.post-img | prepend: site.baseurl }}" alt="{{page.title}}" />
-                    {% if page.post-img2 %} <img src="{{page.post-img2 | prepend: site.baseurl }}" alt="{{page.title}}" />{% endif %}
-                    {% if page.post-img3 %} <img src="{{page.post-img3 | prepend: site.baseurl }}" alt="{{page.title}}" />{% endif %}
-                    {% if page.post-img4 %} <img src="{{page.post-img4 | prepend: site.baseurl }}" alt="{{page.title}}" />{% endif %}
+                    <div class="col-sm-7 post-img">
+                        <img src="{{page.post-img | prepend: site.baseurl }}" alt="{{page.title}}" />
+                        {% if page.post-img2 %} <img src="{{page.post-img2 | prepend: site.baseurl }}" alt="{{page.title}}" />{% endif %}
+                        {% if page.post-img3 %} <img src="{{page.post-img3 | prepend: site.baseurl }}" alt="{{page.title}}" />{% endif %}
+                        {% if page.post-img4 %} <img src="{{page.post-img4 | prepend: site.baseurl }}" alt="{{page.title}}" />{% endif %}
+                    </div>
                 </div>
             </div>
         </div>
