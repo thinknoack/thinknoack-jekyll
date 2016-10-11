@@ -9598,7 +9598,7 @@ div.no-pad {
   width: 100%;
   padding: 0 40px 0 20px;
   overflow: visible;
-  max-width: 1400px;
+  max-width: 1800px;
 }
 @media (max-width: 767px) {
   .post .content-section {
