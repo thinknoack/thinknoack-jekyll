@@ -28,8 +28,8 @@ permalink: none
 
 
 compress_html:
-  clippings: []
-  comments: []
+  clippings: all
+  comments: all
   endings: []
   ignore:
     envs: []

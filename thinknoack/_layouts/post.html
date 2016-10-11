@@ -3,15 +3,14 @@ layout: compress
 ---
 <!DOCTYPE html>
 <html>
-{% include head.html %}
+    {% include head.html %}
     <body class="post">
         {% include postNav.html %}
         <!-- Intro Header -->
         <header class="postIntro" {% if page.post-header %}style="background-image:url('{{ page.post-header}}')"{% endif %}>
-            {% if page.header-img %}<img class="post-header-img" src="{{page.header-img | prepend: site.baseurl }}" alt="{{page.title}} post-img">{% endif %}
-            <div class="chev animated fadeInLeftBig visibleAn">
-                <div class="inner"></div>
-            </div>
+            {% if page.header-img %}
+            <img class="post-header-img" src="{{page.header-img | prepend: site.baseurl }}" alt="{{page.title}} post-img">
+            {% endif %}
             <div class="intro-body ">
                 <div class="container value_intro">
                     <div class="row">
