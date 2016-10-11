@@ -9745,16 +9745,6 @@ div.no-pad {
   position: relative;
   border: 1px solid rgba(21, 43, 61, 0.25);
 }
-.siteblock .grid figure img {
-  -ms-backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -ms-transform: translateZ(0) scale(1, 1);
-  -webkit-transform: translateZ(0) scale(1, 1);
-  transform: translateZ(0) scale(1, 1);
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-}
 .siteblock .grid figure .postType {
   -webkit-transform: translatex(100px);
   -ms-transform: translatex(100px);
@@ -9818,12 +9808,6 @@ div.no-pad {
   display: block;
   float: left;
   width: 70%;
-}
-.siteblock .grid figure:hover img {
-  opacity: 0.9;
-  -ms-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
 }
 .siteblock .grid figure:hover figcaption {
   bottom: 0;
