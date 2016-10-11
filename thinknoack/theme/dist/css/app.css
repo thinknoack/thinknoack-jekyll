@@ -9881,14 +9881,12 @@ div.no-pad {
   border: 20px solid #fff;
 }
 #contact {
-  background: url(../img/contact2.jpg) no-repeat;
+  background: url(../img/contact2.jpg) no-repeat 130% 0;
   background-color: #eaedee;
   background-size: 1050px auto;
   min-height: 370px;
   width: 100%;
   padding: 30px 0 0;
-  background-position-x: 100%;
-  background-position-y: 0%;
 }
 #contact h2 {
   color: #3f3f3f;
@@ -10018,15 +10016,7 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.2);
 }
-@media (min-width: 1050px) {
-  #contact {
-    background-position-x: 150%;
-  }
-}
 @media (max-width: 1051px) {
-  #contact {
-    background-position-x: 160px;
-  }
   #contact .bio span,
   #contact .bio a {
     font-size: 16px;
