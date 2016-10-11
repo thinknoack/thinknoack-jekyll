@@ -24,4 +24,4 @@ teaser-img: /post-images/wpbb/teaser.jpg
 post-img: /post-images/wpbb/post.jpg
 teaser: WP data in a BB app.
 ---
-I wanted play around with a frontend Backbone client that is consuming JSON from a Wordpress site. Here is a super basic proof of concept.
+I wanted play around with a front-end Backbone client that is consuming JSON from a Wordpress site. Here is a super basic proof of concept.
