@@ -168,7 +168,7 @@ div.no-pad{
     text-align: left;
     color: @light;
     background: url(../img/intro-bg1.jpg) no-repeat 70% 50% fixed;
-    background-color: #005457;
+    background-color: #152b3d;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -418,7 +418,7 @@ div.no-pad{
 // Front page work section && tags list
 
 #port {
-    background-color: #efefef;
+    background-color: #36708c;
     text-align: left;
     z-index: 2;
     position: relative;
@@ -427,10 +427,25 @@ div.no-pad{
     .port-head{
         margin: 0;
         h2{
-            margin-bottom: 20px;
             font-weight: 200;
             text-align: center;
-            font-size: 45px;
+            font-size: 20px;
+            color: @white;
+            background: #36708c;
+            width: 280px;
+            padding: 10px 20px 0;
+            margin: -122px auto 0;
+            border: 20px solid #fff;
+            border-bottom: 0;
+
+            .recent-work{
+                color: #fff;
+                text-decoration:  none;
+                .fa-caret-down{
+                    font-size: 40px;
+                    margin-bottom: 10px;
+                }
+            }
         }
     }
     .container {
@@ -520,7 +535,7 @@ div.no-pad{
     .grid {
         //padding: 5px;
         flex-basis: 24%;
-        margin: 0 .5% 1%;
+        margin: 0 .4% 20px;
         @media(max-width: 1800px){
             flex-basis: 32.3333%;
         }
@@ -936,7 +951,7 @@ body {
     }
     .top-nav-collapse {
         padding: 0;
-        background-color: #234561;
+        background-color: rgba(0,20,37,.87);
     }
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid fade(@dark, 30%);
