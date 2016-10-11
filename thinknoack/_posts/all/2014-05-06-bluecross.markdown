@@ -10,7 +10,7 @@ categories:
 tags:
 - design
 permalink: bcbsma
-teaser-img: /post-images/bcbs/teaser.jpg
+teaser-img: /post-images/bcbs/teaser1.jpg
 post-img: /post-images/bcbs/post.jpg
 teaser: Delivery System Map Design
 ---
