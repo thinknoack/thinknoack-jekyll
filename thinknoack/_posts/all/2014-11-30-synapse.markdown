@@ -7,14 +7,12 @@ siteurl: http://synapse.com/
 categories: 
 - all
 - site
-- design
 tags:
 - fed
 - theme
 - drupal
 - responsive
 - bootstrap
-- design
 - ux/ui
 permalink: synapse
 teaser-img: /post-images/syn/teaser.jpg
