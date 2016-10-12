@@ -32,7 +32,7 @@ layout: compress
         <div class="post-content-wrap">
             <div class="container content-section">
                 <div class="row">
-                    <div class="col-sm-5 post-text">
+                    <div class="col-sm-6 post-text">
                         <div class="col-sm-12">&nbsp;</div>
                         <div>
                             <h3>{{page.teaser}}</h3>
@@ -48,7 +48,7 @@ layout: compress
                             {% endif %}
                         </div>
                     </div>
-                    <div class="col-sm-7 post-img">
+                    <div class="col-sm-6 post-img">
                         <img src="{{page.post-img | prepend: site.baseurl }}" alt="{{page.title}}" />
                         {% if page.post-img2 %} <img src="{{page.post-img2 | prepend: site.baseurl }}" alt="{{page.title}}" />{% endif %}
                         {% if page.post-img3 %} <img src="{{page.post-img3 | prepend: site.baseurl }}" alt="{{page.title}}" />{% endif %}
