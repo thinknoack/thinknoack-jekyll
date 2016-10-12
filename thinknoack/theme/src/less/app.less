@@ -80,14 +80,17 @@ div.no-pad{
         padding: 15px 0;
         font-weight: 300;
         .brand-inner{
-            font-family: Arial;
+            text-transform: uppercase;
+            display: inline-block;
+            float: none;
+            padding: 1px 7px 0 5px;
+            &:after{
+                background: transparent;
+            }
             .accent{
                 font-weight: 700;
-                color:@white;
                  .transition(all 0.5s ease);
             }
-            float: left;
-            padding: 1px 7px 0 5px;
         }
         &:before{
             content: '';
@@ -95,7 +98,6 @@ div.no-pad{
             width: 23px;
             display: inline-block;
             height: 22px;
-            float: left;
         }
         &:after{
             content: '';
@@ -103,7 +105,6 @@ div.no-pad{
             width: 12px;
             display: inline-block;
             height: 22px;
-            float: left;
         }
         &:focus {
             outline: none;
@@ -445,6 +446,11 @@ div.no-pad{
                     font-size: 40px;
                     margin-bottom: 10px;
                 }
+                &:hover{
+                   span{
+                    color: #152b3d;
+                   }
+                }
             }
         }
     }
@@ -782,6 +788,8 @@ footer {
     background:@secondary;
     padding: 20px;
     margin: 20px;
+    z-index: 1000;
+    position: relative;
     .container{
         width: 100%;
         padding: 0;
@@ -790,6 +798,29 @@ footer {
         font-weight: 200;
         text-transform: none;
         color: @white;
+        text-transform: uppercase;
+        width: 170px;
+        background: #152b3d;
+        padding: 18px 0 0px;
+        margin-top: -80px;
+        border: 20px solid #fff;
+        text-align: center;
+        font-size: 20px;
+        border-bottom: 0;
+    }
+    .experience{
+        h2{
+            width: 200px;
+        }
+        @media(max-width:767px){
+            border-top: 20px solid #fff;
+            margin: 90px -20px 0;
+            h2{
+                margin-left: 20px;
+                margin-top: -60px;
+            }
+
+        }
     }
     .progress{
         background: fade(@primary, 10%);
@@ -1131,7 +1162,7 @@ body {
 
 .link--nukun:hover span {
     color: @primary;
-    -webkit-transform: perspective(1000px) rotate3d(0,1,0,180deg);
-    transform: perspective(1000px) rotate3d(0,1,0,180deg);
+    -webkit-transform: perspective(1000px) rotate3d(0,1,0,360deg);
+    transform: perspective(1000px) rotate3d(0,1,0,360deg);
 }
 

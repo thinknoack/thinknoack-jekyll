@@ -9262,13 +9262,16 @@ div.no-pad {
   font-weight: 300;
 }
 .navbar-custom .navbar-brand .brand-inner {
-  font-family: Arial;
-  float: left;
+  text-transform: uppercase;
+  display: inline-block;
+  float: none;
   padding: 1px 7px 0 5px;
+}
+.navbar-custom .navbar-brand .brand-inner:after {
+  background: transparent;
 }
 .navbar-custom .navbar-brand .brand-inner .accent {
   font-weight: 700;
-  color: #ffffff;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -9283,7 +9286,6 @@ div.no-pad {
   width: 23px;
   display: inline-block;
   height: 22px;
-  float: left;
 }
 .navbar-custom .navbar-brand:after {
   content: '';
@@ -9291,7 +9293,6 @@ div.no-pad {
   width: 12px;
   display: inline-block;
   height: 22px;
-  float: left;
 }
 .navbar-custom .navbar-brand:focus {
   outline: none;
@@ -9644,6 +9645,9 @@ div.no-pad {
   font-size: 40px;
   margin-bottom: 10px;
 }
+#port .port-head h2 .recent-work:hover span {
+  color: #152b3d;
+}
 #port .container {
   padding: 0;
   max-width: 100%;
@@ -9945,6 +9949,8 @@ footer .makestuff {
   background: #152b3d;
   padding: 20px;
   margin: 20px;
+  z-index: 1000;
+  position: relative;
 }
 #skills .container {
   width: 100%;
@@ -9954,6 +9960,28 @@ footer .makestuff {
   font-weight: 200;
   text-transform: none;
   color: #ffffff;
+  text-transform: uppercase;
+  width: 170px;
+  background: #152b3d;
+  padding: 18px 0 0px;
+  margin-top: -80px;
+  border: 20px solid #fff;
+  text-align: center;
+  font-size: 20px;
+  border-bottom: 0;
+}
+#skills .experience h2 {
+  width: 200px;
+}
+@media (max-width: 767px) {
+  #skills .experience {
+    border-top: 20px solid #fff;
+    margin: 90px -20px 0;
+  }
+  #skills .experience h2 {
+    margin-left: 20px;
+    margin-top: -60px;
+  }
 }
 #skills .progress {
   background: rgba(38, 151, 174, 0.1);
@@ -10244,6 +10272,6 @@ body {
 }
 .link--nukun:hover span {
   color: #2697ae;
-  -webkit-transform: perspective(1000px) rotate3d(0, 1, 0, 180deg);
-  transform: perspective(1000px) rotate3d(0, 1, 0, 180deg);
+  -webkit-transform: perspective(1000px) rotate3d(0, 1, 0, 360deg);
+  transform: perspective(1000px) rotate3d(0, 1, 0, 360deg);
 }
