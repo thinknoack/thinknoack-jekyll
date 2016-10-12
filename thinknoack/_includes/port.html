@@ -10,7 +10,7 @@
             <div class="container">
                 <div class="siteblock clearfix">
                     {% assign count = '0' %}
-                    {% for post in site.posts limit: 20 %}
+                    {% for post in site.posts limit: 25 %}
                     {% capture count %}{{ count | plus: '1' }}{% endcapture %}
                     {% include portfolio-layout.html %}
                     {% endfor %}
