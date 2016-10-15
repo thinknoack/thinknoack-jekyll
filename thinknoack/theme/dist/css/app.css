@@ -9216,7 +9216,6 @@ h6 {
   margin: 0 0 35px;
   text-transform: uppercase;
   font-weight: 700;
-  letter-spacing: -1px;
 }
 p {
   margin: 0 0 25px;
@@ -9787,12 +9786,13 @@ div.no-pad {
   left: 0;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
-  min-height: 110px;
+  min-height: 120px;
 }
 .siteblock .grid figure figcaption h2 {
   font-size: 18px;
   line-height: 21px;
   margin-bottom: 10px;
+  font-weight: 300;
   color: #ffffff;
   -webkit-transform: translatey(7px);
   -ms-transform: translatey(7px);
