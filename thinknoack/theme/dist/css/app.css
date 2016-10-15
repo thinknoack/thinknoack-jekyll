@@ -10241,8 +10241,8 @@ body {
     height: calc(100% - 20px);
   }
   .front .intro {
-    margin-top: 0px;
     padding: 0;
+    background-size: auto;
   }
   .front .intro .intro-body .container .brand-heading {
     margin-bottom: 15px;
