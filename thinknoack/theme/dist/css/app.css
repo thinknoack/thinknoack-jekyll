@@ -9640,6 +9640,7 @@ div.no-pad {
 #port .port-head h2 .recent-work {
   color: #fff;
   text-decoration: none;
+  font-weight: 300;
 }
 #port .port-head h2 .recent-work .fa-caret-down {
   font-size: 40px;
@@ -9944,6 +9945,35 @@ footer .copyright {
 }
 footer .makestuff {
   text-align: right;
+}
+#clients {
+  background: #1a5460;
+  padding: 10px 20px 100px;
+  margin: 20px;
+  z-index: 1000;
+  position: relative;
+}
+#clients .container {
+  width: 100%;
+  padding: 10px 20px;
+}
+#clients h2 {
+  font-weight: 200;
+  text-transform: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: #1a5460;
+  padding: 18px 0 0px;
+  text-align: center;
+  font-size: 20px;
+  border-bottom: 0;
+}
+#clients ul {
+  margin: 0;
+}
+#clients ul li {
+  color: #fff;
+  padding: 5px 10px 10px 0;
 }
 #skills {
   background: #152b3d;
