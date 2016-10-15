@@ -10282,6 +10282,11 @@ body {
   -webkit-transform: translate3d(-300%, 0, 0) scale3d(0, 1, 1);
   transform: translate3d(-300%, 0, 0) scale3d(0, 1, 1);
 }
+@media (max-width: 767px) {
+  .link--nukun::after {
+    background: transparent;
+  }
+}
 .link--nukun:hover::before {
   -webkit-transform: translate3d(300%, 0, 0) scale3d(0, 1, 1);
   transform: translate3d(300%, 0, 0) scale3d(0, 1, 1);

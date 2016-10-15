@@ -1166,6 +1166,9 @@ body {
     background: @primary;
     -webkit-transform: translate3d(-300%,0,0) scale3d(0,1,1);
     transform: translate3d(-300%,0,0) scale3d(0,1,1);
+    @media(max-width: 767px){
+        background: transparent;
+    }
 }
 
 .link--nukun:hover::before {
