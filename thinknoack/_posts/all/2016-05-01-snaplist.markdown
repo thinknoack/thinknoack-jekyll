@@ -2,7 +2,7 @@
 layout: post
 client:  "Github Repo"
 title: SNAPLIST
-siteurl: http://thinknoack.github.io/snaplist/
+siteurl: http://thinknoack.github.io/snaplist/#/lists
 className: site
 categories:
 - all
