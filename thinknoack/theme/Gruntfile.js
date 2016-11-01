@@ -8,6 +8,7 @@ module.exports = function(grunt) {
     },
     dist: {
       src: [
+      './src/js/rAF.js',
       './src/js/jquery-2x.min.js',
       './src/js/bootstrap.js',
       './src/js/util/**/*.js',
