@@ -2,7 +2,7 @@
 layout: post
 client:  "Stanford"
 title: OpenNeuro
-siteurl: http://thinknoack.com/openneuro/
+siteurl: https://openneuro.org/
 className: site
 categories:
 - all
