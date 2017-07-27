@@ -16,7 +16,7 @@ contactdescription: > #
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 
-url: http://localhost:4000 # the base hostname & protocol for your site
+url: http://thinknoack.com # the base hostname & protocol for your site
 
 twitter_username: thinknoack
 github_username:  thinknoack
@@ -36,3 +36,13 @@ compress_html:
   blanklines: false
   profile: false
   startings: []
+
+exclude:
+  - /theme/package.json
+  - /theme/node_modules
+  - /theme/gulpfile.js
+  - README.md
+
+gems:
+  - jekyll-sitemap
+
