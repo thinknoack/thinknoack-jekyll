@@ -17,7 +17,9 @@ tags:
 permalink: synapse/
 teaser-img: /post-images/syn/teaser.jpg
 post-img: /post-images/syn/post.jpg
-teaser: rom concept to finished product, we provide expertise to companies that value a trusted partner. 
+teaser-webp: /post-images/post-images/webp/syn/teaser.webp
+post-webp: /post-images/post-images/webp/syn/post.webp
+teaser: From concept to finished product, we provide expertise to companies that value a trusted partner. 
 ---
 Synapse is a full-service product development and consultancy firm that helps world class companies realize innovative product visions. They've been responsible for groundbreaking products from the biggest brands, helping execute down to the finest detail. We fill a complementary role for them by helping make their marketing vision real on the web. 
 

@@ -117,9 +117,17 @@ function webPCopy(done){
         done();
 }
 
+function webPCopyPostImages(done){
+   gulp.src('post-images/**/*')
+        .pipe(webp())
+        .pipe(gulp.dest('post-images/webp'));
+        done();
+}
+
 function watch() {
   gulp.watch(paths.styles.src, style)
-  gulp.watch(paths.scripts.src, js) 
+  gulp.watch(paths.scripts.src, js)
+  gulp.watch('post-images/**/*',  gulp.series(webPCopyPostImages)) 
   gulp.watch(paths.img.src, gulp.series(webPCopy, jekyllBuild, browserSyncReload)) 
   gulp.watch(
     [

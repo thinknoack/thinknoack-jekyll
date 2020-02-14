@@ -33,7 +33,6 @@ body{
 
 .paint-control{
 	opacity: 1;
-	
 }
 
 
@@ -120,7 +119,9 @@ a {
 }
 
 
-
+.light-text{
+    color: #fff;
+}
 .hideAn {
     opacity:0;
     transition: opacity .8s, transform .4s;

@@ -18,6 +18,8 @@ tags:
 permalink: container-sales/
 teaser-img: /post-images/cai/teaser.jpg
 post-img: /post-images/cai/post.jpg
+teaser-webp: /post-images/webp/cai/teaser.webp
+post-webp: /post-images/webp/cai/post.webp
 teaser: Creating a space to showcase a new offering.
 ---
 We worked with Capps to design and build a targeted sales section on their main site. This Fortune 1000 company is a leader in the industry and wanted a custom design for this section with customized icons. Giving us a few key concepts and ideas, we created a color driven design with a lot of space to help highlight their products and equipment.

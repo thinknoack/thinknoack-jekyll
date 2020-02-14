@@ -6,7 +6,7 @@ layout: default
         <div class="container content-section">
             <div class="row">
                 <div class="col-md-6 post-text">
-                    <header class="postIntro" {% if page.post-header %} style="background-image:url('{{ page.post-header}}')" {% endif %}>
+                    <header class="postIntro">
                         <div class="intro-body ">
                             <div class="value_intro">
                                 <ul>
@@ -40,7 +40,12 @@ layout: default
                     </div>
                 </div>
                 <div class="col-md-6 post-img">
-                    <img src="{{page.post-img | prepend: site.baseurl }}" alt="{{page.title}}" />
+                    <picture>
+                      <source srcset="{{ page.post-webp }}" type="image/webp">
+                      <source srcset="{{ page.post-img }}" type="image/jpeg"> 
+                      <img src="{{ page.post-img }}" alt="{{page.title}}">
+                    </picture>
+
                 </div>
             </div>
         </div>

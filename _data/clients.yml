@@ -1,24 +1,48 @@
 - name: Portland General Electric
+  industry: Private
 - name: Mitsubishi
+  industry: Private
 - name: Dover Corporation
+  industry: Private
 - name: HMH Agency
+  industry: Private
 - name: Univox Media
+  industry: Private
 - name: National Science Foundation
+  industry: Government
 - name: NOAA
+  industry: Government
 - name: US Department of Education
+  industry: Government
 - name: US Department of Interior
+  industry: Government
 - name: US Department of Veterans Affairs
+  industry: Government
 - name: US Department of Agriculture
+  industry: Government
 - name: Johns Hopkins University
+  industry: Healthcare, Nonprofit, and Education
 - name: Denver Regional Councle of Government
+  industry: Healthcare, Nonprofit, and Education
 - name: Blue Cross Blue Shield of MA Foundation
+  industry: Healthcare, Nonprofit, and Education
 - name: Synapse Product Development
+  industry: Private
 - name: Stanford University
+  industry: Healthcare, Nonprofit, and Education
 - name: NACHA Electornic Payments Association
-- name: Oregon Healthcare Corporation
+  industry: Healthcare, Nonprofit, and Education
+- name: Oregon Healthcare Q Corporation
+  industry: Healthcare, Nonprofit, and Education
 - name: National Institutes of Health
+  industry: Government
 - name: American Institutes for Research
+  industry: Healthcare, Nonprofit, and Education
 - name: University of California, Los Angeles
+  industry: Healthcare, Nonprofit, and Education
 - name: University of Texas
+  industry: Healthcare, Nonprofit, and Education
 - name: Oregon Health Care Quality Corporation
+  industry: Healthcare, Nonprofit, and Education
 - name: California Landscape Conservation Cooperative
+  industry: Healthcare, Nonprofit, and Education

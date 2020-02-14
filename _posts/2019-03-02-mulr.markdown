@@ -17,6 +17,8 @@ tags:
 permalink: mul-railcars/
 teaser-img: /post-images/mulr/teaser.jpg
 post-img: /post-images/mulr/post.jpg
+teaser-webp: /post-images/webp/mulr/teaser.webp
+post-webp: /post-images/webp/mulr/post.webp
 teaser: A new company, a new fleet, and a new website. Lightweight and Ready To Roll
 ---
 

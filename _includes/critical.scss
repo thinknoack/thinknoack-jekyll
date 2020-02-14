@@ -17,6 +17,20 @@ body{
 	font-family: 'Catamaran', sans-serif;
 }
 
+.post-content-wrap{
+    background-color: #fefefe;
+
+    h1 .client{
+        font-size: 14px;
+        line-height: 17px;
+        display: block;
+        color: #aaa;
+    }
+}
+.paint-control{
+	opacity: 0;
+	transition: opacity 2;
+}
 
 
 
@@ -109,11 +123,22 @@ body{
 }
 
 
+.front .intro{
+	background-image: url('../img/intro-bg1.jpg');
+}
+
+.webp{
+	.front .intro{
+		background-image: url('../img/webp/intro-bg1.webp');
+	}
+}
+
 .front{
     .intro {
         margin: 0 20px 0;
         color: $light;
-        background: url('../img/intro-bg1.jpg') no-repeat 70% 50% fixed;
+        background-repeat: no-repeat;
+        background-position: center;
         background-color: #152b3d;
         background-size: cover;
         overflow: hidden;

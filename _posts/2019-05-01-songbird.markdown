@@ -19,6 +19,8 @@ tags:
 permalink: songbird-floristry/
 teaser-img: /post-images/songbird/teaser.jpg
 post-img: /post-images/songbird/post.jpg
+teaser-webp: /post-images/webp/songbird/teaser.webp
+post-webp: /post-images/webp/songbird/post.webp
 teaser: A Elegant E-Commerce Planning Tool All Your Special Events
 ---
 Songbird Floristry came to us looking for an e-commerce site to sell floral arrangements for weddings and other events. But they wanted something more than a normal e-commerce site. They wanted a highly customized planning tool that would help users decide the types and quantity of floral arrangements they would need for their event based on style preferences, guest count and more. Since we relish opportunities to create novel solutions for our clients problems, this site was a pleasure to build.

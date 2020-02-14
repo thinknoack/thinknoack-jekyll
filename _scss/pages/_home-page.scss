@@ -45,6 +45,9 @@
     }
 
 	#portfolio{
+		.container{
+			padding: 0;
+		}
 	    .row-port-wrap{
 	        display: flex;
 	        justify-content: space-between;
@@ -109,7 +112,7 @@
 	        margin: 0 0 10px;
 	       	text-transform: uppercase;
 
-	       	small span:first-child{
+	       	small > span:first-child{
 	       	    font-weight: 700;
 	       	}
 	        
@@ -123,10 +126,14 @@
 }
 
 
-
+.webp #contact{
+	background-image: url(../img/contact2.jpg);
+}
 //contact
 #contact{
-    background: url(../img/contact2.jpg) no-repeat 130% 0;
+    background: url(../img/contact2.jpg);
+    background-repeat: no-repeat;
+    background-position: 130% 0;
     background-color: #eaedee;
     background-size: 1050px auto;
     min-height: 370px;
@@ -273,7 +280,7 @@
         }
     }
     .panel-default{
-        background: rgba(0, 0, 0, 0.08);
+        //background: rgba(0, 0, 0, 0.08);
         border: none;
         box-shadow: none;
         border-radius: 0;
@@ -282,7 +289,7 @@
             background: none;
             border-bottom:1px dashed rgba($white, .1);
             border-bottom-width: 2px;
-            color: rgba($white, .5);
+            color: #fff;
             font-size: 15px;
             padding: 2px 0;
         }

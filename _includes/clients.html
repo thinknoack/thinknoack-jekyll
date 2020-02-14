@@ -4,22 +4,25 @@
         <div class="row">
             <div class="col-sm-4">
                 <ul>
-                {% for client in site.data.clients limit: 8 %}
-                    <li>{{client.name}}</li>
+                <h5 class="light-text">Private Sector</h5>
+                {% for client in site.data.clients %}
+                    {% if client.industry == 'Private' %}<li>{{client.name}}</li>{% endif %}
                 {% endfor %}
                 </ul>
             </div>
             <div class="col-sm-4">
                 <ul>
-                {% for client in site.data.clients offset: 8 limit: 8 %}
-                    <li>{{client.name}}</li>
+                <h5 class="light-text">Government</h5>
+                {% for client in site.data.clients %}
+                    {% if client.industry == 'Government' %}<li>{{client.name}}</li>{% endif %}
                 {% endfor %}
                 </ul>
             </div>
             <div class="col-sm-4">
                 <ul>
-                {% for client in site.data.clients offset: 16 %}
-                    <li>{{client.name}}</li>
+                <h5 class="light-text">Healthcare, Nonprofit, and Education</h5>
+                {% for client in site.data.clients %}
+                   {% if client.industry == 'Healthcare, Nonprofit, and Education' %} <li>{{client.name}}</li>{% endif %}
                 {% endfor %}
                 </ul>
             </div>
