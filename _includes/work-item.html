@@ -11,6 +11,19 @@
                 {% else %}
                     <span>{{post.client}}</span>
                 {% endif %}
+                {% if tag == post.tag %}
+                <br>
+                {% endif %}
+            </small>
+            <small>
+                <span>Skills:</span>
+               <span> 
+                <span class="nav-tags">
+                    {% for tag in post.tags %}
+                    <span>{{ tag }}</span>
+                    {% endfor %}
+                </span>
+                </span>
             </small>
         </div>
     </figcaption>

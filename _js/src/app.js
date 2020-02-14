@@ -20,9 +20,6 @@ $('.dropdown-chevron-mobile').on('click', function(e) {
 $( document ).ready(function() {
 
 
-
-
-
     $('.large-port.odd').waypoint(function(direction) {
         $(this.element).addClass('animated fadeInUp visibleAn').removeClass('hideAn');
     }, {
@@ -126,7 +123,6 @@ function boxRollovers(){
     YAngle = 110;
     Z = 0;
 
-    console.log('asd')
     
     $selector.on("mousemove",function(e){
         var $this = $(this);

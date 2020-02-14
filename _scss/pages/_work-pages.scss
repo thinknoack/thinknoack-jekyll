@@ -8,7 +8,7 @@
     }
     .content-section {
         width: 100%;
-        padding: 100px 40px 0 20px;
+        padding: 100px  0 20px;
         overflow: visible;
         @media(max-width: 767px){
             padding: 0;
@@ -44,7 +44,8 @@
 }
 
 .post-img{
-    padding: 0;
-    background: $white;
-    border: 20px solid $white;
+    img{
+        margin-top: 40px;
+        box-shadow: 0 0 50px rgba(0,0,0,0.2);
+    }
 }

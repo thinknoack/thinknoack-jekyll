@@ -10,18 +10,16 @@ layout: default
                         <div class="intro-body ">
                             <div class="value_intro">
                                 <ul>
-                                    <li class="background-follow">
-                                        <div id="sad" class="icon">
-                                            <h1 class="brand-heading">{{page.title}}<br>
-                                            <small class="client">Client: 
-                                                {% if page.siteurl %}
-                                                <a href="{{page.siteurl}}" target="_blank">{{page.client}}</a>
-                                                {% else %}
-                                                {{page.client}}
-                                                {% endif %}
-                                            </small>
-                                            </h1>
-                                        </div>
+                                    <li>
+                                        <h1 class="brand-heading">{{page.title}}<br>
+                                        <small class="client">Client: 
+                                            {% if page.siteurl %}
+                                            <a href="{{page.siteurl}}" target="_blank">{{page.client}}</a>
+                                            {% else %}
+                                            {{page.client}}
+                                            {% endif %}
+                                        </small>
+                                        </h1>
                                     </li> 
                                 </ul>
                             </div>
@@ -32,7 +30,7 @@ layout: default
                         <h2>{{page.teaser}}</h2>
                         {{content}}
                         {% if tag == page.tag %}
-                        <small>tags:</small>
+                        <small>Skills:</small>
                         <ul class="nav nav-pills nav-tags">
                             {% for tag in page.tags %}
                             <li>{{ tag }}</li>

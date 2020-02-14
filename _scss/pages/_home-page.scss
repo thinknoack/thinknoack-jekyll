@@ -108,7 +108,15 @@
 	        display: block;
 	        margin: 0 0 10px;
 	       	text-transform: uppercase;
+
+	       	small span:first-child{
+	       	    font-weight: 700;
+	       	}
 	        
+	    }
+	    .nav-tags span{
+	        margin-left: 10px;
+	    
 	    }
 	}
 
