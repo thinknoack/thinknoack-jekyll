@@ -1,0 +1,31 @@
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand page-scroll" href="{% if page.bodyClass == 'front'%}#page-top{% else %}/{% endif %}">
+          <span class="brand-inner link--nukun"><span class="accent">Think</span>Noack</span>
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll link link--nukun" href="{% if page.bodyClass == 'front'%}#port-scroll{% else %}/#port-scroll{% endif %}">Example <span>work</span></a>
+                </li>
+                <li>
+                    <a class="page-scroll link link--nukun" href="{% if page.bodyClass == 'front'%}#skills{% else %}/#skills{% endif %}"> <span>Skills</span> and <span>XP</span></a>
+                </li>
+                <li>
+                    <a class="page-scroll link link--nukun" href="{% if page.bodyClass == 'front'%}#contact{% else %}/#contact{% endif %}">Say <span>hello</span></a>
+                </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+</header>
+
+
+

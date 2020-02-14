@@ -1,0 +1,27 @@
+---
+layout: post
+client:  "Mitsubishi"
+title: MUL Railcars
+siteurl: https://www.mul-railcars.com/
+className: site
+categories:
+- all
+- site
+tags:
+- jekyll
+- sass
+- gulp
+- ux/ui
+- fed
+- dev
+permalink: mul-railcars/
+teaser-img: /post-images/mulr/teaser.jpg
+post-img: /post-images/mulr/post.jpg
+teaser: A new company, a new fleet, and a new website. Lightweight and Ready To Roll
+---
+
+Creating this site let us seize an opportunity which we always relish - helping a new company build their first website. The company is MUL Railcars, a group company belonging to Mitsubishi UFJ Lease & Finance Company Limited (MUL).
+
+We developed and executed this project based on branding and content from our marketing partners at HMH Agency. Despite an initial plan to build in Drupal, we uncovered specific hosting requirements that rendered this impossible. Thanks to our comprehensive planning phase, we were able to pivot our framework prior to any work being done, saving many hours of unnecessary work. 
+
+The result is a beautiful static Jekyll site that is light on it's feet and can still be quickly updated in the event of content changes. With media assets served through Amazon CloudFront in order to quickly render to an international audience, we are helping a local company assert itself in the global marketplace. 

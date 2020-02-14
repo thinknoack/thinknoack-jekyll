@@ -1,0 +1,28 @@
+<div id="clients">
+    <div class="container">
+        <h2>Clients I've had the pleasure of working with</h2>
+        <div class="row">
+            <div class="col-sm-4">
+                <ul>
+                {% for client in site.data.clients limit: 8 %}
+                    <li>{{client.name}}</li>
+                {% endfor %}
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <ul>
+                {% for client in site.data.clients offset: 8 limit: 8 %}
+                    <li>{{client.name}}</li>
+                {% endfor %}
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <ul>
+                {% for client in site.data.clients offset: 16 %}
+                    <li>{{client.name}}</li>
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

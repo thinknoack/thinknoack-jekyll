@@ -1,0 +1,18 @@
+---
+layout: post
+client:  "Blue Tic Band"
+title: Blue Tic
+className: design
+categories: 
+- all
+- design
+tags:
+- all
+- design
+permalink: blue-tic
+teaser-img: /post-images/btic/teaser.jpg
+post-img: /post-images/btic/post.jpg
+post-img2: /post-images/btic/post2.jpg
+teaser: Album Covers
+---
+A band in Portland, OR needed an album cover, these two designs were my offerings. Just for the record they chose the second option.  

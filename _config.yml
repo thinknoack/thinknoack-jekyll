@@ -1,0 +1,39 @@
+# Site settings
+title: Thinknoack
+email: gregorynoack@thinknoack.com
+description: > #
+  My Name is Gregory Noack, I have 13 years or relevant experience building websites. I will be a value to your team, and this is my portfolio.
+
+contactdescription: > #
+  I am constantly working to improve my skill set.
+  Taking classes, reading blogs, and doing what it takes to keep an edge.
+  The information out there is ever-growing and I can always learn more.
+  Keep checking back as I add new stuff and upgrade my current skills and knowledge of all things web.
+
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: http://thinknoack.com # the base hostname & protocol for your site
+
+twitter_username: thinknoack
+github_username:  thinknoack
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js
+
+keep_files:
+  - _site/css
+  - _site/js
+
+include: ['_pages']
+
+plugins:
+  - jekyll-sitemap
+
+collections:
+  works:
+    output: true

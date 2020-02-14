@@ -1,0 +1,284 @@
+/* Navigation */
+
+.navbar-toggler {
+  cursor: pointer;
+
+
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(38, 151, 174);
+    border-color: transparent;
+}
+
+.subcategory {
+  @include rem(padding, 8px 15px 8px 15px !important);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 200px;
+  z-index: 99;
+  background-color: #eee;
+  opacity: 0;
+  border: 1px solid #ccc;
+  &:before,
+  &:after {
+    position: absolute;
+    left: 40px;
+    content:'';
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+  }
+  &:after {
+    top: -12px;
+    border-bottom: 12px solid #eee;
+  }
+  &:before {
+    top: -14px;
+    border-bottom: 13px solid #ccc;
+  }
+  @include transition(opacity, 1s, ease-in-out);
+  @include media-breakpoint-down(md) {
+    @include rem(padding, 0 !important);
+    display: none;
+    &:before,
+    &:after {
+      display: none;
+    }
+    background: transparent;
+    opacity: 1;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    border: 0;
+  }
+}
+
+.nav-subitem {
+  border-bottom: 1px solid #eee;
+}
+
+.nav-sublink {
+  display: block;
+  color: rgba(0, 0, 0, 0.5);
+  &:hover {
+    text-decoration: none;
+    color: #555;
+  }
+  @include rem(padding, 4px 0 4px 0 !important);
+  @include media-breakpoint-down(md) {
+    @include rem(padding, 12px 0 12px 35px !important);
+  }
+}
+
+.nav-item {
+  &:hover {
+    .subcategory {
+      opacity: 1;
+    }
+  }
+  position:relative;
+  @include media-breakpoint-down(md) {
+    border-bottom: 1px solid #eee;
+  }
+
+}
+
+.nav-link {
+  display: block;
+  z-index: 1;
+  @include rem(padding, 12px 16px 12px 16px !important);
+  @include media-breakpoint-down(md) {
+    @include rem(padding, 12px 0 12px 0 !important);
+  }
+}
+
+.nav-link.has-subcat {
+  @include media-breakpoint-down(md) {
+    margin-right: 58px;
+  }
+}
+
+.navbar-nav {
+  li:last-child {
+    .nav-link {
+      @include rem(padding, 12px 30px 12px 30px !important);
+      margin-left: 18px;
+      background-color: #ddd;
+      @include media-breakpoint-down(md) {
+        @include rem(padding, 12px 0 12px 0 !important);
+        margin-left: 0;
+        background-color: transparent;
+      }
+    }
+  }
+  li:last-child {
+    border-bottom: 0;
+  }
+}
+
+@media(max-width: 991px){
+  .navbar-nav{
+    li{
+      display: flex;
+    }
+  }
+}
+
+.dropdown-chevron-desktop {
+  @include media-breakpoint-down(md) {
+    display: none;
+  }
+}
+
+.dropdown-chevron-mobile {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 20px 12px 20px;
+  border-left: 1px solid #eee;
+  cursor: pointer;
+  @include media-breakpoint-down(md) {
+    display: block;
+  }
+  &:after {
+    font-family: FontAwesome;
+    content: '\f078';
+    font-size: 14px;
+  }
+}
+
+.dropdown-chevron-mobile.open {
+  &:after {
+    content: '\f077';
+  }
+}
+
+.subcategory.open {
+  display: block;
+  border-top:1px solid #eee;
+}
+
+
+.navbar {
+        padding: 10px 0;
+        border-bottom: none;
+        letter-spacing: 1px;
+        background: $white;
+   
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+        &.navbar-custom a{
+            color: $primary;
+        }
+    }
+    .top-nav-collapse {
+        padding: 0;
+        background-color: rgba(0,20,37,.87);
+
+        &.navbar.navbar-custom a{
+            color: $white;
+
+        }
+    }
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba($dark, .3);
+        a {
+            &.navbar-brand {
+                font-size: 16px;
+                .accent{
+                    color: $primary;
+                }
+            }
+        }
+    }
+
+
+
+// .navbar-custom {
+//     margin-bottom: 0;
+//     border-bottom: 1px solid rgba($light, .3);
+//     background-color: $secondary;
+//     .navbar-brand {
+//         padding: 15px 0;
+//         font-weight: 300;
+//         .brand-inner{
+//             text-transform: uppercase;
+//             display: inline-block;
+//             float: none;
+//             padding: 1px 7px 0 5px;
+//             &:after{
+//                 background: transparent;
+//             }
+//             .accent{
+//                 font-weight: 700;
+//                  transition: all 0.5s ease;
+//             }
+//         }
+//         &:before{
+//             content: '';
+//             background: url(../img/logoStart.png) no-repeat 0 0;
+//             width: 23px;
+//             display: inline-block;
+//             height: 22px;
+//         }
+//         &:after{
+//             content: '';
+//             background: url(../img/logoEnd.png) no-repeat 0 0;
+//             width: 12px;
+//             display: inline-block;
+//             height: 22px;
+//         }
+//         &:focus {
+//             outline: none;
+//         }
+//         .navbar-toggle {
+//             padding: 4px 6px;
+//             font-size: 16px;
+//             color: $light;
+//             &:focus, &:active {
+//                 outline: none;
+//             }
+//         }
+//     }
+//     a {
+//         color: $light;
+//         &.navbar-brand {
+//             font-size: 16px;
+//         }
+//     }
+//     .nav {
+//         li {
+//             &:before{
+//                 background: transparent;
+//                 position: absolute;
+//                 top: 0;
+//                 bottom: 0;
+//                 right: 0;
+//                 left: 0;
+//                 width: 100%;
+//                 content: '';
+//                 transition: all .5s ease;
+//             }
+//             &.active {
+//                 outline: none;
+//                 &:before{
+//                     background: $primary;
+//                     top: 90%;
+//                 }
+//             }
+//             a {
+           
+//                 transition: background .3s ease-in-out;
+//                 &:hover, &:focus, &.active {
+//                     outline: none;
+//                     background-color:transparent;
+//                 }
+//             }
+//         }
+//     }
+// }

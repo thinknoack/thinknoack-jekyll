@@ -1,0 +1,23 @@
+---
+layout: post
+client:  "Dover Corporation"
+title: Warn Automotive
+siteurl: https://www.warnauto.com/
+className: site
+categories:
+- all
+- site
+- design
+tags:
+- drupal
+- sass
+- gulp
+- ux/ui
+- fed
+- dev
+permalink: warn-auto/
+teaser-img: /post-images/warn/teaser.jpg
+post-img: /post-images/warn/post.jpg
+teaser: Helping Establish A Brand - With A Whole Lot Of Traction.
+---
+The new Drupal 8 site for Warn Automotive, an automotive parts manufacturer, gave us another opportunity to help a new company establish their online presence. The site was built in order to help Warn Automotive better target the OEM market. This is another site that we developed and executed with our marketing partners at HMH Agency who helped ensure that the process was smooth from start to finish. The site is a single page site with subtle animations to draw the user's eye to the visuals and thus keep them engaged with the information on the page. 

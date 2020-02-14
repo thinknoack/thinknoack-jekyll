@@ -1,0 +1,74 @@
+
+
+/* Link animations */
+.link--nukun {
+    font-weight: 900;
+    text-transform: uppercase;
+    overflow: hidden;
+    padding: 10px 0;
+    transition: color 0.3s;
+    position: relative;
+    margin: 0 10px;
+    overflow: hidden;
+    display: block;
+    font-size: 14px;
+    color: rgba(0,0,0,.9);
+
+}
+
+.link--nukun:focus{
+    color: #819ba0;
+    span{
+    	 color: $primary;
+    }
+}
+
+
+
+.link--nukun:focus{
+    color: rgba(0,0,0,.9);
+}
+
+
+.link--nukun::before,
+.link--nukun::after {
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 5px;
+    background: transparent;
+    bottom: 0;
+    left: 35%;
+    transition: transform 0.5s;
+    transition-timing-function: cubic-bezier(0.2,1,0.3,1);
+}
+
+.link--nukun::after {
+    background: $primary;
+    transform: translate3d(-300%,0,0) scale3d(0,1,1);
+    @media(max-width: 767px){
+        background: transparent;
+    }
+}
+
+.link--nukun:hover::before {
+    transform: translate3d(300%,0,0) scale3d(0,1,1);
+}
+
+.link--nukun:hover::after {
+    transform: translate3d(0,0,0) scale3d(1,1,1);
+}
+
+.link--nukun span {
+    display: inline-block;
+    position: relative;
+    transform: perspective(1000px) rotate3d(0,1,0,0deg);
+    transition: transform 0.5s, color 0.5s;
+    transition-timing-function: cubic-bezier(0.2,1,0.3,1);
+}
+
+.link--nukun:hover span {
+    color: $primary;
+    transform: perspective(1000px) rotate3d(0,1,0,360deg);
+}
+

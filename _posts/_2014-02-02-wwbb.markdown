@@ -1,0 +1,27 @@
+---
+layout: post
+client:  "Github Repo"
+siteurl: https://github.com/thinknoack/wwbb
+title: WP Backbone 
+className: playground
+categories: 
+- all
+- playground
+- site
+- design
+tags:
+- LESS
+- grunt
+- ux/ui
+- bootstrap
+- backbone
+- node
+- fed
+- dev
+- design
+permalink: wordpress-to-backbone
+teaser-img: /post-images/wpbb/teaser.jpg
+post-img: /post-images/wpbb/post.jpg
+teaser: WP data in a BB app.
+---
+I wanted play around with a front-end Backbone client that is consuming JSON from a Wordpress site. Here is a super basic proof of concept.

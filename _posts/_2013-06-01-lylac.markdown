@@ -1,0 +1,23 @@
+---
+layout: post
+client:  "lylac"
+title: Free Wordpress Theme
+className: site
+categories: 
+- all
+- site
+- design
+tags:
+- all
+- theme
+- design
+- ux/ui
+- fed
+- dev
+- blueprint.css
+permalink: lylac-free-theme
+teaser-img: /post-images/lylac/teaser.jpg
+post-img: /post-images/lylac/post.jpg
+teaser: A free static site 
+---
+While I was learning, I built and designed this simple site, free for download. It uses HTML5 and CSS3 (no longer available for download).

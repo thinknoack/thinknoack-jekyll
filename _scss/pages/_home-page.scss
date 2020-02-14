@@ -1,0 +1,294 @@
+/* Home Page */
+
+
+// Front page work section && tags list
+#work-list {
+    //background-color: #36708c;
+    text-align: left;
+    z-index: 2;
+    position: relative;
+    padding: 0;
+    margin: 20px;
+    .port-head{
+        margin: 0;
+        h2{
+            font-weight: 200;
+            text-align: center;
+            font-size: 20px;
+            color: #36708c;
+            background: $white;
+            width: 280px;
+            padding: 0 20px;
+            margin: -132px auto 0;
+            border: 20px solid $white;
+            border-bottom: 0;
+
+            .recent-work{
+                color: #36708c;
+                text-decoration:  none;
+                font-weight: 300;
+
+                .fa-caret-down{
+                    font-size: 40px;
+                    margin-bottom: 10px;
+                }
+                &:hover{
+                   span{
+                    color: #152b3d;
+                   }
+                    &.link--nukun::after, &.link--nukun::before{
+	                	display: none;
+	                }
+                }
+            }
+        }
+    }
+
+	#portfolio{
+	    .row-port-wrap{
+	        display: flex;
+	        justify-content: space-between;
+	        .small-port{
+	            max-width: calc(45% - 10px);
+	            flex-basis: calc(45% - 10px);
+	            margin-bottom: 20px;
+	        }
+	        .large-port{
+	            max-width: calc(55% - 10px);
+	            flex-basis: calc(55% - 10px);
+	            margin-bottom: 20px;
+	        }
+	        .small-port,
+	        .large-port{
+	        	@media(max-width: 1200px){
+	            	max-width: calc(50% - 10px);
+	            	flex-basis: calc(50% - 10px);
+	            }
+
+	            figcaption{
+	            	padding: 25px 0 10px;
+	            }
+				h2{
+					font-size: 14px;
+					margin: 0 0 10px;
+	            }
+	            p{
+	            	
+	            	margin:0 0 10px;
+	            	font-size: 14px;
+	            }
+
+
+	            .view-post-img{
+	            	height: 460px;
+	            	display: block;
+	            	img{
+						width: 100%;
+						height: 100%;
+						overflow: hidden;
+						-o-object-fit: cover;
+						object-fit: cover;
+	            	}
+	            }
+	        }
+
+
+	        @media(max-width: 991px){
+	        	flex-direction: column;
+	        	.small-port,
+		        .large-port{
+		        	max-width: 100%;
+	            	flex-basis: 100%;
+	            	margin: 20px 0 0;
+		        }
+	        }
+	    }
+
+	    .client{
+	        display: block;
+	        margin: 0 0 10px;
+	       	text-transform: uppercase;
+	        
+	    }
+	}
+
+}
+
+
+
+//contact
+#contact{
+    background: url(../img/contact2.jpg) no-repeat 130% 0;
+    background-color: #eaedee;
+    background-size: 1050px auto;
+    min-height: 370px;
+    width: 100%;
+    padding: 30px 0 0;
+
+    h2{
+        color: $darkGray;
+        font-size: 40px;
+        font-weight: 100;
+    }
+    .bio{
+
+        background: rgba( $secondary, .8);
+        padding: 30px 25px;  
+        margin-bottom: 20px;
+        a{
+            font-size: 20px;
+            padding: 0 0 20px 0;
+            display: block;
+        }
+        span{
+            font-size: 18px;
+            color: $white;
+            font-weight: 500;
+        }
+    }
+}
+
+@media(max-width:1051px){
+    #contact .bio {
+      span,
+      a{
+          font-size: 16px;
+        }
+    }
+}
+@media(max-width:767px){
+    #contact{
+       background-image:none;
+    }
+}
+
+
+
+//clients
+#clients{
+    background: #1a5460;
+    padding: 10px 20px 100px;
+    margin: 20px;
+    z-index: 1000;
+    position: relative;
+    .container{
+        width: 100%;
+        padding: 10px 20px;
+    }
+    h2{
+        font-weight: 200;
+        text-transform: none;
+        color: $white;
+        text-transform: uppercase;
+        background: #1a5460;
+        padding: 18px 0 0px;
+        text-align: center;
+        font-size: 20px;
+        border-bottom: 0;
+    }
+    ul{
+        margin: 0;
+        li{
+            color: $white;
+            padding: 5px 10px 10px 0;
+        }
+    }
+}
+
+//skills and XP block front
+#skills{
+    background:$secondary;
+    padding: 20px;
+    margin: 20px;
+    z-index: 1000;
+    position: relative;
+    .container{
+        width: 100%;
+        padding: 0;
+    }
+    h2{
+        font-weight: 200;
+        text-transform: none;
+        color: $white;
+        text-transform: uppercase;
+        width: 170px;
+        background: #152b3d;
+        padding: 18px 0 0px;
+        margin-top: -80px;
+        border: 20px solid $white;
+        text-align: center;
+        font-size: 20px;
+        border-bottom: 0;
+    }
+    .experience{
+        h2{
+            width: 200px;
+        }
+        @media(max-width:767px){
+        	width: calc(100% + 25px);
+            border-top: 20px solid $white;
+            margin: 90px -20px 0;
+            h2{
+                margin-left: 20px;
+                margin-top: -60px;
+            }
+
+        }
+    }
+    .progress{
+        background: rgba($primary, .1);
+        border-radius: 0px;
+        box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.3);
+        height: 12px;
+        margin-bottom: 0;
+
+    }
+    .progress-bar{
+    	width: 0;
+        background: rgba($primary, .5);
+    }
+    .progress-label{
+        font-size: 14px;
+        font-weight: 500;
+        width: 100%;
+        color:$white;
+    }
+    .skills-explained{
+        padding: 0;
+        margin: 5px -10px 20px;
+        list-style: none;
+        width: 100%;
+        li{
+            float: left;
+            margin: 0 10px;
+            color: $white;
+        }
+    }
+    .panel-default{
+        background: rgba(0, 0, 0, 0.08);
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+        padding: 10px;
+        .panel-heading{
+            background: none;
+            border-bottom:1px dashed rgba($white, .1);
+            border-bottom-width: 2px;
+            color: rgba($white, .5);
+            font-size: 15px;
+            padding: 2px 0;
+        }
+        .panel-body{
+            padding: 2px 0 15px 0;
+            font-size: 16px;
+            font-weight: 500;
+            color: $white;
+            &:last-child{padding-bottom: 0;}
+
+            .employer.dis{
+                color:rgba($white, .5);
+            }
+        }
+    }
+}
+

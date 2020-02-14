@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<div class="post">
+    <div class="post-content-wrap">
+        <div class="container content-section">
+            <div class="row">
+                <div class="col-md-6 post-text">
+                    <header class="postIntro" {% if page.post-header %} style="background-image:url('{{ page.post-header}}')" {% endif %}>
+                        <div class="intro-body ">
+                            <div class="value_intro">
+                                <ul>
+                                    <li class="background-follow">
+                                        <div id="sad" class="icon">
+                                            <h1 class="brand-heading">{{page.title}}<br>
+                                            <small class="client">Client: 
+                                                {% if page.siteurl %}
+                                                <a href="{{page.siteurl}}" target="_blank">{{page.client}}</a>
+                                                {% else %}
+                                                {{page.client}}
+                                                {% endif %}
+                                            </small>
+                                            </h1>
+                                        </div>
+                                    </li> 
+                                </ul>
+                            </div>
+                        </div>
+                    </header>
+                  
+                    <div>
+                        <h2>{{page.teaser}}</h2>
+                        {{content}}
+                        {% if tag == page.tag %}
+                        <small>tags:</small>
+                        <ul class="nav nav-pills nav-tags">
+                            {% for tag in page.tags %}
+                            <li>{{ tag }}</li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="col-md-6 post-img">
+                    <img src="{{page.post-img | prepend: site.baseurl }}" alt="{{page.title}}" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

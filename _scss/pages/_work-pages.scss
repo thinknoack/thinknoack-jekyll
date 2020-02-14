@@ -1,0 +1,50 @@
+
+//posts
+.post {
+    .post-content-wrap{
+        margin: 20px;
+        min-height: 500px;
+        
+    }
+    .content-section {
+        width: 100%;
+        padding: 100px 40px 0 20px;
+        overflow: visible;
+        @media(max-width: 767px){
+            padding: 0;
+            .post-text{
+                padding: 0 40px;
+            }
+        }
+    }
+}
+
+.post-content-wrap{
+    background-color: #fefefe;
+
+    h1 .client{
+        font-size: 14px;
+        line-height: 17px;
+        display: block;
+        color: #aaa;
+    }
+
+    .nav-tags {
+        padding:0;
+
+        li{
+            margin-right: 5px;
+            margin-bottom: 10px;
+            padding: 5px 10px 0 0;
+            color: $dark;
+            border-radius: 0;
+            font-size: 14px;
+        }
+    }
+}
+
+.post-img{
+    padding: 0;
+    background: $white;
+    border: 20px solid $white;
+}
