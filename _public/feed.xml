@@ -6,8 +6,8 @@
 </description>
     <link>http://thinknoack.com/</link>
     <atom:link href="http://thinknoack.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Feb 2020 19:29:45 -0800</pubDate>
-    <lastBuildDate>Thu, 13 Feb 2020 19:29:45 -0800</lastBuildDate>
+    <pubDate>Thu, 13 Feb 2020 22:26:11 -0800</pubDate>
+    <lastBuildDate>Thu, 13 Feb 2020 22:26:11 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -50,15 +50,6 @@
 
 &lt;h3&gt;BUILDING OUT THE PERFECT EVENT&lt;/h3&gt;
 &lt;p&gt;The tool is robust, but intuitive. Broken into easy to manage steps, users can see their flower plan take shape as they choose between a wide variety of designs for bouquets, table centers, and accompanying decorative elements.&lt;/p&gt;
-
-&lt;p&gt;The actual flowers to be used are dependent upon the season and event style, so product designs are presented as elegant sketches to convey style possibilities while still accommodating for an endless variety of finished products.&lt;/p&gt;
-
-&lt;p&gt;When the user has completed the survey, they are presented with a summary page outlining their style choices and selected products (with links to make adjustments).&lt;/p&gt;
-
-&lt;p&gt;At this point, they can move forward with their purchase or save their submission to be completed at a later date- the tool allows for an unlimited number of concurrent drafts that can be resumed and completed at any point.&lt;/p&gt;
-
-&lt;h3&gt;USING THE NEWEST TECHNOLOGY&lt;/h3&gt;
-&lt;p&gt;The tool is built using the totally refactored Webform module for Drupal 8, which opens up endless possibility for custom integration to developers. Layered in behind the scenes is a custom date-picker tool that allows webmasters to block off selected dates through an administrative dashboard, as well as a handy proximity-based delivery calculator that helps estimate costs based on event location.&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 May 2019 00:00:00 -0700</pubDate>
         <link>http://thinknoack.com/songbird-floristry/</link>

@@ -7492,7 +7492,6 @@ function boxRollovers() {
   XAngle = 110;
   YAngle = 110;
   Z = 0;
-  console.log('asd');
   $selector.on("mousemove", function (e) {
     var $this = $(this);
     var XRel = e.pageX - $this.offset().left;
