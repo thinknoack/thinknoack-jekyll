@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thinknoack</title>
+    <description>My Name is Gregory Noack, I have 13 years or relevant experience building websites. I will be a value to your team, and this is my portfolio.
+</description>
+    <link>http://thinknoack.com/</link>
+    <atom:link href="http://thinknoack.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 13 Feb 2020 19:29:45 -0800</pubDate>
+    <lastBuildDate>Thu, 13 Feb 2020 19:29:45 -0800</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Full Clean Future</title>
+        <description>&lt;p&gt;Full Clean Future started as a single page marketing site for Portland General Electric to showcase their commitment to clean and renewable energy. Developed as technical partners with HMH marketing agency, the site is built with Jekyll and is crafted to meet the speed, security, and marketing needs of the high-profile client.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 03 May 2019 00:00:00 -0700</pubDate>
+        <link>http://thinknoack.com/fullcleanfuture/</link>
+        <guid isPermaLink="true">http://thinknoack.com/fullcleanfuture/</guid>
+        
+        <category>ssg</category>
+        
+        <category>jekyll</category>
+        
+        <category>sass</category>
+        
+        <category>gulp</category>
+        
+        <category>ux/ui</category>
+        
+        <category>fed</category>
+        
+        <category>dev</category>
+        
+        <category>SEO</category>
+        
+        
+        <category>all</category>
+        
+        <category>site</category>
+        
+      </item>
+    
+      <item>
+        <title>Songbird Floristry</title>
+        <description>&lt;p&gt;Songbird Floristry came to us looking for an e-commerce site to sell floral arrangements for weddings and other events. But they wanted something more than a normal e-commerce site. They wanted a highly customized planning tool that would help users decide the types and quantity of floral arrangements they would need for their event based on style preferences, guest count and more. Since we relish opportunities to create novel solutions for our clients problems, this site was a pleasure to build.&lt;/p&gt;
+
+&lt;h3&gt;A USER FRIENDLY TOOL&lt;/h3&gt;
+&lt;p&gt;The heart of this site is the detailed floral Planning Tool. The user is asked a short series of questions designed to help them decide everything about their flower needs, starting with color and general style preferences and working all the way through to the various floral components that make a wedding or event complete.&lt;/p&gt;
+
+&lt;h3&gt;BUILDING OUT THE PERFECT EVENT&lt;/h3&gt;
+&lt;p&gt;The tool is robust, but intuitive. Broken into easy to manage steps, users can see their flower plan take shape as they choose between a wide variety of designs for bouquets, table centers, and accompanying decorative elements.&lt;/p&gt;
+
+&lt;p&gt;The actual flowers to be used are dependent upon the season and event style, so product designs are presented as elegant sketches to convey style possibilities while still accommodating for an endless variety of finished products.&lt;/p&gt;
+
+&lt;p&gt;When the user has completed the survey, they are presented with a summary page outlining their style choices and selected products (with links to make adjustments).&lt;/p&gt;
+
+&lt;p&gt;At this point, they can move forward with their purchase or save their submission to be completed at a later date- the tool allows for an unlimited number of concurrent drafts that can be resumed and completed at any point.&lt;/p&gt;
+
+&lt;h3&gt;USING THE NEWEST TECHNOLOGY&lt;/h3&gt;
+&lt;p&gt;The tool is built using the totally refactored Webform module for Drupal 8, which opens up endless possibility for custom integration to developers. Layered in behind the scenes is a custom date-picker tool that allows webmasters to block off selected dates through an administrative dashboard, as well as a handy proximity-based delivery calculator that helps estimate costs based on event location.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 May 2019 00:00:00 -0700</pubDate>
+        <link>http://thinknoack.com/songbird-floristry/</link>
+        <guid isPermaLink="true">http://thinknoack.com/songbird-floristry/</guid>
+        
+        <category>drupal</category>
+        
+        <category>sass</category>
+        
+        <category>gulp</category>
+        
+        <category>ux/ui</category>
+        
+        <category>drupal</category>
+        
+        <category>e-commerce</category>
+        
+        <category>fed</category>
+        
+        <category>dev</category>
+        
+        
+        <category>all</category>
+        
+        <category>site</category>
+        
+      </item>
+    
+      <item>
+        <title>Pacific Lamp</title>
+        <description>&lt;p&gt;Pacific Lamp is a full-service lighting and energy efficiency provider in Oregon and SW Washington. We worked with them to build a fully customized Drupal Commerce site for their wholesale operations. The extensive catalog makes use of Drupal’s Search API to provide a highly interactive search that allows the user to filter bulbs, fixtures, and accessories by a variety of facets and attributes (as well as keyword search). In addition to the e-commerce portion of the site, users can also calculate their potential savings after making lighting upgrades, see example projects and learn all about the variety and usage of bulbs and lighting solutions.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://thinknoack.com/paclamp/</link>
+        <guid isPermaLink="true">http://thinknoack.com/paclamp/</guid>
+        
+        <category>drupal</category>
+        
+        <category>sass</category>
+        
+        <category>gulp</category>
+        
+        <category>ux/ui</category>
+        
+        <category>fed</category>
+        
+        <category>dev</category>
+        
+        <category>e-commerce</category>
+        
+        
+        <category>all</category>
+        
+        <category>site</category>
+        
+      </item>
+    
+      <item>
+        <title>MUL Railcars</title>
+        <description>&lt;p&gt;Creating this site let us seize an opportunity which we always relish - helping a new company build their first website. The company is MUL Railcars, a group company belonging to Mitsubishi UFJ Lease &amp;amp; Finance Company Limited (MUL).&lt;/p&gt;
+
+&lt;p&gt;We developed and executed this project based on branding and content from our marketing partners at HMH Agency. Despite an initial plan to build in Drupal, we uncovered specific hosting requirements that rendered this impossible. Thanks to our comprehensive planning phase, we were able to pivot our framework prior to any work being done, saving many hours of unnecessary work.&lt;/p&gt;
+
+&lt;p&gt;The result is a beautiful static Jekyll site that is light on it’s feet and can still be quickly updated in the event of content changes. With media assets served through Amazon CloudFront in order to quickly render to an international audience, we are helping a local company assert itself in the global marketplace.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 02 Mar 2019 00:00:00 -0800</pubDate>
+        <link>http://thinknoack.com/mul-railcars/</link>
+        <guid isPermaLink="true">http://thinknoack.com/mul-railcars/</guid>
+        
+        <category>jekyll</category>
+        
+        <category>sass</category>
+        
+        <category>gulp</category>
+        
+        <category>ux/ui</category>
+        
+        <category>fed</category>
+        
+        <category>dev</category>
+        
+        
+        <category>all</category>
+        
+        <category>site</category>
+        
+      </item>
+    
+      <item>
+        <title>Univox Media</title>
+        <description>&lt;p&gt;Univox Media is an advertising startup that came to us to establish their brand on the web. Their branding design work was done by Avive Design so our job was to ensure that the brand identity carried through to their website. We were able to make that content stand out with minimalist design choices and animations. Univox wanted a fast, secure site and wanted to leave content updates to us. Based on those requirements, we chose to build the site using Jekyll, a static site generator. The results speak for themselves: an extremely secure site that’s lightning fast.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Mar 2019 00:00:00 -0800</pubDate>
+        <link>http://thinknoack.com/univox/</link>
+        <guid isPermaLink="true">http://thinknoack.com/univox/</guid>
+        
+        <category>jekyll</category>
+        
+        <category>sass</category>
+        
+        <category>gulp</category>
+        
+        <category>ux/ui</category>
+        
+        <category>fed</category>
+        
+        <category>dev</category>
+        
+        <category>design</category>
+        
+        
+        <category>all</category>
+        
+        <category>site</category>
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>Warn Automotive</title>
+        <description>&lt;p&gt;The new Drupal 8 site for Warn Automotive, an automotive parts manufacturer, gave us another opportunity to help a new company establish their online presence. The site was built in order to help Warn Automotive better target the OEM market. This is another site that we developed and executed with our marketing partners at HMH Agency who helped ensure that the process was smooth from start to finish. The site is a single page site with subtle animations to draw the user’s eye to the visuals and thus keep them engaged with the information on the page.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Feb 2019 00:00:00 -0800</pubDate>
+        <link>http://thinknoack.com/warn-auto/</link>
+        <guid isPermaLink="true">http://thinknoack.com/warn-auto/</guid>
+        
+        <category>drupal</category>
+        
+        <category>sass</category>
+        
+        <category>gulp</category>
+        
+        <category>ux/ui</category>
+        
+        <category>fed</category>
+        
+        <category>dev</category>
+        
+        
+        <category>all</category>
+        
+        <category>site</category>
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>Container Sales</title>
+        <description>&lt;p&gt;We worked with Capps to design and build a targeted sales section on their main site. This Fortune 1000 company is a leader in the industry and wanted a custom design for this section with customized icons. Giving us a few key concepts and ideas, we created a color driven design with a lot of space to help highlight their products and equipment.&lt;/p&gt;
+
+&lt;p&gt;We built a custom user interface for content creation, in Drupal, that allows the reordering of sections and the customization of new container pages and/or container landing pages. Even the background can be customized based on the color of the shipping container image. The end result shows off the containers while keeping an open feeling, letting the imagery tell the story and sell the product.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Feb 2019 00:00:00 -0800</pubDate>
+        <link>http://thinknoack.com/container-sales/</link>
+        <guid isPermaLink="true">http://thinknoack.com/container-sales/</guid>
+        
+        <category>drupal</category>
+        
+        <category>sass</category>
+        
+        <category>gulp</category>
+        
+        <category>ux/ui</category>
+        
+        <category>fed</category>
+        
+        <category>dev</category>
+        
+        
+        <category>all</category>
+        
+        <category>site</category>
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>OpenNeuro</title>
+        <description>&lt;p&gt;A data-management platform to help the best minds share their brains. It validates your dataset on upload, allows users to share and collaborate through versioning, and utilizes powerful super computers in texas  to run analysis on mFRI datasets. This site is launching soon!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Jun 2016 00:00:00 -0700</pubDate>
+        <link>http://thinknoack.com/openneuro/</link>
+        <guid isPermaLink="true">http://thinknoack.com/openneuro/</guid>
+        
+        <category>sass</category>
+        
+        <category>gulp</category>
+        
+        <category>react</category>
+        
+        <category>flux</category>
+        
+        <category>docker</category>
+        
+        <category>ux/ui</category>
+        
+        <category>fed</category>
+        
+        <category>dev</category>
+        
+        
+        <category>all</category>
+        
+        <category>site</category>
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>Synapse</title>
+        <description>&lt;p&gt;Synapse is a full-service product development and consultancy firm that helps world class companies realize innovative product visions. They’ve been responsible for groundbreaking products from the biggest brands, helping execute down to the finest detail. We fill a complementary role for them by helping make their marketing vision real on the web.&lt;/p&gt;
+
+&lt;p&gt;We’ve been responsible for their web presence since 2012, when we were called in to build a new Drupal 7 site to show off their potential and expertise. As they have grown, we’ve worked closely with their marketing department to execute numerous style refreshes and many technical initiatives. This has included incorporating dynamic job listings from third party hiring services, SSO (single-sign-on) for active employees, and standalone landing pages that are used by clients for product pitches.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 30 Nov 2014 00:00:00 -0800</pubDate>
+        <link>http://thinknoack.com/synapse/</link>
+        <guid isPermaLink="true">http://thinknoack.com/synapse/</guid>
+        
+        <category>fed</category>
+        
+        <category>theme</category>
+        
+        <category>drupal</category>
+        
+        <category>responsive</category>
+        
+        <category>bootstrap</category>
+        
+        <category>ux/ui</category>
+        
+        
+        <category>all</category>
+        
+        <category>site</category>
+        
+      </item>
+    
+      <item>
+        <title>Climate.gov</title>
+        <description>&lt;p&gt;2014 Webby Award Winning Website - NOAA Climate.gov provides science and information for a climate-smart nation. Americans’ health, security, and economic well-being are closely linked to climate and weather. People want and need information to help them make decisions on how to manage climate-related risks and opportunities they face.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 May 2014 00:00:00 -0700</pubDate>
+        <link>http://thinknoack.com/climate-noaa/</link>
+        <guid isPermaLink="true">http://thinknoack.com/climate-noaa/</guid>
+        
+        <category>drupal</category>
+        
+        <category>fed</category>
+        
+        
+        <category>all</category>
+        
+        <category>site</category>
+        
+      </item>
+    
+  </channel>
+</rss>
