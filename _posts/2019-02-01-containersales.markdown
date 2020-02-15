@@ -22,6 +22,6 @@ teaser-webp: /post-images/webp/cai/teaser.webp
 post-webp: /post-images/webp/cai/post.webp
 teaser: Creating a space to showcase a new offering.
 ---
-We worked with Capps to design and build a targeted sales section on their main site. This Fortune 1000 company is a leader in the industry and wanted a custom design for this section with customized icons. Giving us a few key concepts and ideas, we created a color driven design with a lot of space to help highlight their products and equipment.
+I worked with Capps to design and build a targeted sales section on their main site. This Fortune 1000 company is a leader in the industry and wanted a custom design for this section with customized icons. Giving me a few key concepts and ideas, I created a color driven design with a lot of space to help highlight their products and equipment.
 
-We built a custom user interface for content creation, in Drupal, that allows the reordering of sections and the customization of new container pages and/or container landing pages. Even the background can be customized based on the color of the shipping container image. The end result shows off the containers while keeping an open feeling, letting the imagery tell the story and sell the product.
+I built a custom user interface for content creation, in Drupal, that allows the reordering of sections and the customization of new container pages and/or container landing pages. Even the background can be customized based on the color of the shipping container image. The end result shows off the containers while keeping an open feeling, letting the imagery tell the story and sell the product.

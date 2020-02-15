@@ -23,11 +23,5 @@ teaser-webp: /post-images/webp/songbird/teaser.webp
 post-webp: /post-images/webp/songbird/post.webp
 teaser: A Elegant E-Commerce Planning Tool All Your Special Events
 ---
-Songbird Floristry came to us looking for an e-commerce site to sell floral arrangements for weddings and other events. But they wanted something more than a normal e-commerce site. They wanted a highly customized planning tool that would help users decide the types and quantity of floral arrangements they would need for their event based on style preferences, guest count and more. Since we relish opportunities to create novel solutions for our clients problems, this site was a pleasure to build.
+Songbird Floristry came looking for an e-commerce site to sell floral arrangements for weddings and other events. But they wanted something more than a normal e-commerce site. They wanted a highly customized planning tool that would help users decide the types and quantity of floral arrangements they would need for their event based on style preferences, guest count and more. Working with talented backend developers I helped work to create novel solutions for these unique requirements, this site was a pleasure to build.
 
-
-<h3>A USER FRIENDLY TOOL</h3>
-The heart of this site is the detailed floral Planning Tool. The user is asked a short series of questions designed to help them decide everything about their flower needs, starting with color and general style preferences and working all the way through to the various floral components that make a wedding or event complete. 
-
-<h3>BUILDING OUT THE PERFECT EVENT</h3>
-The tool is robust, but intuitive. Broken into easy to manage steps, users can see their flower plan take shape as they choose between a wide variety of designs for bouquets, table centers, and accompanying decorative elements. 
