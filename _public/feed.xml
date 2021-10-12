@@ -4,10 +4,10 @@
     <title>Thinknoack</title>
     <description>My Name is Gregory Noack, I have 13 years or relevant experience building websites. I will be a value to your team, and this is my portfolio.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 Oct 2021 15:47:16 -0700</pubDate>
-    <lastBuildDate>Tue, 12 Oct 2021 15:47:16 -0700</lastBuildDate>
+    <link>http://thinknoack.com/</link>
+    <atom:link href="http://thinknoack.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 12 Oct 2021 16:00:44 -0700</pubDate>
+    <lastBuildDate>Tue, 12 Oct 2021 16:00:44 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -15,8 +15,8 @@
         <description>&lt;p&gt;Full Clean Future started as a single page marketing site for Portland General Electric to showcase their commitment to clean and renewable energy. Developed as technical partner with HMH marketing agency, the site is built with Jekyll and is crafted to meet the speed, security, and marketing needs of the high-profile client.&lt;/p&gt;
 </description>
         <pubDate>Fri, 03 May 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/fullcleanfuture/</link>
-        <guid isPermaLink="true">http://localhost:4000/fullcleanfuture/</guid>
+        <link>http://thinknoack.com/fullcleanfuture/</link>
+        <guid isPermaLink="true">http://thinknoack.com/fullcleanfuture/</guid>
         
         <category>ssg</category>
         
@@ -47,8 +47,8 @@
 
 </description>
         <pubDate>Wed, 01 May 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/songbird-floristry/</link>
-        <guid isPermaLink="true">http://localhost:4000/songbird-floristry/</guid>
+        <link>http://thinknoack.com/songbird-floristry/</link>
+        <guid isPermaLink="true">http://thinknoack.com/songbird-floristry/</guid>
         
         <category>drupal</category>
         
@@ -78,8 +78,8 @@
         <description>&lt;p&gt;Pacific Lamp is a full-service lighting and energy efficiency provider in Oregon and SW Washington. I worked with them to build a fully customized Drupal Commerce site for their wholesale operations. The extensive catalog makes use of Drupal’s Search API to provide a highly interactive search that allows the user to filter bulbs, fixtures, and accessories by a variety of facets and attributes (as well as keyword search). In addition to the e-commerce portion of the site, users can also calculate their potential savings after making lighting upgrades, see example projects and learn all about the variety and usage of bulbs and lighting solutions.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Apr 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/paclamp/</link>
-        <guid isPermaLink="true">http://localhost:4000/paclamp/</guid>
+        <link>http://thinknoack.com/paclamp/</link>
+        <guid isPermaLink="true">http://thinknoack.com/paclamp/</guid>
         
         <category>drupal</category>
         
@@ -111,8 +111,8 @@
 &lt;p&gt;The result is a beautiful static Jekyll site that is light on it’s feet and can still be quickly updated in the event of content changes. With media assets served through Amazon CloudFront in order to quickly render to an international audience.&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 Mar 2019 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/mul-railcars/</link>
-        <guid isPermaLink="true">http://localhost:4000/mul-railcars/</guid>
+        <link>http://thinknoack.com/mul-railcars/</link>
+        <guid isPermaLink="true">http://thinknoack.com/mul-railcars/</guid>
         
         <category>jekyll</category>
         
@@ -138,8 +138,8 @@
         <description>&lt;p&gt;Univox Media is an advertising startup that came to us to establish their brand on the web. Their branding design work was done by Avive Design so my job was to ensure that the brand identity carried through to their website. I was able to make that content stand out with minimalist design choices and animations. Univox wanted a fast, secure site and wanted to leave content updates to my last employer. Based on those requirements, I chose to build the site using Jekyll, a static site generator. The results speak for themselves: an extremely secure site that’s lightning fast.&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Mar 2019 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/univox/</link>
-        <guid isPermaLink="true">http://localhost:4000/univox/</guid>
+        <link>http://thinknoack.com/univox/</link>
+        <guid isPermaLink="true">http://thinknoack.com/univox/</guid>
         
         <category>jekyll</category>
         
@@ -169,8 +169,8 @@
         <description>&lt;p&gt;The new Drupal 8 site for Warn Automotive, an automotive parts manufacturer, gave me another opportunity to help a new company establish their online presence. The site was built in order to help Warn Automotive better target the OEM market. This is another site that I developed and executed with the team of at HMH Agency who helped ensure that the process was smooth from start to finish. The site is a single page site with subtle animations to draw the user’s eye to the visuals and thus keep them engaged with the information on the page.&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Feb 2019 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/warn-auto/</link>
-        <guid isPermaLink="true">http://localhost:4000/warn-auto/</guid>
+        <link>http://thinknoack.com/warn-auto/</link>
+        <guid isPermaLink="true">http://thinknoack.com/warn-auto/</guid>
         
         <category>drupal</category>
         
@@ -200,8 +200,8 @@
 &lt;p&gt;I built a custom user interface for content creation, in Drupal, that allows the reordering of sections and the customization of new container pages and/or container landing pages. Even the background can be customized based on the color of the shipping container image. The end result shows off the containers while keeping an open feeling, letting the imagery tell the story and sell the product.&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Feb 2019 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/container-sales/</link>
-        <guid isPermaLink="true">http://localhost:4000/container-sales/</guid>
+        <link>http://thinknoack.com/container-sales/</link>
+        <guid isPermaLink="true">http://thinknoack.com/container-sales/</guid>
         
         <category>drupal</category>
         
@@ -229,8 +229,8 @@
         <description>&lt;p&gt;A data-management platform to help the best minds share their brains. It validates your dataset on upload, allows users to share and collaborate through versioning, and utilizes powerful super computers in texas  to run analysis on mFRI datasets. This site is launching soon!&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Jun 2016 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/openneuro/</link>
-        <guid isPermaLink="true">http://localhost:4000/openneuro/</guid>
+        <link>http://thinknoack.com/openneuro/</link>
+        <guid isPermaLink="true">http://thinknoack.com/openneuro/</guid>
         
         <category>sass</category>
         
@@ -265,8 +265,8 @@
 
 </description>
         <pubDate>Sun, 30 Nov 2014 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/synapse/</link>
-        <guid isPermaLink="true">http://localhost:4000/synapse/</guid>
+        <link>http://thinknoack.com/synapse/</link>
+        <guid isPermaLink="true">http://thinknoack.com/synapse/</guid>
         
         <category>fed</category>
         
@@ -292,8 +292,8 @@
         <description>&lt;p&gt;2014 Webby Award Winning Website / NOAA Climate.gov provides science and information for a climate-smart nation. Americans’ health, security, and economic well-being are closely linked to climate and weather. People want and need information to help them make decisions on how to manage climate-related risks and opportunities they face.&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 May 2014 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/climate-noaa/</link>
-        <guid isPermaLink="true">http://localhost:4000/climate-noaa/</guid>
+        <link>http://thinknoack.com/climate-noaa/</link>
+        <guid isPermaLink="true">http://thinknoack.com/climate-noaa/</guid>
         
         <category>drupal</category>
         
