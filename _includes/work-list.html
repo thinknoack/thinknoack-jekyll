@@ -1,58 +1,77 @@
 <!-- our work Section -->
 <section id="work-list" class="content-section">
-        <div class="port-head">
-            <div class="row clearfix">
-                    <h2><a class="page-scroll recent-work link--nukun" href="#port-scroll"><span><i class="fa fa-caret-down"></i></span><br>See some Work</a></h2>
-            </div>
+  <div class="port-head">
+    <div class="row clearfix">
+      <h2>
+        <a class="page-scroll recent-work link--nukun" href="#port-scroll"
+          ><span><i class="fa fa-caret-down"></i></span><br />See some Work</a
+        >
+      </h2>
+    </div>
+  </div>
+  <div id="portfolio">
+    <div class="container">
+      <div class="row-port-wrap">
+        {% for post in site.posts limit: 2 %} {% capture thecycle %}{% cycle
+        'odd', 'even' %}{% endcapture %} {% capture count %}{{ count | plus: '1'
+        }}{% endcapture %}
+        <div
+          id="post{{count}}"
+          class=" {% if thecycle == 'odd' %}large-port{% else %}small-port{% endif %} animated  visibleAn {{thecycle}}"
+        >
+          {% include work-item.html %}
         </div>
-        <div id="portfolio">
-            <div class="container">
-                <div class="row-port-wrap">
-                    {% for post in site.posts limit: 2 %}
-                    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-                    {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-                        <div id="post{{count}}" class=" {% if thecycle == 'odd' %}large-port{% else %}small-port{% endif %} hideAn {{thecycle}}">
-                            {% include work-item.html %}
-                        </div>
-                    {% endfor %}
-                </div>
-                <div class="row-port-wrap">
-                    {% for post in site.posts limit: 2 offset: 2 %}
-                    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-                    {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-                    {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-                        <div id="post{{count}}" class=" {% if thecycle == 'odd' %}small-port{% else %}large-port{% endif %} hideAn {{thecycle}}">
-                            {% include work-item.html %}
-                        </div>
-                    {% endfor %}
-                </div>
-                <div class="row-port-wrap">
-                    {% for post in site.posts limit: 2 offset: 4 %}
-                    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-                    {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-                        <div id="post{{count}}" class=" {% if thecycle == 'odd' %}large-port{% else %}small-port{% endif %} hideAn {{thecycle}}">
-                            {% include work-item.html %}
-                        </div>
-                    {% endfor %}
-                </div>
-                <div class="row-port-wrap">
-                    {% for post in site.posts limit: 2 offset: 6 %}
-                    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-                    {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-                        <div id="post{{count}}" class=" {% if thecycle == 'odd' %}small-port{% else %}large-port{% endif %} hideAn {{thecycle}}">
-                            {% include work-item.html %}
-                        </div>
-                    {% endfor %}
-                </div>
-                <div class="row-port-wrap">
-                    {% for post in site.posts limit: 2 offset: 8 %}
-                    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-                    {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-                        <div id="post{{count}}" class=" {% if thecycle == 'odd' %}large-port{% else %}small-port{% endif %} hideAn {{thecycle}}">
-                            {% include work-item.html %}
-                        </div>
-                    {% endfor %}
-                </div>
-            </div>
+        {% endfor %}
+      </div>
+      <div class="row-port-wrap">
+        {% for post in site.posts limit: 2 offset: 2 %} {% capture thecycle %}{%
+        cycle 'odd', 'even' %}{% endcapture %} {% capture count %}{{ count |
+        plus: '1' }}{% endcapture %} {% capture count %}{{ count | plus: '1'
+        }}{% endcapture %}
+        <div
+          id="post{{count}}"
+          class=" {% if thecycle == 'odd' %}small-port{% else %}large-port{% endif %} animated  visibleAn {{thecycle}}"
+        >
+          {% include work-item.html %}
         </div>
+        {% endfor %}
+      </div>
+      <div class="row-port-wrap">
+        {% for post in site.posts limit: 2 offset: 4 %} {% capture thecycle %}{%
+        cycle 'odd', 'even' %}{% endcapture %} {% capture count %}{{ count |
+        plus: '1' }}{% endcapture %}
+        <div
+          id="post{{count}}"
+          class=" {% if thecycle == 'odd' %}large-port{% else %}small-port{% endif %} animated  visibleAn {{thecycle}}"
+        >
+          {% include work-item.html %}
+        </div>
+        {% endfor %}
+      </div>
+      <div class="row-port-wrap">
+        {% for post in site.posts limit: 2 offset: 6 %} {% capture thecycle %}{%
+        cycle 'odd', 'even' %}{% endcapture %} {% capture count %}{{ count |
+        plus: '1' }}{% endcapture %}
+        <div
+          id="post{{count}}"
+          class=" {% if thecycle == 'odd' %}small-port{% else %}large-port{% endif %} animated  visibleAn {{thecycle}}"
+        >
+          {% include work-item.html %}
+        </div>
+        {% endfor %}
+      </div>
+      <div class="row-port-wrap">
+        {% for post in site.posts limit: 2 offset: 8 %} {% capture thecycle %}{%
+        cycle 'odd', 'even' %}{% endcapture %} {% capture count %}{{ count |
+        plus: '1' }}{% endcapture %}
+        <div
+          id="post{{count}}"
+          class=" {% if thecycle == 'odd' %}large-port{% else %}small-port{% endif %} animated  visibleAn {{thecycle}}"
+        >
+          {% include work-item.html %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 </section>
