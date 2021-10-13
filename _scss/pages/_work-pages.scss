@@ -1,9 +1,8 @@
 //posts
 .post {
-  min-height: calc(100vh - 150px);
   .post-content-wrap {
     margin: 20px;
-    min-height: 500px;
+    min-height: calc(100vh - 152px);
   }
   .content-section {
     width: 100%;
