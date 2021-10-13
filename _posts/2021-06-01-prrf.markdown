@@ -1,0 +1,26 @@
+---
+layout: post
+client: 'USAID / USDA / OSU'
+title: Pesticides Risk Reduction Framework
+siteurl:
+className: site
+categories:
+  - all
+  - site
+  - design
+tags:
+  - sass
+  - webpack
+  - react
+  - ux/ui
+  - fed
+  - dev
+permalink: prrf/
+teaser-img: /post-images/prrf/teaser.jpg
+post-img: /post-images/prrf/post.jpg
+teaser-webp: /post-images/webp/prrf/teaser.webp
+post-webp: /post-images/webp/prrf/post.webp
+teaser: PRRF classifies the risks and hazards of over 600 pesticides with respect to human and environmental health.
+---
+
+A robust search to find pesticides and their low risk alternatives.

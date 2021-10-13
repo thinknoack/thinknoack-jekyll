@@ -1,0 +1,27 @@
+---
+layout: post
+client: 'Univox Media'
+title: Univox Media
+siteurl: https://univoxmedia.com/
+className: site
+categories:
+  - all
+  - site
+  - design
+tags:
+  - jekyll
+  - sass
+  - gulp
+  - ux/ui
+  - fed
+  - dev
+  - design
+permalink: univox/
+teaser-img: /post-images/univox/teaser.jpg
+post-img: /post-images/univox/post.jpg
+teaser-webp: /post-images/webp/univox/teaser.webp
+post-webp: /post-images/webp/univox/post.webp
+teaser: A super speedy and secure static site to introduce a new digital advertising company.
+---
+
+Univox Media is an advertising startup that came to us to establish their brand on the web. Their branding design work was done by Avive Design so my job was to ensure that the brand identity carried through to their website. I was able to make that content stand out with minimalist design choices and animations. Univox wanted a fast, secure site and wanted to leave content updates to my last employer. Based on those requirements, I chose to build the site using Jekyll, a static site generator. The results speak for themselves: an extremely secure site that's lightning fast.
